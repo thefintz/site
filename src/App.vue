@@ -120,12 +120,13 @@
       </h4>
 
       <br>
-      <div class="control">
+      <MailChimp />
+<!--       <div class="control">
         <input class="input" type="email" placeholder="Email" @keyup.enter="submit">
       </div>
       <br>
       <button class="button" @click="submit">Enviar</button>
-      <br>
+ -->      <br>
 
       <article v-if="invalid" class="message is-danger">
         <div class="message-header">
@@ -192,10 +193,16 @@
 </template>
 
 <script>
+import MailChimp from '@/comps/MailChimp'
+
 const REGEX = /.+@.+(\..+)+/
 
 export default {
   name: 'App',
+
+  components: {
+    MailChimp
+  },
 
   data: () => ({
     invalid: false
