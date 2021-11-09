@@ -12,12 +12,13 @@
   >
     <div id="mc_embed_signup_scroll" class="is-flex is-flex-direction-column">
       <div class="mc-field-group field">
-        <label class="label" for="mce-EMAIL">Email</label>
+        <!-- <label class="label" for="mce-EMAIL">Email</label> -->
         <input
           type="email"
           value=""
           name="EMAIL"
           class="required email input"
+          placeholder="Insira seu Email"
           id="mce-EMAIL"
         >
       </div>
