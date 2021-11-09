@@ -1,21 +1,16 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import {
-  FontAwesomeIcon,
-  FontAwesomeLayers,
-  FontAwesomeLayersText
-} from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(fas)
-library.add(fab)
-library.add(far)
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons'
+
+library.add(faLinkedin, faGithub, faInstagram)
 
 export default {
   install (app) {
     app.component('font-awesome-icon', FontAwesomeIcon)
-    app.component('font-awesome-layers', FontAwesomeLayers)
-    app.component('font-awesome-layers-text', FontAwesomeLayersText)
   }
 }
