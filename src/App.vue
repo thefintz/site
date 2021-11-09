@@ -71,10 +71,10 @@
         Quer saber mais?
       </h2>
       <h4 class="subtitle is-4">
-        Cadastre-se na nossa newsletter e enviaremos novidades para você!
+        Entre em contato e contaremos as novidades para você!
       </h4>
 
-      <MailChimp />
+      <Contact />
     </div>
   </div>
 </section>
@@ -85,7 +85,7 @@
 <script>
 import Footer from '@/comps/Footer'
 import Navbar from '@/comps/Navbar'
-import MailChimp from '@/comps/MailChimp'
+import Contact from '@/comps/Contact'
 
 export default {
   name: 'App',
@@ -93,7 +93,7 @@ export default {
   components: {
     Footer,
     Navbar,
-    MailChimp
+    Contact
   }
 }
 </script>
