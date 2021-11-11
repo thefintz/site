@@ -4,7 +4,7 @@
     <div class="navbar-brand">
       <a class="navbar-item">
         <img src="@/assets/logo.png">
-        <strong>FINTZ</strong>
+        <strong class="title is-5">Fintz</strong>
       </a>
       <a class="navbar-burger" ref="burger" @click="burger">
         <span></span>
@@ -15,34 +15,26 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="https://www.linkedin.com/company/acartera">
+        <!-- <a class="navbar-item" href="https://www.linkedin.com/company/acartera">
           <span class="icon-text">
             <span class="icon">
-              <font-awesome-icon :icon="['fab', 'linkedin']" />
+              <font-awesome-icon :icon="['fas', 'book']" />
             </span>
-            <span>Linkedin</span>
+            <span>Documentação</span>
           </span>
-        </a>
+        </a> -->
 
-        <a class="navbar-item" href="https://instagram.com/cartera.com.br">
+        <a class="navbar-item">
           <span class="icon-text">
             <span class="icon">
-              <font-awesome-icon :icon="['fab', 'instagram']" />
+              <font-awesome-icon :icon="['fas', 'phone-alt']" />
             </span>
-            <span>Instagram</span>
-          </span>
-        </a>
-
-        <a class="navbar-item" href="https://github.com/monneda">
-          <span class="icon-text">
-            <span class="icon">
-              <font-awesome-icon :icon="['fab', 'github']" />
-            </span>
-            <span>GitHub</span>
+            <span>(41) 9 9187-5540</span>
           </span>
         </a>
       </div>
     </div>
+
   </div>
 </nav>
 </template>

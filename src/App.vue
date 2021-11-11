@@ -6,10 +6,10 @@
     <div class="columns is-centered">
       <div class="column is-three-quarters">
         <h1 class="title is-1">
-          O futuro dos dados financeiros chegou!
+          Acesse os dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-3">
-          Seu ponto de entrada para criação de aplicações data-driven
+          Dados e indicadores de empresas, FIs, títulos, ações e muito mais!
         </h3>
       </div>
     </div>
@@ -21,10 +21,10 @@
     <div class="columns is-vcentered">
       <div class="column is-half">
         <h1 class="title is-1">
-          Diversos dados
+          Busque dados por CNPJ
         </h1>
         <h3 class="subtitle">
-          Interface simples de se utilizar com diversos dados disponíveis
+          Interface simples de utilizar e com todos os dados disponíveis
         </h3>
       </div>
       <div class="column is-half">
@@ -71,7 +71,9 @@
         Quer saber mais?
       </h2>
       <h4 class="subtitle is-4">
-        Entre em contato e contaremos as novidades para você!
+        Temos os dados do mercado financeiro que você precisa!
+        <br>
+        Entre em contato para tirar dúvidas ou pedir uma demo.
       </h4>
 
       <Contact />
