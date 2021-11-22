@@ -2,7 +2,7 @@
 <nav class="navbar">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item">
+      <a class="navbar-item" @click="$router.push('/')">
         <img src="@/assets/logo.png">
         <strong class="title is-5">Fintz</strong>
       </a>
@@ -15,7 +15,7 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="https://www.linkedin.com/company/acartera">
+        <!-- <a class="navbar-item" href="">
           <span class="icon-text">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />

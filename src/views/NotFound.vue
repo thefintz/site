@@ -2,16 +2,12 @@
 <div class="container is-fluid has-background-light">
   <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-space-around">
     <figure class="image">
-      <img src="https://cdn2.thecatapi.com/images/MjA1OTMwMA.jpg" >
+      <img src="../assets/logo.png" >
     </figure>
-
-    <span class="has-text-primary">
-      <c-icon icon="cartera-404" />
-    </span>
 
     <div class="has-text-centered">
       <h4 class="title is-size-4">
-        parece que essa página não está na nossa cartera!
+        Essa página não foi encontrada!
       </h4>
 
       <p class="has-text-grey-dark">
@@ -20,6 +16,11 @@
         Tente voltar a procurar a página que deseja, qualquer coisa entre em contato
         <br>
         conosco para relatar um problema.
+        <br>
+        <br>
+        Contato WhatsApp:
+        <br>
+        (41) 9 9187-5540
       </p>
     </div>
 

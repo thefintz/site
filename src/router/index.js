@@ -12,6 +12,11 @@ const routes = [
     component: () => import('@/views/legal/PrivacyPolicy')
   },
   {
+    path: '/TermosDeServico',
+    name: 'termosdeservico',
+    component: () => import('@/views/legal/SLA')
+  },
+  {
     // Adapted from:
     //  https://next.router.vuejs.org/guide/essentials/dynamic-matching.html
     path: '/:pathMatch(.*)*',

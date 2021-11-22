@@ -23,7 +23,7 @@
         </a>
 
         <a class="level-item">
-          <span class="icon-text">
+          <span class="icon-text" @click="$router.push('TermosDeServico')">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'scroll']" />
             </span>

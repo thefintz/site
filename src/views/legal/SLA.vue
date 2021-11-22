@@ -23,7 +23,7 @@ import Footer from '@/comps/Footer'
 import Navbar from '@/comps/Navbar'
 
 export default {
-  name: 'PrivacyPolicy',
+  name: 'TermosDeServico',
 
   components: {
     Footer,
