@@ -11,6 +11,28 @@
         </div>
       </div>
     </div>
+    <div>
+      <div class="level-right">
+        <a class="level-item">
+          <span class="icon-text">
+            <span class="icon">
+              <font-awesome-icon :icon="['fas', 'copy']" />
+            </span>
+            <span>Política de Privacidade</span>
+          </span>
+        </a>
+
+        <a class="level-item">
+          <span class="icon-text">
+            <span class="icon">
+              <font-awesome-icon :icon="['fas', 'scroll']" />
+            </span>
+            <span>Termos de Serviço</span>
+          </span>
+        </a>
+
+      </div>
+    </div>
   </div>
 </footer>
 </template>
