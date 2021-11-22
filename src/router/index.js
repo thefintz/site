@@ -12,8 +12,8 @@ const routes = [
     component: () => import('@/views/legal/PrivacyPolicy')
   },
   {
-    path: '/TermosDeServico',
-    name: 'termosdeservico',
+    path: '/SLA',
+    name: 'sla',
     component: () => import('@/views/legal/SLA')
   },
   {

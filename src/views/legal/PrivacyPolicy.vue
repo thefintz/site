@@ -2,12 +2,12 @@
 <Navbar />
 <div>
 
-<section class="section is-large" id="section1">
+<section class="section is-medium" id="section1">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-three-quarters">
-        <h3 class="is-size-3"> Política de Privacidade da Fintz </h3>
-        <h4 class="is-size-5"> Última atualização: 19 de novembro de 2021 </h4>
+        <h3 class="title"> Política de Privacidade da Fintz </h3>
+        <h4 class="subtitle"> Última atualização: 19 de novembro de 2021 </h4>
         <span>
           <br>
           A Fintz (”Fintz,” “nós”), uma
@@ -42,7 +42,7 @@
           Privacidade, os termos usados nesta Política de Privacidade têm os
           mesmos significados que em nossos Termos e Condições da Fintz.
           <br><br>
-          <h3 class="is-size-4"> Propriedade de dados </h3>
+          <h3 class="title is-size-5"> Propriedade de dados </h3>
 
           Para evitar dúvidas, os Dados do Usuário Final permanecem
           propriedade do Usuário Final e os Dados Pessoais permanecem
@@ -53,14 +53,14 @@
           Privacidade.
 
           <br><br>
-          <h3 class="is-size-4"> Informações que coletamos </h3>
+          <h5 class="title is-size-5"> Informações que coletamos </h5>
 
           Coletamos diversos tipos de informações e as usamos para diversos
           fins, inclusive em conjunto com o fornecimento e o aprimoramento
           de nossos Serviços.
 
           <br><br>
-          <h3 class="is-size-4"> Dados pessoais </h3>
+          <h3 class="title is-size-5"> Dados pessoais </h3>
 
           Ao usar nossos Serviços, podemos solicitar que você nos forneça
           certas informações de identificação pessoal que podem ser usadas
@@ -105,8 +105,7 @@
           forma não identificada em conexão com seus negócios e serviços.
 
           <br><br>
-          <br><br>
-          <h3 class="is-size-4"> Dados de uso </h3>
+          <h3 class="title is-size-5"> Dados de uso </h3>
 
           Também podemos coletar informações que seu navegador envia sempre
           que você usa nossos Serviços ou quando acessa nossos Serviços por
@@ -119,7 +118,7 @@
           dispositivos e outros dados de diagnóstico.
 
           <br><br>
-          <h3 class="is-size-4"> Dados de rastreamento e cookies </h3>
+          <h3 class="title is-size-5"> Dados de rastreamento e cookies </h3>
 
           Nós (e nossos provedores de serviços terceirizados) usamos cookies
           e tecnologias de rastreamento semelhantes para rastrear a atividade
@@ -147,7 +146,7 @@
           </ul>
 
           <br>
-          <h3 class="is-size-4">Google Analytics </h3>
+          <h3 class="title is-size-5">Google Analytics </h3>
 
           Podemos usar o Google Analytics, um fornecedor terceirizado de
           ferramentas analíticas ou um serviço terceirizado semelhante para
@@ -160,7 +159,7 @@
           visite: https://tools.google.com/dlpage/gaoptout.
 
           <br><br>
-          <h3 class="is-size-4"> Acesso à informação por terceiros </h3>
+          <h3 class="title is-size-5"> Acesso à informação por terceiros </h3>
 
           Podemos fornecer seus dados pessoais e dados de usuário final para
           nossas afiliadas e terceiros que usamos para nos ajudar a fornecer
@@ -190,7 +189,7 @@
           que eles fornecem ao coletar suas informações.
 
           <br><br>
-          <h3 class="is-size-4"> Uso de Dados </h3>
+          <h3 class="title is-size-5"> Uso de Dados </h3>
           Você concorda que podemos usar seus Dados Pessoais, Dados de Usuário
           Final e Dados de Uso (e dados derivados deles) para os fins para os
           quais foram coletados; para operar, melhorar e / ou personalizar o
@@ -231,7 +230,7 @@
           </ul>
 
           <br><br>
-          <h3 class="is-size-4"> Transferência de dados </h3>
+          <h3 class="title is-size-5"> Transferência de dados </h3>
 
           Suas informações, incluindo dados pessoais, podem ser transferidas
           e mantidas em computadores localizados fora de seu estado,
@@ -248,7 +247,7 @@
           informações de acordo com esta Política de Privacidade.
 
           <br><br>
-          <h3 class="is-size-4"> Divulgação de Dados </h3>
+          <h3 class="title is-size-5"> Divulgação de Dados </h3>
           A Fintz pode divulgar seus dados conforme descrito acima. Ela também
           pode divulgar quaisquer de seus dados a terceiros quando acreditar de
           boa fé que tal ação é necessária:
@@ -270,7 +269,7 @@
           </ul>
 
           <br><br>
-          <h3 class="is-size-4"> Atualizando suas informações </h3>
+          <h3 class="title is-size-5"> Atualizando suas informações </h3>
 
           Se você for um Cliente e a qualquer momento desejar acessar,
           modificar ou excluir seus Dados Pessoais, acesse sua Conta do
@@ -278,7 +277,7 @@
           Dados Pessoais que coletamos.
 
           <br><br>
-          <h3 class="is-size-4"> Links para outros sites </h3>
+          <h3 class="title is-size-5"> Links para outros sites </h3>
 
           Nossos serviços podem conter links para outros sites que não são
           operados por nós. Se você clicar em um link de terceiros, será
@@ -289,7 +288,7 @@
           de terceiros.
 
           <br><br>
-          <h3 class="is-size-4"> Privacidade das crianças </h3>
+          <h3 class="title is-size-5"> Privacidade das crianças </h3>
 
           Nossos serviços não se destinam a menores de 13 anos. Não coletamos
           intencionalmente informações de identificação pessoal de menores de
@@ -298,7 +297,7 @@
           providências para remover essa informação de nossos registros.
 
           <br><br>
-          <h3 class="is-size-4"> Mudanças nesta política </h3>
+          <h3 class="title is-size-5"> Mudanças nesta política </h3>
 
           Podemos fazer alterações em nossa Política de Privacidade de tempos
           em tempos. Quando ocorrerem mudanças, publicaremos uma versão
