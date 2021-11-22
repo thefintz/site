@@ -13,7 +13,7 @@
     </div>
     <div>
       <div class="level-right">
-        <a class="level-item">
+        <a class="level-item" @click="$router.push('PrivacyPolicy')">
           <span class="icon-text">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'copy']" />
