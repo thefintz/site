@@ -126,7 +126,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../assets/back_light4.jpg");
-  background-size: 110%;
-  text-shadow: 0px 0px 0px #313338;
+  background-image: url("../assets/back_dark.jpg");
+  text-shadow: 1px 1px 1px #313338;
 }
 </style>
