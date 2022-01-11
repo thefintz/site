@@ -4,10 +4,10 @@
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <figure class="image is-48x48">
+          <figure class="image is-32x32">
             <img src="@/assets/logo.png">
           </figure>
-          <h4 class="title is-4">Fintz</h4>
+          <h4 class="title is-3">Fintz</h4>
         </div>
       </div>
       <div>

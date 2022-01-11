@@ -1,10 +1,10 @@
 <template>
-<nav class="navbar">
+<nav class="navbar navbar-height" role="navigation">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" @click="$router.push('/')">
-        <img src="@/assets/logo.png">
-        <strong class="title is-5">Fintz</strong>
+        <img src="@/assets/logo.png" class="max-h" height="36" width="36">
+        <strong class="title is-3">Fintz</strong>
       </a>
       <a class="navbar-burger" ref="burger" @click="burger">
         <span></span>
@@ -51,3 +51,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.navbar-height {
+  height: 4rem
+}
+.max-h {
+  max-height: 100%
+}
+</style>

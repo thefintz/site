@@ -1,17 +1,159 @@
 <template>
-<Navbar />
+<div style="max-width: 100%; overflow-x: hidden;">
+<Navbar/>
 
-<section class="section is-large" id="section1">
+<section class="section" id="section1">
   <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-three-quarters">
-        <h1 class="title is-1">
-          Plataforma de dados do mercado financeiro
+    <div class="columns is-centered is-vcentered">
+      <div class="column">
+        <h1 class="title is-3">
+          Acesse dados do mercado financeiro
         </h1>
-        <h3 class="subtitle is-3">
+        <h3 class="subtitle is-5">
           APIs de empresas, fundos, títulos, ações, criptos e muito mais!
         </h3>
       </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/clients.png">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="sectionSources">
+  <div class="container">
+    <div class="columns is-flex">
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/b3.png" class="my-img">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/bacen.png" class="my-img">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/cvm.png" class="my-img">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/recfed.png" class="my-img">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="section2">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half has-text-centered">
+        <p class="title is-2"> Facilidade para seu negócio </p>
+        <p class="subtitle is-5">
+          Em um único ponto de acesso, você tem dados diversas fontes.
+          Nós já coletamos, validamos, limpamos e filtramos esses dados para você.
+        </p>
+        <br>
+        <p class="title is-2"> Desenvolva mais rápido! </p>
+        <p class="subtitle is-5">
+          Disponibilizamos os dados em API REST,
+          CSV, email ou add-in do Excel.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="sectionBenefits">
+  <div class="container">
+    <div class="columns">
+
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex">
+                  <figure class="image">
+                    <img width="80" src="@/assets/icons/empresas.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-three-quarters py-0 pr-5">
+                <p class="title is-4">API Empresas</p>
+                <p class="subtitle is-6">
+                  <span> Empresas públicas e privadas. </span>
+                  <ul>
+                    <li class="list"> Site, endereço fiscal, porte </li>
+                    <li class="list"> Setor, CNAEs, natureza </li>
+                    <li class="list"> Sócios, cargos, idades </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex">
+                  <figure class="image">
+                    <img width="80" src="@/assets/icons/cvm.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-three-quarters py-0 pr-5">
+                <p class="title is-4">API Ações</p>
+                <p class="subtitle is-6">
+                  Ações, ETFs, FIIs e BDRs
+                  <ul>
+                    <li class="list"> Fatos relevantes e RI </li>
+                    <li class="list"> Descrição, setor, tags </li>
+                    <li class="list"> Cotação 15 min de atraso </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex">
+                  <figure class="image">
+                    <img width="80" src="@/assets/icons/fundos.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-three-quarters py-0 pr-5">
+                <p class="title is-4">API Fundos</p>
+                <p class="subtitle is-6">
+                  Dados da CVM em tempo real
+                  <ul>
+                    <li class="list"> Resgate e captação </li>
+                    <li class="list"> Demonstrativos, relatórios </li>
+                    <li class="list"> Composição dos FIs </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -102,6 +244,7 @@
 </section>
 
 <Footer />
+</div>
 </template>
 
 <script>
@@ -125,8 +268,17 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../assets/back_light4.jpg");
-  background-image: url("../assets/back_dark.jpg");
-  text-shadow: 1px 1px 1px #313338;
+  /* background-image: url("../assets/back_light4.jpg");
+  background-image: url("../assets/back_dark.jpg"); */
+  /* text-shadow: 1px 1px 1px #313338; */
+}
+.list {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.my-img {
+  max-height: 10rem;
+  max-width: 10rem
 }
 </style>
