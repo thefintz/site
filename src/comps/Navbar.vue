@@ -15,14 +15,14 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="">
+        <a class="navbar-item" @click="$router.push('produtos')">
           <span class="icon-text">
-            <span class="icon">
+            <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
-            </span>
-            <span>Documentação</span>
+            </span> -->
+            <strong>Produtos</strong>
           </span>
-        </a> -->
+        </a>
 
         <a class="navbar-item">
           <span class="icon-text">

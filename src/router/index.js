@@ -7,6 +7,11 @@ const routes = [
     component: () => import('@/views/Landing')
   },
   {
+    path: '/produtos',
+    name: 'Products',
+    component: () => import('@/views/Products')
+  },
+  {
     path: '/PrivacyPolicy',
     name: 'privacypolicy',
     component: () => import('@/views/legal/PrivacyPolicy')

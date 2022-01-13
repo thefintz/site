@@ -27,24 +27,44 @@
     <div class="columns is-flex">
       <div class="column">
         <figure class="image">
-          <img src="@/assets/b3.png" class="my-img">
+          <img src="@/assets/sources_logos/b3.png" class="my-img">
         </figure>
       </div>
       <div class="column">
         <figure class="image">
-          <img src="@/assets/bacen.png" class="my-img">
+          <img src="@/assets/sources_logos/bacen.png" class="my-img">
         </figure>
       </div>
       <div class="column">
         <figure class="image">
-          <img src="@/assets/cvm.png" class="my-img">
+          <img src="@/assets/sources_logos/cvm.png" class="my-img">
         </figure>
       </div>
       <div class="column">
         <figure class="image">
-          <img src="@/assets/recfed.png" class="my-img">
+          <img src="@/assets/sources_logos/recfed.png" class="my-img">
         </figure>
       </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/sources_logos/ibge.png" class="my-img">
+        </figure>
+      </div>
+      <!-- <div class="column">
+        <figure class="image">
+          <img src="@/assets/sources_logos/nasdaq.png" class="my-img">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/sources_logos/nyse.png" class="my-img">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="@/assets/sources_logos/binance.png" class="my-img">
+        </figure>
+      </div> -->
     </div>
   </div>
 </section>
@@ -80,11 +100,11 @@
               <div class="column p-0">
                 <div class="is-flex">
                   <figure class="image">
-                    <img width="80" src="@/assets/icons/empresas.png" alt="Placeholder image">
+                    <img width="80" src="@/assets/products_icons/empresas.png" alt="Placeholder image">
                   </figure>
                 </div>
               </div>
-              <div class="column is-three-quarters py-0 pr-5">
+              <div class="column is-four-fifths py-0">
                 <p class="title is-4">API Empresas</p>
                 <p class="subtitle is-6">
                   <span> Empresas públicas e privadas. </span>
@@ -107,11 +127,11 @@
               <div class="column p-0">
                 <div class="is-flex">
                   <figure class="image">
-                    <img width="80" src="@/assets/icons/cvm.png" alt="Placeholder image">
+                    <img width="80" src="@/assets/products_icons/cvm.png" alt="Placeholder image">
                   </figure>
                 </div>
               </div>
-              <div class="column is-three-quarters py-0 pr-5">
+              <div class="column is-four-fifths py-0">
                 <p class="title is-4">API Ações</p>
                 <p class="subtitle is-6">
                   Ações, ETFs, FIIs e BDRs
@@ -134,11 +154,11 @@
               <div class="column p-0">
                 <div class="is-flex">
                   <figure class="image">
-                    <img width="80" src="@/assets/icons/fundos.png" alt="Placeholder image">
+                    <img width="80" src="@/assets/products_icons/fundos.png" alt="Placeholder image">
                   </figure>
                 </div>
               </div>
-              <div class="column is-three-quarters py-0 pr-5">
+              <div class="column is-four-fifths py-0">
                 <p class="title is-4">API Fundos</p>
                 <p class="subtitle is-6">
                   Dados da CVM em tempo real
