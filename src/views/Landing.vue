@@ -10,7 +10,7 @@
           Acesse dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-5">
-          APIs de empresas, fundos, títulos, ações, criptos e muito mais!
+          Dados de empresas, fundos, títulos, ações, criptos e muito mais!
         </h3>
       </div>
       <div class="column">
@@ -98,7 +98,7 @@
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
-                <div class="is-flex">
+                <div class="is-flex is-justify-content-center">
                   <figure class="image is-96x96">
                     <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
                   </figure>
@@ -125,7 +125,7 @@
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
-                <div class="is-flex">
+                <div class="is-flex is-justify-content-center">
                   <figure class="image is-96x96">
                     <img src="@/assets/products/empresas.png" alt="Placeholder image">
                   </figure>
@@ -152,7 +152,7 @@
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
-                <div class="is-flex">
+                <div class="is-flex is-justify-content-center">
                   <figure class="image is-96x96">
                     <img src="@/assets/products/fundos.png" alt="Placeholder image">
                   </figure>
