@@ -7,6 +7,11 @@ const routes = [
     component: () => import('@/views/Landing')
   },
   {
+    path: '/papeis-b3',
+    name: 'PapeisB3',
+    component: () => import('@/views/PapeisB3')
+  },
+  {
     path: '/produtos',
     name: 'Products',
     component: () => import('@/views/Products')

@@ -94,13 +94,40 @@
     <div class="columns">
 
       <div class="column">
+        <div class="card" @click="$router.push('/papeis-b3')" style="cursor: pointer">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex">
+                  <figure class="image is-96x96">
+                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-four-fifths py-0">
+                <p class="title is-4">API B3</p>
+                <p class="subtitle is-6">
+                  Ações, ETFs, FIIs e BDRs
+                  <ul>
+                    <li class="list"> Indicadores </li>
+                    <li class="list"> Informações gerais </li>
+                    <li class="list"> Papéis similares </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
         <div class="card">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
                 <div class="is-flex">
-                  <figure class="image">
-                    <img width="80" src="@/assets/products_icons/empresas.png" alt="Placeholder image">
+                  <figure class="image is-96x96">
+                    <img src="@/assets/products/empresas.png" alt="Placeholder image">
                   </figure>
                 </div>
               </div>
@@ -126,35 +153,8 @@
             <div class="columns is-vcentered">
               <div class="column p-0">
                 <div class="is-flex">
-                  <figure class="image">
-                    <img width="80" src="@/assets/products_icons/cvm.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">API Ações</p>
-                <p class="subtitle is-6">
-                  Ações, ETFs, FIIs e BDRs
-                  <ul>
-                    <li class="list"> Fatos relevantes e RI </li>
-                    <li class="list"> Descrição, setor, tags </li>
-                    <li class="list"> Cotação 15 min de atraso </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex">
-                  <figure class="image">
-                    <img width="80" src="@/assets/products_icons/fundos.png" alt="Placeholder image">
+                  <figure class="image is-96x96">
+                    <img src="@/assets/products/fundos.png" alt="Placeholder image">
                   </figure>
                 </div>
               </div>

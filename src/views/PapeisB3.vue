@@ -1,0 +1,187 @@
+<template>
+<div style="max-width: 100%; overflow-x: hidden" class="has-background-white">
+<Navbar/>
+
+<section class="section" id="sectionBenefits">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="pr-3 column">
+        <div class="is-flex">
+          <figure class="image is-256x256">
+            <img width="20" src="@/assets/products/papeis-b3/papeis-b3-page.png" alt="Placeholder image">
+          </figure>
+        </div>
+      </div>
+      <div class="column">
+        <p class="subtitle is-4">Papéis B3</p>
+        <p class="title is-3">
+          <span>
+            Crie páginas informativas com os indicadores das ações brasileiras
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="container">
+    <span class="subtitle is-4"> Funcionalidades </span>
+    <div class="columns pt-3">
+
+      <div class="column">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="is-flex">
+              <figure class="image is-64x64">
+                <img src="@/assets/products/papeis-b3/indicadores.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div class="column is-four-fifths">
+            <p class="title is-4">Indicadores</p>
+            <p class="subtitle is-6">
+              <span>
+                Mais de 20 indicadores para o investidor
+                tomar decisões conscientes e informadas.
+                Também com dados de balanço e resultados.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="is-flex">
+              <figure class="image is-64x64">
+                <img src="@/assets/products/papeis-b3/infos.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div class="column is-four-fifths">
+            <p class="title is-4">Informações</p>
+            <p class="subtitle is-6">
+              <span>
+                Agora o investidor também tem acesso à descrição de atuação
+                da empresa, CEO, sede, número de funcionários e
+                muito mais!
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="is-flex">
+              <figure class="image is-64x64">
+                <img src="@/assets/products/papeis-b3/similares.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div class="column is-four-fifths">
+            <p class="title is-4">Similares</p>
+            <p class="subtitle is-6">
+              <span>
+                Descubra outros papéis do mesmo setor, subsetor ou segmento de
+                atuação. Use nossas tags para encontrar ainda mais similares.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="section2">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <h1 class="title is-1">
+          Diversos indicadores
+        </h1>
+        <h3 class="subtitle">
+          Dividend yield, P/VP, ROIC e muito mais!
+        </h3>
+      </div>
+      <div class="column is-half">
+        <figure class="image">
+          <img src="@/assets/code_pngs/indicadores.png">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="section3">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-half is-hidden-desktop">
+        <h2 class="title is-2">
+          Informações gerais das empresas na B3
+        </h2>
+        <h4 class="subtitle is-4">
+          Use os dados para tomar decisões mais inteligentes nos seus negócios
+        </h4>
+      </div>
+      <div class="column is-half">
+        <figure class="image">
+          <img src="@/assets/code_pngs/infosgerais.png">
+        </figure>
+      </div>
+      <div class="column is-half is-hidden-touch">
+        <h2 class="title is-2">
+          Dados gerais e papéis similares
+        </h2>
+        <h4 class="subtitle is-4">
+          Descrição, tags, website, papéis similares e muito mais!
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Footer />
+
+</div>
+</template>
+
+<script>
+import Footer from '@/comps/Footer'
+import Navbar from '@/comps/Navbar'
+
+export default {
+  name: 'App',
+
+  components: {
+    Footer,
+    Navbar
+  }
+}
+</script>
+
+<style scoped>
+#section1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-image: url("../assets/back_light4.jpg");
+  background-image: url("../assets/back_dark.jpg"); */
+  /* text-shadow: 1px 1px 1px #313338; */
+}
+.list {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.my-img {
+  max-height: 10rem;
+  max-width: 10rem
+}
+</style>

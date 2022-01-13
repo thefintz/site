@@ -58,6 +58,6 @@ $body-background-color: #f2f4f8;
 
 $yellow-invert: rgba($black, 0.7);
 $primary-invert: rgba($black, 0.7);
-$link:  lighten($grey-darker, 10%);
+$link:  hsl(217, 71%, 53%);
 
 @import '~bulma/bulma.sass';

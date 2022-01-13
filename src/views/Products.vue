@@ -1,17 +1,50 @@
 <template>
-<div style="max-width: 100%; overflow-x: hidden;">
+<div style="max-width: 100%; overflow-x: hidden;" class="has-background-white">
 <Navbar/>
 
 <section class="section" id="sectionBenefits">
   <div class="container">
 
+    <div class="card my-3 pointer" @click="$router.push('/papeis-b3')">
+      <div class="card-content">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-96x96">
+                <img src="@/assets/products/aa/5-acoes.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div>
+            <p class="title is-4">Dados de papéis B3</p>
+            <p class="subtitle is-6">
+              <span>
+                Busque por indicadores e informações gerais de papéis da B3
+                <br>
+                Dados de ações, FIIs, ETFs e BDRs
+              </span>
+              <ul>
+                <li class="list"> Ticker, nome, tipo de papel </li>
+                <li class="list"> Setor, subsetor, segmento </li>
+                <li class="list"> +30 Indicadores </li>
+                <li class="list"> Descrição </li>
+                <li class="list"> (ações e BDRs) CEO, data de fundação, no funcionários </li>
+                <li class="list"> (ETFs e FIIs) composição, gestor, índice </li>
+                <li class="list"> Tags e papéis similares</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/1-cri.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/1-cri.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -45,11 +78,11 @@
 
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/3-fundos.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/3-fundos.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -81,11 +114,11 @@
 
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/4-contrato-social.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/4-contrato-social.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -118,44 +151,11 @@
 
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/5-acoes.png" alt="Placeholder image">
-              </figure>
-            </div>
-          </div>
-          <div>
-            <p class="title is-4">Dados de papeis B3</p>
-            <p class="subtitle is-6">
-              <span>
-                Busque por indicadores e informações gerais de papeis da B3
-                <br>
-                Dados de ações, FIIs, ETFs e BDRs
-              </span>
-              <ul>
-                <li class="list"> Ticker, nome, tipo de papel </li>
-                <li class="list"> Setor, subsetor, segmento </li>
-                <li class="list"> +30 Indicadores </li>
-                <li class="list"> Descrição </li>
-                <li class="list"> (ações e BDRs) CEO, data de fundação, no funcionários </li>
-                <li class="list"> (ETFs e FIIs) composição, gestor, índice </li>
-                <li class="list"> Tags e papéis similares</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card my-3">
-      <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
-              <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/6-fatos-relevantes.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/6-fatos-relevantes.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -185,11 +185,11 @@
 
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/7-sociedades-anonimas.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/7-sociedades-anonimas.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -221,11 +221,11 @@
 
     <div class="card my-3">
       <div class="card-content">
-        <div class="columns is-vcentered">
-          <div class="pr-3">
-            <div class="is-flex">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
-                <img width="20" src="@/assets/products_icons/aa/2-merc-imobiliario.png" alt="Placeholder image">
+                <img src="@/assets/products/aa/2-merc-imobiliario.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
@@ -292,5 +292,8 @@ export default {
 .my-img {
   max-height: 10rem;
   max-width: 10rem
+}
+.pointer {
+  cursor: pointer
 }
 </style>
