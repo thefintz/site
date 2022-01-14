@@ -33,13 +33,13 @@
       <div class="column">
         <div class="columns is-vcentered">
           <div class="column">
-            <div class="is-flex">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-64x64">
                 <img src="@/assets/products/papeis-b3/indicadores.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
-          <div class="column is-four-fifths">
+          <div class="column is-four-fifths has-text-centered-mobile">
             <p class="title is-4">Indicadores</p>
             <p class="subtitle is-6">
               <span>
@@ -55,13 +55,13 @@
       <div class="column">
         <div class="columns is-vcentered">
           <div class="column">
-            <div class="is-flex">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-64x64">
                 <img src="@/assets/products/papeis-b3/infos.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
-          <div class="column is-four-fifths">
+          <div class="column is-four-fifths has-text-centered-mobile">
             <p class="title is-4">Informações</p>
             <p class="subtitle is-6">
               <span>
@@ -77,13 +77,13 @@
       <div class="column">
         <div class="columns is-vcentered">
           <div class="column">
-            <div class="is-flex">
+            <div class="is-flex is-justify-content-center">
               <figure class="image is-64x64">
                 <img src="@/assets/products/papeis-b3/similares.png" alt="Placeholder image">
               </figure>
             </div>
           </div>
-          <div class="column is-four-fifths">
+          <div class="column is-four-fifths has-text-centered-mobile">
             <p class="title is-4">Similares</p>
             <p class="subtitle is-6">
               <span>
