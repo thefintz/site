@@ -94,7 +94,7 @@
     <div class="columns">
 
       <div class="column">
-        <div class="card" @click="$router.push('/papeis-b3')" style="cursor: pointer">
+        <div class="card pointer" @click="$router.push('/papeis-b3')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -121,7 +121,7 @@
       </div>
 
       <div class="column">
-        <div class="card">
+        <div class="card pointer" @click="$router.push('/dados-CRIs')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -132,13 +132,13 @@
                 </div>
               </div>
               <div class="column is-four-fifths py-0">
-                <p class="title is-4">API Empresas</p>
+                <p class="title is-4">Dados de CRIs</p>
                 <p class="subtitle is-6">
-                  <span> Empresas públicas e privadas. </span>
+                  <span> Atualizados automaticamente </span>
                   <ul>
-                    <li class="list"> Site, endereço fiscal, porte </li>
-                    <li class="list"> Setor, CNAEs, natureza </li>
-                    <li class="list"> Sócios, cargos, idades </li>
+                    <li class="list"> Dados da operação </li>
+                    <li class="list"> Busca por filtros </li>
+                    <li class="list"> Notificação por email </li>
                   </ul>
                 </p>
               </div>
@@ -203,10 +203,10 @@
     <div class="columns is-vcentered">
       <div class="column is-half is-hidden-desktop">
         <h2 class="title is-2">
-          Informações gerais das empresas na B3
+          Dados gerais
         </h2>
         <h4 class="subtitle is-4">
-          Use os dados para tomar decisões mais inteligentes nos seus negócios
+          Descrição, empresas similares, website e muito mais!
         </h4>
       </div>
       <div class="column is-half">
@@ -300,5 +300,8 @@ export default {
 .my-img {
   max-height: 10rem;
   max-width: 10rem
+}
+.pointer {
+  cursor: pointer
 }
 </style>

@@ -119,16 +119,16 @@
   </div>
 </section>
 
-<section class="section" id="section3">
+<section class="section" id="section2">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-half is-hidden-desktop">
-        <h2 class="title is-2">
-          Informações gerais das empresas na B3
-        </h2>
-        <h4 class="subtitle is-4">
-          Use os dados para tomar decisões mais inteligentes nos seus negócios
-        </h4>
+        <h1 class="title is-1">
+          Dados gerais e papéis similares
+        </h1>
+        <h3 class="subtitle">
+          Descrição, tags, website, papéis similares e muito mais!
+        </h3>
       </div>
       <div class="column is-half">
         <figure class="image">
@@ -136,12 +136,12 @@
         </figure>
       </div>
       <div class="column is-half is-hidden-touch">
-        <h2 class="title is-2">
+        <h1 class="title is-1">
           Dados gerais e papéis similares
-        </h2>
-        <h4 class="subtitle is-4">
+        </h1>
+        <h3 class="subtitle">
           Descrição, tags, website, papéis similares e muito mais!
-        </h4>
+        </h3>
       </div>
     </div>
   </div>
