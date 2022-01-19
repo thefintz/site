@@ -75,7 +75,7 @@
       <div class="column is-half has-text-centered">
         <p class="title is-2"> Facilidade para seu negócio </p>
         <p class="subtitle is-5">
-          Em um único ponto de acesso, você tem dados diversas fontes.
+          Em um único ponto de acesso, você tem dados de diversas fontes.
           Nós já coletamos, validamos, limpamos e filtramos esses dados para você.
         </p>
         <br>
