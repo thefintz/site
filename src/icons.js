@@ -14,10 +14,17 @@ import {
   faMobile,
   faMobileAlt,
   faScroll,
-  faCopy
+  faCopy,
+  faEnvelope,
+  faComment
 } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLinkedin, faGithub, faInstagram, faBook, faPhoneAlt, faMobile, faMobileAlt, faWhatsapp, faScroll, faCopy)
+import {
+  faSmileWink
+} from '@fortawesome/free-regular-svg-icons'
+
+library.add(faLinkedin, faGithub, faInstagram, faBook, faPhoneAlt, faMobile, faMobileAlt, faWhatsapp, faScroll, faCopy, faEnvelope, faComment,
+  faSmileWink)
 
 export default {
   install (app) {
