@@ -246,22 +246,7 @@
   </div>
 </section>
 
-<section class="section" id="section4">
-  <div class="container">
-    <div class="is-flex is-flex-direction-column is-align-items-center">
-      <h2 class="title is-2">
-        Quer saber mais?
-      </h2>
-      <h4 class="subtitle is-4">
-        Temos os dados do mercado financeiro que você precisa!
-        <br>
-        Entre em contato para tirar dúvidas ou pedir uma demo.
-      </h4>
-
-      <Contact />
-    </div>
-  </div>
-</section>
+<ContactForm/>
 
 <Footer />
 </div>
@@ -270,7 +255,7 @@
 <script>
 import Footer from '@/comps/Footer'
 import Navbar from '@/comps/Navbar'
-import Contact from '@/comps/Contact'
+import ContactForm from '@/comps/ContactForm'
 
 export default {
   name: 'App',
@@ -278,7 +263,7 @@ export default {
   components: {
     Footer,
     Navbar,
-    Contact
+    ContactForm
   }
 }
 </script>
