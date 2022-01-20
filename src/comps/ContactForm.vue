@@ -32,7 +32,7 @@
           <input type="hidden" name="_subject" value="Retornando seu contato"> <!-- quickly reply with subject-->
           <!-- <input type="hidden" name="_autoresponse" value="Obrigado! Em breve entraremos em contato"> -->
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://fintz.com.br/email-enviado">
+          <input type="hidden" name="_next" value="https://fintz.com.br/#/email-enviado">
           <!--
             TODO: add other captcha side by side with "Enviar" button.
             The current one is on another page and in English
