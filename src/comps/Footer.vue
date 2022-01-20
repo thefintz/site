@@ -13,7 +13,7 @@
       <div>
         <div class="level-right">
           <a class="level-item" @click="$router.push('PrivacyPolicy')">
-            <span class="icon-text">
+            <span class="icon-text has-text-dark">
               <span class="icon">
                 <font-awesome-icon :icon="['fas', 'copy']" />
               </span>
@@ -21,7 +21,7 @@
             </span>
           </a>
           <a class="level-item" @click="$router.push('SLA')">
-          <span class="icon-text">
+          <span class="icon-text has-text-dark">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'scroll']" />
             </span>
