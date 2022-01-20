@@ -25,7 +25,7 @@
     </div>
 
     <button class="button is-primary is-large" @click="$router.back()">
-      <span class="has-text-weight-bold p-6">
+      <span class="has-text-weight-bold p-6 has-text-white">
         voltar para o site
       </span>
     </button>
