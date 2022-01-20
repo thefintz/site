@@ -1,50 +1,62 @@
 <template>
-<div class="container has-background-light">
-  <div class="is-flex is-flex-direction-column is-align-items-center">
+<div style="max-width: 100%; overflow-x: hidden; min-height: 100vh" class="has-background-white">
+  <Navbar/>
 
-    <figure class="image is-96x96">
-      <img src="../assets/logo.png" >
-    </figure>
+  <section class="section" id="message">
+    <div class="container">
+      <div class="columns is-vcentered">
 
-    <div class="has-text-centered my-3">
-      <h4 class="title is-size-4 m-0">
-        Email enviado!
-      </h4>
+        <div class="column has-text-centered justify-content-center">
+          <div class="is-flex is-justify-content-center">
+            <figure class="image is-64x64">
+              <img src="@/assets/logo.png" alt="People working">
+            </figure>
+          </div>
+          <div>
+            <h4 class="title is-size-3 m-0">
+              Email enviado!
+            </h4>
+            <span class="icon-text">
+              <span class="has-text-grey-dark subtitle">
+                Em breve entraremos em contato
+              </span>
+              <span class="icon">
+                <font-awesome-icon :icon="['far', 'smile-wink']" />
+              </span>
+            </span>
+          </div>
+          <button class="button is-primary" @click="$router.back()">
+            <span class="has-text-weight-bold px-3 has-text-white">
+              voltar
+            </span>
+          </button>
+        </div>
 
-      <span class="icon-text">
-        <span class="has-text-grey-dark">
-          Em breve entraremos em contato
-        </span>
-        <span class="icon">
-          <font-awesome-icon :icon="['far', 'smile-wink']" />
-        </span>
-      </span>
+        <div class="column">
+          <figure class="image is-big">
+            <img src="@/assets/email-sent.png" alt="People working">
+          </figure>
+        </div>
+      </div>
     </div>
-
-    <button class="button is-primary my-3" @click="$router.back()">
-      <span class="has-text-weight-bold p-3 has-text-white">
-        voltar
-      </span>
-    </button>
-
-  </div>
+  </section>
 </div>
 </template>
 
 <script>
+import Navbar from '@/comps/Navbar'
 
 export default {
-  name: 'NotFound'
+  name: 'EmailSent',
+
+  components: {
+    Navbar
+  }
 }
 </script>
 
 <style scoped>
-.is-flex {
-  height: 100vh;
-}
-
-img {
-  width: 10rem;
-  height: auto;
+.is-big {
+  max-height: 40vh;
 }
 </style>
