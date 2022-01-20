@@ -1,13 +1,13 @@
 <template>
-<div class="level">
-  <a class="level-item">
-    <span class="icon-text">
+<div>
+    <span class="icon-text has-text-success">
       <span class="icon is-large">
         <font-awesome-icon :icon="['fab', 'whatsapp']" size="2x" />
       </span>
-      <span class="my-auto">Whatsapp: (41) 99187-5540</span>
+      <span class="my-auto has-text-dark">
+        (41) 99187-5540
+      </span>
     </span>
-  </a>
 </div>
 </template>
 
