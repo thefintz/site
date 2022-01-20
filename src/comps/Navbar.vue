@@ -24,12 +24,12 @@
           </span>
         </a>
 
-        <a class="navbar-item">
+        <a class="navbar-item" @click="$router.push('contato')">
           <span class="icon-text">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'phone-alt']" />
             </span>
-            <span>(41) 9 9187-5540</span>
+            <strong>Contato</strong>
           </span>
         </a>
       </div>
