@@ -32,6 +32,11 @@ const routes = [
     component: () => import('@/views/legal/SLA')
   },
   {
+    path: '/email-enviado',
+    name: 'EmailSent',
+    component: () => import('@/views/EmailSent')
+  },
+  {
     // Adapted from:
     //  https://next.router.vuejs.org/guide/essentials/dynamic-matching.html
     path: '/:pathMatch(.*)*',
