@@ -257,6 +257,8 @@
   </div>
 </section>
 
+<ContactForm/>
+
 <Footer />
 </div>
 </template>
@@ -264,13 +266,15 @@
 <script>
 import Footer from '@/comps/Footer'
 import Navbar from '@/comps/Navbar'
+import ContactForm from '@/comps/ContactForm'
 
 export default {
   name: 'App',
 
   components: {
     Footer,
-    Navbar
+    Navbar,
+    ContactForm
   }
 }
 </script>
