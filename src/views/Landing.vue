@@ -12,6 +12,10 @@
         <h3 class="subtitle is-5">
           Dados de empresas, fundos, títulos, ações, criptos e muito mais!
         </h3>
+        <div class="has-text-centered">
+          <a href="https://docs.fintz.com.br"> <button class="button is-primary has-text-white mr-3 mt-1" type="submit" style="width: 10rem"> Documentação </button> </a>
+          <button @click="$router.push('contato')" class="button has-text-dark mr-3 mt-1" type="submit" style="width: 10rem"> Contato </button>
+        </div>
       </div>
       <div class="column">
         <figure class="image">
