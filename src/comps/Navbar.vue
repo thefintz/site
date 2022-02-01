@@ -23,6 +23,14 @@
             <strong>Produtos</strong>
           </span>
         </a>
+        <a class="navbar-item" href="https://docs.fintz.com.br">
+          <span class="icon-text">
+            <span class="icon">
+              <font-awesome-icon :icon="['fas', 'book']" />
+            </span>
+            <strong>Documentação</strong>
+          </span>
+        </a>
 
         <a class="navbar-item" @click="$router.push('contato')">
           <span class="icon-text">
