@@ -10,6 +10,6 @@ import gtag from '@/plugins/gtag'
 
 createApp(App)
   .use(icons)
-  .use(gtag)
+  .use(gtag, { router })
   .use(router)
   .mount('#app')
