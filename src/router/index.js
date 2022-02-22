@@ -22,6 +22,11 @@ const routes = [
     component: () => import('@/views/PapeisB3')
   },
   {
+    path: '/fundos',
+    name: 'Fundos',
+    component: () => import('@/views/Fundos')
+  },
+  {
     path: '/dados-CRIs',
     name: 'DadosCris',
     component: () => import('@/views/DadosCRIs')

@@ -115,7 +115,7 @@
                   <ul>
                     <li class="list"> Indicadores </li>
                     <li class="list"> Informações gerais </li>
-                    <li class="list"> Papéis similares </li>
+                    <li class="list"> Cotações e fatos relevantes </li>
                   </ul>
                 </p>
               </div>
@@ -152,7 +152,7 @@
       </div>
 
       <div class="column">
-        <div class="card">
+        <div class="card pointer" @click="$router.push('/fundos')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -167,9 +167,9 @@
                 <p class="subtitle is-6">
                   Dados da CVM em tempo real
                   <ul>
-                    <li class="list"> Resgate e captação </li>
-                    <li class="list"> Demonstrativos, relatórios </li>
-                    <li class="list"> Composição dos FIs </li>
+                    <li class="list"> Carteira de investimentos </li>
+                    <li class="list"> Regulamentos e informações </li>
+                    <li class="list"> Taxas e performance </li>
                   </ul>
                 </p>
               </div>

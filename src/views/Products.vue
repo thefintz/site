@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="card my-3">
+    <div class="card my-3 pointer" @click="$router.push('/fundos')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
