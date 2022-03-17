@@ -13,7 +13,7 @@
           Plataforma com múltiplos por setor, busca de CRIs por cidade e muito mais!
         </h3>
         <div class="has-text-centered">
-          <button @click="$router.push('contato')" class="button is-primary has-text-white mr-3 mt-1" type="submit" style="width: 10rem"> Entre em contato! </button>
+         <ContactDemo/>
         </div>
       </div>
       <div class="column">
@@ -264,6 +264,7 @@
 import Footer from '@/comps/Footer'
 import Navbar from '@/comps/Navbar'
 import ContactForm from '@/comps/ContactForm'
+import ContactDemo from '@/comps/ContactDemo'
 
 export default {
   name: 'App',
@@ -271,7 +272,8 @@ export default {
   components: {
     Footer,
     Navbar,
-    ContactForm
+    ContactForm,
+    ContactDemo
   }
 }
 </script>
