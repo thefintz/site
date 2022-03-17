@@ -140,11 +140,11 @@
               <div class="column is-four-fifths py-0">
                 <p class="title is-4">Fintz Leadz</p>
                 <p class="subtitle is-6">
-                  Dados da CVM em tempo real
+                  Milhões de empresas para você
                   <ul>
-                    <li class="list"> Carteira de investimentos </li>
-                    <li class="list"> Regulamentos e informações </li>
-                    <li class="list"> Taxas e performance </li>
+                    <li class="list"> Pesquisa personalizável </li>
+                    <li class="list"> Segmente seus leads </li>
+                    <li class="list"> Exportação para Excel</li>
                   </ul>
                 </p>
               </div>
