@@ -5,6 +5,79 @@
 <section class="section" id="sectionBenefits">
   <div class="container">
 
+    <div class="card my-3 pointer" @click="$router.push('/dcm')">
+      <div class="card-content">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-96x96">
+                <img src="@/assets/products/aa/1-cri.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div>
+            <p class="title is-4">Fintz DCM</p>
+            <p class="subtitle is-6">
+              <span>
+                Pesquise CRIs, CRAs e Debêntures com praticidade e assertividade.
+                <br/>
+                Diversos filtros para você personalizar sua busca: cidade, estado, volume, prazo, juros, entre outros.
+                <br/>
+                Acesse todos os detalhes da operação, com opção de exportar para Excel ou PowerBI.
+              </span>
+              <ul>
+                <li class="list"> Emissor </li>
+                <li class="list"> Cliente (cedente) </li>
+                <li class="list"> Data de emissão </li>
+                <li class="list"> Valor da emissão </li>
+                <li class="list"> Vencimento </li>
+                <li class="list"> Remuneração (juros e índice) </li>
+                <li class="list"> Agente fiduciário </li>
+                <li class="list"> Código IF B3 </li>
+                <li class="list"> Termo de securitização </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card my-3" @click="$router.push('/leadz')">
+      <div class="card-content">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-96x96">
+                <img src="@/assets/products/aa/4-contrato-social.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div>
+            <p class="title is-4">Fintz Leadz</p>
+            <p class="subtitle is-6">
+              <span>
+                Uma base de milhões de empresas para você prospectar
+                <br>
+                Use filtros avançados como faturamento, cidade, setor de atuação, número de funcionários e muito mais.
+                <br>
+                Opção para receber alertas via email, WhatsApp, CSV e API.
+              </span>
+              <ul>
+                <li class="list"> Telefone, website, endereço </li>
+                <li class="list"> Quadro societário (nome, idade, cpf...) </li>
+                <li class="list"> Porte, razão social, nome fantasia </li>
+                <li class="list"> Capital Social, data da fundação </li>
+                <li class="list"> Natureza e regime tributário </li>
+                <li class="list"> Tags, CNAEs primários e secundários, atividades </li>
+                <li class="list"> Estabelecimentos </li>
+                <li class="list"> Status </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="card my-3 pointer" @click="$router.push('/papeis-b3')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
@@ -16,7 +89,7 @@
             </div>
           </div>
           <div>
-            <p class="title is-4">Dados de papéis B3</p>
+            <p class="title is-4">Fintz Bolsa</p>
             <p class="subtitle is-6">
               <span>
                 Busque por indicadores e informações gerais de papéis da B3
@@ -31,44 +104,6 @@
                 <li class="list"> (ações e BDRs) CEO, data de fundação, no funcionários </li>
                 <li class="list"> (ETFs e FIIs) composição, gestor, índice </li>
                 <li class="list"> Tags e papéis similares</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card my-3 pointer" @click="$router.push('/dados-CRIs')">
-      <div class="card-content">
-        <div class="columns is-vcentered align-item-center">
-          <div class="pr-3 column is-one-fifth">
-            <div class="is-flex is-justify-content-center">
-              <figure class="image is-96x96">
-                <img src="@/assets/products/aa/1-cri.png" alt="Placeholder image">
-              </figure>
-            </div>
-          </div>
-          <div>
-            <p class="title is-4">Dados de CRIs</p>
-            <p class="subtitle is-6">
-              <span>
-                Fique sabendo automaticamente sobre a emissão de novos CRIs e
-                os detalhes da operação.
-                <br>
-                Crie alertas novas emissões e busque por localização, emissor, tipo de operação e mais!
-                <br>
-                Opção para receber atualizações e detalhes via email, WhatsApp, CSV e API.
-              </span>
-              <ul>
-                <li class="list"> Emissor </li>
-                <li class="list"> Cliente (cedente) </li>
-                <li class="list"> Data de emissão </li>
-                <li class="list"> Valor da emissão </li>
-                <li class="list"> Vencimento </li>
-                <li class="list"> Remuneração (juros e índice) </li>
-                <li class="list"> Agente fiduciário </li>
-                <li class="list"> Código IF B3 </li>
-                <li class="list"> Termo de securitização </li>
               </ul>
             </p>
           </div>
@@ -104,44 +139,6 @@
                 <li class="list"> Data da atualização </li>
                 <li class="list"> Nome do fundo </li>
                 <li class="list"> Link para documento </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-    </div>
-
-    </div>
-
-    <div class="card my-3">
-      <div class="card-content">
-        <div class="columns is-vcentered align-item-center">
-          <div class="pr-3 column is-one-fifth">
-            <div class="is-flex is-justify-content-center">
-              <figure class="image is-96x96">
-                <img src="@/assets/products/aa/4-contrato-social.png" alt="Placeholder image">
-              </figure>
-            </div>
-          </div>
-          <div>
-            <p class="title is-4">Dados de Contrato Social</p>
-            <p class="subtitle is-6">
-              <span>
-                Busque informações de empresas públicas e privadas e seus estabelecimentos
-                <br>
-                Crie alertas para atualizações no contrato social
-                <br>
-                Opção para receber alertas via email, WhatsApp, CSV e API.
-              </span>
-              <ul>
-                <li class="list"> Quadro societário (nome, idade, cpf...) </li>
-                <li class="list"> Porte, razão social, nome fantasia </li>
-                <li class="list"> Capital Social, data da fundação </li>
-                <li class="list"> Data última atualização </li>
-                <li class="list"> Natureza e regime tributário </li>
-                <li class="list"> Telefone, website, endereço </li>
-                <li class="list"> Tags, CNAEs primários e secundários, atividades </li>
-                <li class="list"> Estabelecimentos </li>
-                <li class="list"> Status </li>
               </ul>
             </p>
           </div>

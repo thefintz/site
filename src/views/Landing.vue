@@ -10,16 +10,15 @@
           Acesse dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-5">
-          Dados de empresas, fundos, títulos, ações, criptos e muito mais!
+          Plataforma com múltiplos por setor, busca de CRIs por cidade e muito mais!
         </h3>
         <div class="has-text-centered">
-          <a href="https://docs.fintz.com.br"> <button class="button is-primary has-text-white mr-3 mt-1" type="submit" style="width: 10rem"> Documentação </button> </a>
-          <button @click="$router.push('contato')" class="button has-text-dark mr-3 mt-1" type="submit" style="width: 10rem"> Contato </button>
+          <button @click="$router.push('contato')" class="button is-primary has-text-white mr-3 mt-1" type="submit" style="width: 10rem"> Entre em contato! </button>
         </div>
       </div>
       <div class="column">
         <figure class="image">
-          <img src="@/assets/clients.png">
+          <img src="@/assets/storyset/home.png">
         </figure>
       </div>
     </div>
@@ -77,16 +76,19 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-half has-text-centered">
-        <p class="title is-2"> Facilidade para seu negócio </p>
+        <p class="title is-2"> Agilidade </p>
         <p class="subtitle is-5">
-          Em um único ponto de acesso, você tem dados de diversas fontes.
-          Nós já coletamos, validamos, limpamos e filtramos esses dados para você.
+          Com apenas um clique, acesse diversos dados do mercado.
         </p>
         <br>
-        <p class="title is-2"> Desenvolva mais rápido! </p>
+        <p class="title is-2"> Precisão </p>
         <p class="subtitle is-5">
-          Disponibilizamos os dados em API REST,
-          CSV, email ou add-in do Excel.
+          Pesquisas inteligentes e com uma série de filtros avançados.
+        </p>
+        <br>
+        <p class="title is-2"> Exporte os dados! </p>
+        <p class="subtitle is-5">
+          Disponibilizamos os dados para Excel, PowerBI, email ou API
         </p>
       </div>
     </div>
@@ -98,34 +100,7 @@
     <div class="columns">
 
       <div class="column">
-        <div class="card pointer" @click="$router.push('/papeis-b3')">
-          <div class="card-content">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex is-justify-content-center">
-                  <figure class="image is-96x96">
-                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">API B3</p>
-                <p class="subtitle is-6">
-                  Ações, ETFs, FIIs e BDRs
-                  <ul>
-                    <li class="list"> Indicadores </li>
-                    <li class="list"> Informações gerais </li>
-                    <li class="list"> Cotações e fatos relevantes </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card pointer" @click="$router.push('/dados-CRIs')">
+        <div class="card pointer" @click="$router.push('/dcm')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -136,13 +111,13 @@
                 </div>
               </div>
               <div class="column is-four-fifths py-0">
-                <p class="title is-4">Dados de CRIs</p>
+                <p class="title is-4">Fintz DCM</p>
                 <p class="subtitle is-6">
-                  <span> Atualizados automaticamente </span>
+                  <span> CRIs, CRAs, Debêntures </span>
                   <ul>
-                    <li class="list"> Dados da operação </li>
-                    <li class="list"> Busca por filtros </li>
-                    <li class="list"> Notificação por email </li>
+                    <li class="list"> Detalhes da operação </li>
+                    <li class="list"> Diversos filtros </li>
+                    <li class="list"> Exporte para Excel </li>
                   </ul>
                 </p>
               </div>
@@ -152,7 +127,7 @@
       </div>
 
       <div class="column">
-        <div class="card pointer" @click="$router.push('/fundos')">
+        <div class="card pointer" @click="$router.push('/leadz')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -163,7 +138,7 @@
                 </div>
               </div>
               <div class="column is-four-fifths py-0">
-                <p class="title is-4">API Fundos</p>
+                <p class="title is-4">Fintz Leadz</p>
                 <p class="subtitle is-6">
                   Dados da CVM em tempo real
                   <ul>
@@ -178,6 +153,33 @@
         </div>
       </div>
 
+      <div class="column">
+        <div class="card pointer" @click="$router.push('/papeis-b3')">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex is-justify-content-center">
+                  <figure class="image is-96x96">
+                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-four-fifths py-0">
+                <p class="title is-4">Fintz Bolsa</p>
+                <p class="subtitle is-6">
+                  Ações, ETFs, FIIs e BDRs
+                  <ul>
+                    <li class="list"> Indicadores </li>
+                    <li class="list"> Informações gerais </li>
+                    <li class="list"> Cotações e fatos relevantes </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -187,15 +189,17 @@
     <div class="columns is-vcentered">
       <div class="column is-half">
         <h1 class="title is-1">
-          Diversos indicadores
+          Fintz DCM
         </h1>
         <h3 class="subtitle">
-          Múltiplos de receita, ebitda, dividendos e mais!
+          Pesquise operações de crédito com praticidade e assertividade!
+          <br/>
+          CRIs, CRAs e Debêntures.
         </h3>
       </div>
       <div class="column is-half">
         <figure class="image">
-          <img src="@/assets/code_pngs/indicadores.png">
+          <img src="@/assets/products/DCM.png">
         </figure>
       </div>
     </div>
@@ -207,35 +211,35 @@
     <div class="columns is-vcentered">
       <div class="column is-half is-hidden-desktop">
         <h2 class="title is-2">
-          Dados gerais
+          Fintz Leadz
         </h2>
         <h4 class="subtitle is-4">
-          Descrição, empresas similares, website e muito mais!
+          Uma base de milhões de empresas para você prospectar
         </h4>
       </div>
       <div class="column is-half">
         <figure class="image">
-          <img src="@/assets/code_pngs/infosgerais.png">
+          <img src="@/assets/products/Leadz.png">
         </figure>
       </div>
       <div class="column is-half is-hidden-touch">
         <h2 class="title is-2">
-          Dados gerais
+          Fintz Leadz
         </h2>
         <h4 class="subtitle is-4">
-          Descrição, empresas similares, website e muito mais!
+          Uma base de milhões de empresas para você prospectar
         </h4>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section" id="section2">
+<!-- <section class="section" id="section2">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-half">
         <h1 class="title is-1">
-          Informações de sociedade
+          Fintz Mz
         </h1>
         <h3 class="subtitle">
           Empresas públicas e privadas!
@@ -248,7 +252,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <ContactForm/>
 

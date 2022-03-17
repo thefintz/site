@@ -22,6 +22,16 @@ const routes = [
     component: () => import('@/views/PapeisB3')
   },
   {
+    path: '/leadz',
+    name: 'Leadz',
+    component: () => import('@/views/Leadz')
+  },
+  {
+    path: '/dcm',
+    name: 'DCM',
+    component: () => import('@/views/DCM')
+  },
+  {
     path: '/fundos',
     name: 'Fundos',
     component: () => import('@/views/Fundos')
