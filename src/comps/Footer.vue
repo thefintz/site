@@ -4,10 +4,9 @@
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <figure class="image is-32x32">
-            <img src="@/assets/logo.png">
+          <figure class="image">
+            <img src="@/assets/logo-positivo.png" class="max-h">
           </figure>
-          <h4 class="title is-3">Fintz</h4>
         </div>
       </div>
       <div>
@@ -41,3 +40,9 @@ export default {
   name: 'Footer'
 }
 </script>
+
+<style scoped>
+.max-h {
+  max-height: 2.5rem
+}
+</style>

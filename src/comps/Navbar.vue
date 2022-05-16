@@ -3,8 +3,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" @click="$router.push('/')">
-        <img src="@/assets/logo.png" class="max-h" height="36" width="36">
-        <strong class="title is-3">Fintz</strong>
+        <img src="@/assets/logo-positivo.png" class="max-h">
       </a>
       <a class="navbar-burger" ref="burger" @click="burger">
         <span></span>
@@ -65,6 +64,6 @@ export default {
   height: 4rem
 }
 .max-h {
-  max-height: 100%
+  max-height: 2.5rem
 }
 </style>
