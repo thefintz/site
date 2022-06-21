@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0",
     "bulma": "^0.9.4",
-    "core-js": "^3.22.7",
+    "core-js": "^3.23.2",
     "nord": "^0.2.1",
     "vue": "^3.2.36",
     "vue-gtag": "^2.0.1",
