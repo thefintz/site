@@ -1,6 +1,6 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden; min-height: 100vh" class="has-background-white">
-  <Navbar/>
+  <NavbarComp />
 
   <section class="section" id="message">
     <div class="container">
@@ -44,13 +44,13 @@
 </template>
 
 <script>
-import Navbar from '@/comps/Navbar'
+import NavbarComp from '@/comps/NavbarComp'
 
 export default {
   name: 'EmailSent',
 
   components: {
-    Navbar
+    NavbarComp
   }
 }
 </script>

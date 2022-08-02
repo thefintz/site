@@ -1,5 +1,5 @@
 <template>
-<Navbar />
+<NavbarComp />
 <div>
   <section class="section is-medium" id="section1">
     <div class="container">
@@ -80,19 +80,19 @@
     </div>
   </section>
 </div>
-<Footer />
+<FooterComp />
 </template>
 
 <script>
-import Footer from '@/comps/Footer'
-import Navbar from '@/comps/Navbar'
+import FooterComp from '@/comps/FooterComp'
+import NavbarComp from '@/comps/NavbarComp'
 
 export default {
   name: 'TermosDeServico',
 
   components: {
-    Footer,
-    Navbar
+    FooterComp,
+    NavbarComp
   }
 }
 </script>

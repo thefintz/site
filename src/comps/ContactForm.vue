@@ -46,7 +46,7 @@
         <h4 class="subtitle is-5 pt-5 mt-5 pb-0 mb-0">
           Ou entre em contato pelo nosso WhatsApp
         </h4>
-        <Contact />
+        <ContactComp />
       </div>
     </div>
   </div>
@@ -54,12 +54,13 @@
 </template>
 
 <script>
-import Contact from '@/comps/Contact'
+import ContactComp from '@/comps/ContactComp'
+
 export default {
   name: 'ContactForm',
 
   components: {
-    Contact
+    ContactComp
   }
 }
 </script>

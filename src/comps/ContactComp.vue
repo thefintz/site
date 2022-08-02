@@ -15,6 +15,6 @@
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'ContactComp'
 }
 </script>

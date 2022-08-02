@@ -1,6 +1,6 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden;" class="has-background-white">
-<Navbar/>
+<NavbarComp />
 
 <section class="section" id="sectionBenefits">
   <div class="container">
@@ -255,22 +255,22 @@
 </section>
 
 <ContactForm/>
+<FooterComp />
 
-<Footer />
 </div>
 </template>
 
 <script>
-import Footer from '@/comps/Footer'
-import Navbar from '@/comps/Navbar'
+import FooterComp from '@/comps/FooterComp'
+import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
   name: 'App',
 
   components: {
-    Footer,
-    Navbar,
+    FooterComp,
+    NavbarComp,
     ContactForm
   }
 }

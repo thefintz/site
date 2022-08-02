@@ -1,5 +1,5 @@
 <template>
-<Navbar />
+<NavbarComp />
 <div>
 
 <section class="section is-medium" id="section1">
@@ -314,19 +314,19 @@
           qualquer Política de Privacidade revisada.
         </span></div></div></div></section>
 </div>
-<Footer />
+<FooterComp />
 </template>
 
 <script>
-import Footer from '@/comps/Footer'
-import Navbar from '@/comps/Navbar'
+import FooterComp from '@/comps/FooterComp'
+import NavbarComp from '@/comps/NavbarComp'
 
 export default {
   name: 'PrivacyPolicy',
 
   components: {
-    Footer,
-    Navbar
+    FooterComp,
+    NavbarComp
   }
 }
 </script>

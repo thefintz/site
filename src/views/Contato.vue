@@ -1,6 +1,6 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden;">
-<Navbar/>
+<NavbarComp/>
 
 <ContactForm class="mt-5"/>
 
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import Navbar from '@/comps/Navbar'
+import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
   name: 'App',
 
   components: {
-    Navbar,
+    NavbarComp,
     ContactForm
   }
 }
