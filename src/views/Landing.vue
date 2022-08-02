@@ -7,10 +7,11 @@
     <div class="columns is-centered is-vcentered">
       <div class="column">
         <h1 class="title is-3">
-          Acesse dados do mercado financeiro
+          O jeito mais fácil de integrar a dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-5">
-          Plataforma com múltiplos por setor, busca de CRIs por cidade e muito mais!
+          Sua solução conectada a dados de fundos, ações, dívida e muito mais!
+
         </h3>
         <div class="has-text-centered">
          <ContactDemo/>
@@ -75,23 +76,15 @@
 <section class="section" id="section2">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-half has-text-centered">
-        <p class="title is-2"> Agilidade </p>
-        <p class="subtitle is-5">
-          Com apenas um clique, acesse diversos dados do mercado.
-        </p>
+      <div class="column is-half has-text-centered is-size-4">
+        <figure class="image pb-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
+          <img src="@/assets/stark_logo.png" alt="Stark Investment Banking logo">
+        </figure>
+        <span> "Integramos nossa solução aos dados de ações da Fintz e escalamos em 3x nossa operação". </span>
         <br>
-        <p class="title is-2"> Precisão </p>
-        <p class="subtitle is-5">
-          Pesquisas inteligentes e com uma série de filtros avançados.
-        </p>
-        <br>
-        <p class="title is-2"> Exporte os dados! </p>
-        <p class="subtitle is-5">
-          Disponibilizamos os dados para Excel, PowerBI, email ou API
-        </p>
+        <span class="is-size-5"> - Guilherme Dantas, PM. </span>
       </div>
-    </div>
+      </div>
   </div>
 </section>
 
@@ -100,7 +93,7 @@
     <div class="columns">
 
       <div class="column">
-        <div class="card pointer" @click="$router.push('/dcm')">
+        <div class="card pointer" @click="$router.push('/fundos')">
           <div class="card-content">
             <div class="columns is-vcentered">
               <div class="column p-0">
@@ -111,13 +104,13 @@
                 </div>
               </div>
               <div class="column is-four-fifths py-0">
-                <p class="title is-4">Fintz DCM</p>
+                <p class="title is-4">Fundos</p>
                 <p class="subtitle is-6">
-                  <span> CRIs, CRAs, Debêntures </span>
+                  <span> Todos os fundos de investimento </span>
                   <ul>
-                    <li class="list"> Detalhes da operação </li>
-                    <li class="list"> Diversos filtros </li>
-                    <li class="list"> Exporte para Excel </li>
+                    <li class="list"> Histórico de preços </li>
+                    <li class="list"> Rentabilidade e indicadores </li>
+                    <li class="list"> Crie lâminas automaticamente </li>
                   </ul>
                 </p>
               </div>
@@ -165,7 +158,7 @@
                 </div>
               </div>
               <div class="column is-four-fifths py-0">
-                <p class="title is-4">Fintz Bolsa</p>
+                <p class="title is-4">Bolsa</p>
                 <p class="subtitle is-6">
                   Ações, ETFs, FIIs e BDRs
                   <ul>
@@ -186,73 +179,41 @@
 
 <section class="section" id="section2">
   <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half">
-        <h1 class="title is-1">
-          Fintz DCM
-        </h1>
-        <h3 class="subtitle">
-          Pesquise operações de crédito com praticidade e assertividade!
-          <br/>
-          CRIs, CRAs e Debêntures.
-        </h3>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/products/DCM.png">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="section3">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half is-hidden-desktop">
-        <h2 class="title is-2">
-          Fintz Leadz
-        </h2>
-        <h4 class="subtitle is-4">
-          Uma base de milhões de empresas para você prospectar
-        </h4>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/products/Leadz.png">
-        </figure>
-      </div>
-      <div class="column is-half is-hidden-touch">
-        <h2 class="title is-2">
-          Fintz Leadz
-        </h2>
-        <h4 class="subtitle is-4">
-          Uma base de milhões de empresas para você prospectar
-        </h4>
+    <div class="columns is-centered">
+      <div class="column is-half has-text-centered">
+        <p class="title is-2"> Confiança </p>
+        <p class="subtitle is-5">
+          Dados direto de fontes oficiais, consolidados e verificados
+        </p>
+        <br>
+        <p class="title is-2"> Facilidade </p>
+        <p class="subtitle is-5">
+          Todos os dados do mercado em uma só conexão
+        </p>
+        <br>
+        <p class="title is-2"> Agilidade </p>
+        <p class="subtitle is-5">
+          Desenvolva sua solução em dias ao invés de meses
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- <section class="section" id="section2">
+<section class="section" id="section2">
   <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half">
-        <h1 class="title is-1">
-          Fintz Mz
-        </h1>
-        <h3 class="subtitle">
-          Empresas públicas e privadas!
-        </h3>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/code_pngs/empresa_socios.png">
+    <div class="columns is-centered">
+      <div class="column is-half has-text-centered is-size-4">
+        <figure class="image pb-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
+          <img src="@/assets/holder-plus_logo.png" alt="Holder+ logo">
         </figure>
+        <span> "A Fintz fornece os dados de eventos coorporativos mais completos e foi muito fácil conectá-los à nossa plataforma". </span>
+        <br>
+        <span class="is-size-5"> - Bernardo, CEO. </span>
       </div>
-    </div>
+      </div>
   </div>
-</section> -->
+</section>
 
 <ContactForm/>
 
