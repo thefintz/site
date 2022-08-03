@@ -7,7 +7,7 @@
           Dúvidas sobre como a Fintz pode se encaixar no seu negócio?
         </h2>
         <h4 class="subtitle is-5">
-          Podemos ajudá-lo a encontrar a solução certa. Coloque seu email e em breve entraremos em contato.
+          Podemos te ajudar a encontrar a solução certa. Informe seu email e em breve entraremos em contato.
         </h4>
       </div>
 

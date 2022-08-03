@@ -6,8 +6,8 @@
   <div class="container">
     <div class="columns is-centered is-vcentered">
       <div class="column">
-        <h1 class="title is-3">
-          O jeito mais fácil de integrar a dados do mercado financeiro
+        <h1 class="title is-2">
+          O jeito mais fácil de integrar dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-5">
           Sua solução conectada a dados de fundos, ações, dívida e muito mais!
@@ -110,7 +110,34 @@
                   <ul>
                     <li class="list"> Histórico de preços </li>
                     <li class="list"> Rentabilidade e indicadores </li>
-                    <li class="list"> Crie lâminas automaticamente </li>
+                    <li class="list"> Crie lâminas personalizadas automaticamente </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card pointer" @click="$router.push('/papeis-b3')">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column p-0">
+                <div class="is-flex is-justify-content-center">
+                  <figure class="image is-96x96">
+                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
+                  </figure>
+                </div>
+              </div>
+              <div class="column is-four-fifths py-0">
+                <p class="title is-4">Bolsa</p>
+                <p class="subtitle is-6">
+                  Ações, ETFs, FIIs e BDRs
+                  <ul>
+                    <li class="list"> Dados gerais </li>
+                    <li class="list"> Cotações e indicadores</li>
+                    <li class="list"> Fatos relevantes e eventos corporativos </li>
                   </ul>
                 </p>
               </div>
@@ -138,33 +165,6 @@
                     <li class="list"> Pesquisa personalizável </li>
                     <li class="list"> Segmente seus leads </li>
                     <li class="list"> Exportação para Excel</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card pointer" @click="$router.push('/papeis-b3')">
-          <div class="card-content">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex is-justify-content-center">
-                  <figure class="image is-96x96">
-                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">Bolsa</p>
-                <p class="subtitle is-6">
-                  Ações, ETFs, FIIs e BDRs
-                  <ul>
-                    <li class="list"> Indicadores </li>
-                    <li class="list"> Informações gerais </li>
-                    <li class="list"> Cotações e fatos relevantes </li>
                   </ul>
                 </p>
               </div>
