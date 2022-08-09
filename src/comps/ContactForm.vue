@@ -1,12 +1,12 @@
 <template>
-<section class="section" id="section4">
+<section class="section has-background-primary" id="section4">
   <div class="container">
     <div class="columns">
       <div class="column is-half is-align-items-center">
-        <h2 class="title is-3">
+        <h2 class="title is-3 has-text-light">
           Dúvidas sobre como a Fintz pode se encaixar no seu negócio?
         </h2>
-        <h4 class="subtitle is-5">
+        <h4 class="subtitle is-5 has-text-light">
           Podemos te ajudar a encontrar a solução certa. Informe seu email e em breve entraremos em contato.
         </h4>
       </div>
@@ -39,11 +39,11 @@
           -->
           <input type="hidden" name="_captcha" value="false">
           <div class="is-flex is-flex-direction-column is-align-items-center">
-          <button class="button is-primary has-text-white" type="submit">Enviar</button>
+          <button class="button is-secondary has-text-dark" type="submit">Enviar</button>
           </div>
         </form>
 
-        <h4 class="subtitle is-5 pt-5 mt-5 pb-0 mb-0">
+        <h4 class="subtitle is-5 pt-5 mt-5 pb-0 mb-0 has-text-light">
           Ou entre em contato pelo nosso WhatsApp
         </h4>
         <ContactComp />

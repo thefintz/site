@@ -31,6 +31,12 @@
         </div>
 
       </div>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <p class="has-text-weight-bold"> Começe a usar a Fintz gratuitamente. </p>
+        <span> Perguntas?
+          <a href="mailto:contato@fintz.com.br"> Fale com nosso time </a>
+        </span>
+      </div>
     </form>
   </div>
 </section>
