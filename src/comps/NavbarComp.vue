@@ -22,11 +22,21 @@
             <strong>Produtos</strong>
           </span>
         </a>
+
+        <a class="navbar-item" @click="$router.push('precos')">
+          <span class="icon-text">
+            <!-- <span class="icon">
+              <font-awesome-icon :icon="['fas', 'book']" />
+            </span> -->
+            <strong>Preços</strong>
+          </span>
+        </a>
+
         <a class="navbar-item" href="https://docs.fintz.com.br">
           <span class="icon-text">
-            <span class="icon">
+            <!-- <span class="icon"> -->
               <!-- <font-awesome-icon :icon="['fas', 'book']" /> -->
-            </span>
+            <!-- </span> -->
             <strong>Documentação da API</strong>
           </span>
         </a>
