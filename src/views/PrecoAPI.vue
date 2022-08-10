@@ -7,7 +7,7 @@
     <div class="columns is-centered is-vcentered">
       <div class="column is-two-thirds">
         <h1 class="title is-2">
-          Preços práticos e flexíveis
+          APIs Fintz: Preços práticos e flexíveis
         </h1>
         <h3 class="subtitle is-5">
           Começe a usar gratuitamente.

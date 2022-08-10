@@ -7,14 +7,34 @@ const routes = [
     component: () => import('@/views/Landing')
   },
   {
-    path: '/produtos',
-    name: 'Products',
-    component: () => import('@/views/Products')
+    path: '/preco-api',
+    name: 'Preço API',
+    component: () => import('@/views/PrecoAPI')
+  },
+  {
+    path: '/preco-ferramentas',
+    name: 'Preço Ferramentas',
+    component: () => import('@/views/PrecoFerramentas')
   },
   {
     path: '/precos',
-    name: 'Preços',
-    component: () => import('@/views/Precos')
+    name: 'Preços Escolha',
+    component: () => import('@/views/PrecosEscolha')
+  },
+  {
+    path: '/solucoes',
+    name: 'Produtos Escolha',
+    component: () => import('@/views/ProdutosEscolha')
+  },
+  {
+    path: '/solucoes-api',
+    name: 'Soluções API',
+    component: () => import('@/views/ProdutosAPIsLista')
+  },
+  {
+    path: '/solucoes-ferramentas',
+    name: 'Soluções Ferramentas',
+    component: () => import('@/views/ProdutosFerramentasLista')
   },
   {
     path: '/contato',

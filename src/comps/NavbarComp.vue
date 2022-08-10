@@ -14,7 +14,7 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <a class="navbar-item" @click="$router.push('produtos')">
+        <a class="navbar-item" @click="$router.push('solucoes')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
@@ -32,21 +32,21 @@
           </span>
         </a>
 
+        <a class="navbar-item" @click="$router.push('contato')">
+          <span class="icon-text">
+            <!-- <span class="icon">
+              <font-awesome-icon :icon="['fas', 'phone-alt']" />
+            </span> -->
+            <strong>Contato</strong>
+          </span>
+        </a>
+
         <a class="navbar-item" href="https://docs.fintz.com.br">
           <span class="icon-text">
             <!-- <span class="icon"> -->
               <!-- <font-awesome-icon :icon="['fas', 'book']" /> -->
             <!-- </span> -->
-            <strong>Documentação da API</strong>
-          </span>
-        </a>
-
-        <a class="navbar-item" @click="$router.push('contato')">
-          <span class="icon-text">
-            <span class="icon">
-              <font-awesome-icon :icon="['fas', 'phone-alt']" />
-            </span>
-            <strong>Contato</strong>
+            <strong>Docs API</strong>
           </span>
         </a>
       </div>
