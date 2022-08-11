@@ -24,7 +24,7 @@
 <section class="section" id="sectionBenefits">
   <div class="container">
 
-    <div class="card mb-3 pointer" @click="$router.push('/papeis-b3')">
+    <div class="card mb-3 pointer" @click="$router.push('/api-bolsaB3')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="card my-3 pointer" @click="$router.push('/fundos')">
+    <div class="card my-3 pointer" @click="$router.push('/api-fundos')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
@@ -85,6 +85,41 @@
                 <li class="list"> Data da atualização </li>
                 <li class="list"> Nome do fundo </li>
                 <li class="list"> Link para documento </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card my-3 pointer" @click="$router.push('/api-cris')">
+      <div class="card-content">
+        <div class="columns is-vcentered align-item-center">
+          <div class="pr-3 column is-one-fifth">
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-96x96">
+                <img src="@/assets/products/aa/1-cri.png" alt="Placeholder image">
+              </figure>
+            </div>
+          </div>
+          <div>
+            <p class="title is-4">API CRIs</p>
+            <p class="subtitle is-6">
+              <span>
+                Crie alertas para emissões de CRIs por região, emissor ou volume de operação
+                <br>
+                Receba todos os dados e detalhes de CRIs dos últimos 10 anos.
+                <br>
+                Opção para receber alertas via email, WhatsApp, CSV e API.
+              </span>
+              <ul>
+                <li class="list"> Volume da operação </li>
+                <li class="list"> Emissor </li>
+                <li class="list"> Remuneração </li>
+                <li class="list"> Prazo </li>
+                <li class="list"> Localização </li>
+                <li class="list"> Comparação </li>
+                <li class="list"> Histórico </li>
               </ul>
             </p>
           </div>

@@ -24,7 +24,7 @@
 <section class="section" id="sectionBenefits">
   <div class="container">
 
-    <div class="card mb-3 pointer" @click="$router.push('/fundos')">
+    <div class="card mb-3 pointer" @click="$router.push('/ferramenta-fundos')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
@@ -58,7 +58,7 @@
       </div>
     </div>
 
-    <div class="card mb-3 pointer" @click="$router.push('/dcm')">
+    <div class="card mb-3 pointer" @click="$router.push('/ferramenta-dcm')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
@@ -95,7 +95,7 @@
       </div>
     </div>
 
-    <div class="card my-3 pointer" @click="$router.push('/leadz')">
+    <div class="card my-3 pointer" @click="$router.push('/ferramenta-leadz')">
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
