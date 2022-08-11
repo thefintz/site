@@ -7,10 +7,10 @@
     <div class="columns is-centered is-vcentered">
       <div class="column is-two-thirds">
         <h1 class="title is-2">
-          APIs Fintz: Preços práticos e flexíveis
+          Ferramentas Fintz
         </h1>
         <h3 class="subtitle is-5">
-          Começe a usar gratuitamente.
+          Preço justo e de acordo com o que seu negócio precisa.
         </h3>
         <div class="has-text-centered">
         </div>
@@ -21,63 +21,61 @@
   </div>
 </section>
 
-<section class="section" id="sectionPlans">
+<section class="section pb-3" id="sectionPlans">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="pr-3 column">
         <div class="is-flex is-justify-content-center">
           <figure class="image is-128x128">
-            <img width="20" src="@/assets/icons/start_light.png" alt="Placeholder image">
+            <img width="20" src="@/assets/pricing/laminas.png" alt="Placeholder image">
           </figure>
         </div>
-        <p class="title is-5 mb-0">Teste</p>
+        <p class="title is-5 mt-3 mb-0">R$300/fundo/mês</p>
         <hr class="mt-0 black-line">
         <p class="title is-3">
           <span>
-            Grátis
+            Lâminas
+          </span>
+        </p>
+        <p class="is-5">
+          Seu material de distribuição customizado, bonito e automático. Defina o layout, informações presentes e nunca mais se preocupe.
+        </p>
+      </div>
+      <div class="pr-3 column">
+        <div class="is-flex is-justify-content-center">
+          <figure class="image is-128x128">
+            <img width="20" src="@/assets/pricing/Leadz.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <p class="title is-5 mt-3 mb-0">R$3.000/mês</p>
+        <hr class="mt-0 black-line">
+        <p class="title is-3">
+          <span>
+            Fintz Leadz
           </span>
         </p>
         <p class="is-5">
           <span>
-            Construa e teste usando todas as APIs Fintz com até 1.000 chamadas por dia.
+            Busque e segmente leads PJ e PF. Sem limitação de quantidade, estado, cargo do PF, faturamento e segmento da PJ.
           </span>
         </p>
       </div>
       <div class="pr-3 column">
         <div class="is-flex is-justify-content-center">
           <figure class="image is-128x128">
-            <img width="20" src="@/assets/icons/grow_light.png" alt="Placeholder image">
+            <img width="20" src="@/assets/pricing/CRIs.png" alt="Placeholder image">
           </figure>
         </div>
-        <p class="title is-5 mb-0">Cresça</p>
+        <p class="title is-5 mt-3 mb-0">R$5.000/mês</p>
         <hr class="mt-0 black-line">
         <p class="title is-3">
           <span>
-            Pague por uso
+            Mapeamento de CRIs
           </span>
         </p>
         <p class="is-5">
           <span>
-            Lance seu projeto com usuários ilimitados e sem mínimos contratuais.
-          </span>
-        </p>
-      </div>
-      <div class="pr-3 column">
-        <div class="is-flex is-justify-content-center">
-          <figure class="image is-128x128">
-            <img width="20" src="@/assets/icons/scale_light.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <p class="title is-5 mb-0">Escale</p>
-        <hr class="mt-0 black-line">
-        <p class="title is-3">
-          <span>
-            R$3.000+ por mês
-          </span>
-        </p>
-        <p class="is-5">
-          <span>
-            Preços por volume e suporte premium dedicado para sua equipe.
+            Use filtros avançados como cidade, volume, prazo, juros, emissor... Exporte para o Excel. Seja notificado sobre nova emissão.
           </span>
         </p>
       </div>
@@ -86,7 +84,7 @@
   </div>
 </section>
 
-<section class="section my-5" id="opcoes-planos">
+<section class="section" id="opcoes-planos">
   <div class="container has-text-centered">
     <span class="subtitle is-3"> Opções de preços simples e flexíveis </span>
       <div class="columns mt-3">
@@ -133,8 +131,10 @@
 
 <section class="section has-background-primary" id="modelo-customizavel">
   <div class="container has-text-centered has-text-light my-5">
-    <p class="is-size-4 has-text-light my-5">Comece a construir hoje mesmo com crédito de teste grátis e acesso total à API</p>
-    <button class="button is-secondary has-text-primary"><a href="https://wa.me/554191875540">Comece a usar gratuitamente</a></button>
+    <p class="is-size-2 has-text-light my-5">Entre em contato agora mesmo</p>
+    <container class="p-3 has-background-light has-text-primary">
+      <a class="is-size-5" href="mailto:contato@fintz.com.br">contato@fintz.com.br</a>
+    </container>
   </div>
 </section>
 
@@ -147,42 +147,6 @@
     <a href="mailto:contato@fintz.com.br">
       Entre em contato com nosso time de vendas para ver como podemos ajudar.
     </a>
-  </div>
-</section>
-
-<section class="section has-background-light" id="modelo-customizavel">
-  <div class="container">
-    <div class="columns">
-    <div class="column is-two-thirds">
-    <p class="title is-3">Programa para startups e aceleradoras</p>
-    <p class="subtitle is-6 mb-0">
-      Lançamento do plano gratuito extendido através de créditos para startups e aceleradoras parceiras.
-    </p>
-    <br>
-    <p class="is-6 mb-0">
-      As startups têm acesso livre a nossas APIs de Bolsa, Cripto e Fundos, podendo aproveitar os dados consolidados, tratados e acessíveis disponibilizados pela Fintz.
-    </p>
-    <p class="is-6 mb-0">
-      Os dados podem ser usados livremente para alimentar suas plataformas, aplicativos e produtos.
-    </p>
-    <br>
-    <p class="is-size-3 mb-0">
-      Benefícios.
-    </p>
-    <div class="content">
-    <ul>
-      <li>R$3.000 em créditos. </li>
-      <li>Acesso a todas as APIs Fintz gratuitamente por 6 meses. </li>
-      <li>Suporte 24h em português e inglês. </li>
-      <li>Precisa de dados extras? Buscamos para você. </li>
-      <li>Acelere o desenvolvimento e reduza custos. </li>
-      <li>Integração com as diversas fontes de dados. </li>
-      <li>Confiabilidade dos dados disponibilizados. </li>
-      <li>Mais dúvidas? <a href="/#/contato"> Marcamos uma call com seus devs. </a> </li>
-    </ul>
-    </div>
-    </div>
-    </div>
   </div>
 </section>
 
