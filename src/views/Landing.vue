@@ -73,112 +73,60 @@
   </div>
 </section>
 
-<section class="section has-background-primary" id="sectionBenefits">
-  <div class="container">
-    <div class="columns">
+<section class="section" id="sectionPlans">
+  <div class="container has-text-centered">
 
-      <div class="column">
-        <div class="card pointer" @click="$router.push('/fundos')">
+    <p class="title is-3"> Soluções </p>
+
+    <div class="columns is-vcentered">
+
+      <div class="column pointer">
+        <div class="card shadow" @click="$router.push('/preco-api')">
           <div class="card-content" style="background-color: #c1ddff">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex is-justify-content-center">
-                  <figure class="image is-96x96">
-                    <img src="@/assets/products/empresas.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">Fundos</p>
-                <p class="subtitle is-6">
-                  <span> Todos os fundos de investimento </span>
-                  <ul>
-                    <li class="list"> Histórico de preços </li>
-                    <li class="list"> Rentabilidade e indicadores </li>
-                    <li class="list"> Crie lâminas personalizadas automaticamente </li>
-                  </ul>
-                </p>
-              </div>
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-128x128">
+                <img width="20" src="@/assets/icons/pricing/puzzle.png" alt="Placeholder image">
+              </figure>
             </div>
+            <hr class="mt-0 black-line">
+            <p class="title is-3">
+              <span>
+                APIs
+              </span>
+            </p>
+            <p class="is-5">
+              <span>
+                Serviço de dados do mercado financeiro para alimentar seu app, site ou plataforma.
+              </span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="column">
-        <div class="card pointer" @click="$router.push('/papeis-b3')">
+      <div class="column pointer">
+        <div class="card shadow" @click="$router.push('/preco-ferramentas')">
           <div class="card-content" style="background-color: #c1ddff">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex is-justify-content-center">
-                  <figure class="image is-96x96">
-                    <img src="@/assets/products/papeis-b3/papeis-b3.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">Bolsa</p>
-                <p class="subtitle is-6">
-                  Ações, ETFs, FIIs e BDRs
-                  <ul>
-                    <li class="list"> Dados gerais </li>
-                    <li class="list"> Cotações e indicadores</li>
-                    <li class="list"> Fatos relevantes e eventos corporativos </li>
-                  </ul>
-                </p>
-              </div>
+            <div class="is-flex is-justify-content-center">
+              <figure class="image is-128x128">
+                <img width="20" src="@/assets/icons/pricing/tools.png" alt="Placeholder image">
+              </figure>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card pointer" @click="$router.push('/leadz')">
-          <div class="card-content" style="background-color: #c1ddff">
-            <div class="columns is-vcentered">
-              <div class="column p-0">
-                <div class="is-flex is-justify-content-center">
-                  <figure class="image is-96x96">
-                    <img src="@/assets/products/fundos.png" alt="Placeholder image">
-                  </figure>
-                </div>
-              </div>
-              <div class="column is-four-fifths py-0">
-                <p class="title is-4">Fintz Leadz</p>
-                <p class="subtitle is-6">
-                  Milhões de empresas para você
-                  <ul>
-                    <li class="list"> Pesquisa personalizável </li>
-                    <li class="list"> Segmente seus leads </li>
-                    <li class="list"> Exportação para Excel</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+            <hr class="mt-0 black-line">
+            <p class="title is-3">
+              <span>
+                Ferramentas
+              </span>
+            </p>
+            <p class="is-5">
+              <span>
+                Plataformas prontas para uso e opção whitelabel.
+              </span>
+            </p>
           </div>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
-
-<section class="section" id="section2" >
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-half has-text-centered is-size-4 pb-5">
-        <span class="is-size-6 has-text-weight-bold"> Confiados pelas empresas mais renomadas do mercado. </span>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-half has-text-centered is-size-4">
-        <figure class="image pb-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
-          <img src="@/assets/stark_logo.png" alt="Stark Investment Banking logo">
-        </figure>
-        <span> "Integramos nossa solução aos dados de ações da Fintz e escalamos em 3x nossa operação". </span>
-        <br>
-        <span class="is-size-5"> - Guilherme Dantas, PM. </span>
-      </div>
-      </div>
   </div>
 </section>
 
@@ -209,21 +157,29 @@
   </div>
 </section>
 
-<section class="section" id="section2">
-  <div class="container">
-    <div class="columns is-centered">
+<section class="section pt-0" id="section2" >
+  <div class="container has-text-centered">
+    <span class="is-size-5 has-text-weight-bold is-underlined"> Confiados por empresas renomadas do mercado. </span>
+    <div class="columns mt-5 is-centered">
+
       <div class="column is-half has-text-centered is-size-4">
-        <figure
-          class="image pb-5"
-          style="max-width: 50%; margin-left: auto; margin-right: auto;"
-        >
+        <figure class="image py-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
+          <img src="@/assets/stark_logo.png" alt="Stark Investment Banking logo">
+        </figure>
+        <span> "Escalamos em 3x nossa operação ao integrarmos com o market data da Fintz". </span>
+        <br>
+        <span class="is-size-5"> - Guilherme Dantas, PM. </span>
+      </div>
+
+      <div class="column is-half has-text-centered is-size-4">
+        <figure class="image pt-5 pb-2" style="max-width: 29%; margin-left: auto; margin-right: auto;">
           <img src="@/assets/holder-plus_logo.png" alt="Holder+ logo">
         </figure>
         <span> "A Fintz fornece todos os dados de eventos corporativos e cotação de forma clara e correta. A integração com nossa plataforma foi fácil e prática". </span>
         <br>
         <span class="is-size-5"> - Bernardo, CEO. </span>
       </div>
-      </div>
+    </div>
   </div>
 </section>
 
