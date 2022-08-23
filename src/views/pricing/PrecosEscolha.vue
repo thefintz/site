@@ -62,7 +62,7 @@
             <hr class="mt-0 black-line">
             <p class="title is-3">
               <span>
-                Ferramentas
+                Plataformas
               </span>
             </p>
             <p class="is-5">

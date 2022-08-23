@@ -114,12 +114,12 @@
             <hr class="mt-0 black-line">
             <p class="title is-3">
               <span>
-                Ferramentas
+                Plataformas
               </span>
             </p>
             <p class="is-5">
               <span>
-                Plataformas prontas para uso e opção whitelabel.
+                Aplicações web prontas para uso e opção whitelabel.
               </span>
             </p>
           </div>
