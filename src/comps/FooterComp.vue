@@ -43,6 +43,7 @@ export default {
 
 <style scoped>
 .max-h {
-  max-height: 2.5rem
+  max-height: 3rem;
+  max-width: 10rem;
 }
 </style>
