@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0",
     "bulma": "^0.9.4",
     "core-js": "^3.25.0",
     "nord": "^0.2.1",
-    "vue": "^3.2.36",
+    "vue": "^3.2.38",
     "vue-gtag": "^2.0.1",
     "vue-router": "^4.1.5"
   },
