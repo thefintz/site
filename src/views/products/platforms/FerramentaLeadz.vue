@@ -1,6 +1,6 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden" class="has-background-white">
-<NavbarComp />
+<NavbarPlataformasComp />
 
 <section class="section" id="sectionBenefits">
   <div class="container">
@@ -8,20 +8,19 @@
       <div class="pr-3 column">
         <div class="is-flex">
           <figure class="image is-256x256">
-            <img width="20" src="@/assets/storyset/dcm.png" alt="Placeholder image">
+            <img width="20" src="@/assets/storyset/leadz.png" alt="Placeholder image">
           </figure>
         </div>
       </div>
       <div class="column">
-        <p class="subtitle is-4">Fintz DCM</p>
+        <p class="subtitle is-4">Fintz Leadz</p>
         <p class="title is-3">
           <span>
-            Pesquise CRIs, CRAs e Debêntures com praticidade e assertividade
+            Uma base de milhões de empresas para você prospectar
           </span>
         </p>
       </div>
     </div>
-
   </div>
 </section>
 
@@ -43,7 +42,7 @@
             <p class="title is-4">Agilidade</p>
             <p class="subtitle is-6">
               <span>
-                Ao invés de diversos sites de securitizadoras, ganhe tempo pesquisando no sistema Fintz Leadz
+                Ao invés de diversas pesquisas comuns no Google, ganhe tempo pesquisando no sistema Fintz Leadz
               </span>
             </p>
           </div>
@@ -60,10 +59,10 @@
             </div>
           </div>
           <div class="column is-four-fifths has-text-centered-mobile">
-            <p class="title is-4">Assertividade</p>
+            <p class="title is-4">Precisão</p>
             <p class="subtitle is-6">
               <span>
-                Use filtros avançados como cidade, volume, prazo, juros e muitos outros.
+                Segmente sua busca e não sofra com listas genéricas.
               </span>
             </p>
           </div>
@@ -80,10 +79,10 @@
             </div>
           </div>
           <div class="column is-four-fifths has-text-centered-mobile">
-            <p class="title is-4">Praticidade</p>
+            <p class="title is-4">Assertividade</p>
             <p class="subtitle is-6">
               <span>
-                Veja todos os detalhes da operação e exporte sua busca para Excel ou PowerBI
+                Use filtros avançados como faturamento, cidade, setor de atuação, número de funcionários e muito mais.
               </span>
             </p>
           </div>
@@ -98,15 +97,15 @@
     <div class="columns is-vcentered">
       <div class="column is-half">
         <h1 class="title is-1">
-          Fintz DCM
+          Fintz Leadz
         </h1>
         <h3 class="subtitle">
-          Uma base de milhares de operações de crédito para você.
+          Milhões de leads de valor para você.
         </h3>
       </div>
       <div class="column is-half">
         <figure class="image">
-          <img src="@/assets/products/DCM.png">
+          <img src="@/assets/products/Leadz.png">
         </figure>
       </div>
     </div>
@@ -122,7 +121,7 @@
 
 <script>
 import FooterComp from '@/comps/FooterComp'
-import NavbarComp from '@/comps/NavbarComp'
+import NavbarPlataformasComp from '@/comps/NavbarPlataformasComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
@@ -130,7 +129,7 @@ export default {
 
   components: {
     FooterComp,
-    NavbarComp,
+    NavbarPlataformasComp,
     ContactForm
   }
 }

@@ -1,16 +1,17 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden;">
-<NavbarComp />
+<NavbarPlataformasComp />
 
 <section class="section py-0 my-0" id="section1">
   <div class="container">
     <div class="columns is-centered is-vcentered">
       <div class="column">
         <h1 class="title is-2">
-          API líder em market data
+          O jeito mais fácil de integrar dados do mercado financeiro
         </h1>
         <h3 class="subtitle is-5">
-          Acesse todos os dados de fundos de investimento, ações, BDRs, índices, indicadores, cripto, tesouro, NASDAQ, NYSE, e muito mais!
+          Com a Fintz, você escolhe se quer acessar por ferramentas ou APIs.
+          Sua solução conectada a dados de fundos, ações, dívida e muito mais!
         </h3>
         <div class="has-text-centered">
          <ContactDemo/>
@@ -103,7 +104,7 @@
       </div>
 
       <div class="column pointer">
-        <div class="card shadow" @click="$router.push('/plataforma-fundos')">
+        <div class="card shadow" @click="$router.push('/produtos-plataformas')">
           <div class="card-content" style="background-color: #c1ddff">
             <div class="is-flex is-justify-content-center">
               <figure class="image is-128x128">
@@ -113,13 +114,12 @@
             <hr class="mt-0 black-line">
             <p class="title is-3">
               <span>
-                Plataforma de Fundos
+                Plataformas
               </span>
             </p>
             <p class="is-5">
               <span>
-                Crie e personalize seus materiais de distribuição e lâminas.
-                Aplicações web prontas para uso com opção whitelabel.
+                Aplicações web prontas para uso e opção whitelabel.
               </span>
             </p>
           </div>
@@ -191,7 +191,7 @@
 
 <script>
 import FooterComp from '@/comps/FooterComp'
-import NavbarComp from '@/comps/NavbarComp'
+import NavbarPlataformasComp from '@/comps/NavbarPlataformasComp'
 import ContactForm from '@/comps/ContactForm'
 import ContactDemo from '@/comps/ContactDemo'
 
@@ -200,7 +200,7 @@ export default {
 
   components: {
     FooterComp,
-    NavbarComp,
+    NavbarPlataformasComp,
     ContactForm,
     ContactDemo
   }

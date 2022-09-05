@@ -1,6 +1,6 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden" class="has-background-white">
-<NavbarComp />
+<NavbarPlataformasComp />
 
 <section class="section" id="sectionBenefits">
   <div class="container">
@@ -8,15 +8,15 @@
       <div class="pr-3 column">
         <div class="is-flex">
           <figure class="image is-256x256">
-            <img width="20" src="@/assets/products/papeis-b3/papeis-b3-page.png" alt="Placeholder image">
+            <img width="20" src="@/assets/storyset/dcm.png" alt="Placeholder image">
           </figure>
         </div>
       </div>
       <div class="column">
-        <p class="subtitle is-4">Geração automática de lâminas</p>
+        <p class="subtitle is-4">Fintz DCM</p>
         <p class="title is-3">
           <span>
-            Seu material de distribuição customizado, bonito e automático.
+            Pesquise CRIs, CRAs e Debêntures com praticidade e assertividade
           </span>
         </p>
       </div>
@@ -40,10 +40,10 @@
             </div>
           </div>
           <div class="column is-four-fifths has-text-centered-mobile">
-            <p class="title is-4">Facilidade</p>
+            <p class="title is-4">Agilidade</p>
             <p class="subtitle is-6">
               <span>
-                Defina uma única vez o layout, cores e dados e não se preocupe nunca mais.
+                Ao invés de diversos sites de securitizadoras, ganhe tempo pesquisando no sistema Fintz Leadz
               </span>
             </p>
           </div>
@@ -60,10 +60,10 @@
             </div>
           </div>
           <div class="column is-four-fifths has-text-centered-mobile">
-            <p class="title is-4">Confiabilidade</p>
+            <p class="title is-4">Assertividade</p>
             <p class="subtitle is-6">
               <span>
-                Dados de fontes oficiais em D-1, com opção de D0.
+                Use filtros avançados como cidade, volume, prazo, juros e muitos outros.
               </span>
             </p>
           </div>
@@ -80,16 +80,15 @@
             </div>
           </div>
           <div class="column is-four-fifths has-text-centered-mobile">
-            <p class="title is-4">Customizável</p>
+            <p class="title is-4">Praticidade</p>
             <p class="subtitle is-6">
               <span>
-                Livre escolha dos gráficos, benchmarks, tabelas, histórico e todo o resto.
+                Veja todos os detalhes da operação e exporte sua busca para Excel ou PowerBI
               </span>
             </p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -98,93 +97,17 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-half">
-        <h1 class="title is-3">
-          Adicione comentário do gestor e objetivo do fundo
+        <h1 class="title is-1">
+          Fintz DCM
         </h1>
         <h3 class="subtitle">
-          Quando quiser, adicione campos de texto como comentários do gestor.
+          Uma base de milhares de operações de crédito para você.
         </h3>
       </div>
       <div class="column is-half">
         <figure class="image">
-          <img src="@/assets/products/laminas/comentario_gestor.png">
+          <img src="@/assets/products/DCM.png">
         </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="section2">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half is-hidden-desktop">
-        <h1 class="title is-3">
-          Tabela de rentabilidade
-        </h1>
-        <h3 class="subtitle">
-          Escolha o(s) índice/benchmark comparativo.
-        </h3>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/products/laminas/tabela_rentabilidade.png">
-        </figure>
-      </div>
-      <div class="column is-half is-hidden-touch">
-        <h1 class="title is-3">
-          Tabela de rentabilidade
-        </h1>
-        <h3 class="subtitle">
-          Escolha o(s) índice/benchmark comparativo.
-        </h3>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="section2">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half">
-        <h1 class="title is-3">
-          Gráfico de rentabilidade configurável
-        </h1>
-        <h3 class="subtitle">
-          Liberdade total para customizar.
-        </h3>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/products/laminas/grafico_rentabilidade.png">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="section2">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half is-hidden-desktop">
-        <h1 class="title is-3">
-          Informações essenciais
-        </h1>
-        <h3 class="subtitle">
-          Condições de investimento, política, risco, rentabilidade e mais!
-        </h3>
-      </div>
-      <div class="column is-half">
-        <figure class="image">
-          <img src="@/assets/products/laminas/dados_gerais.png">
-        </figure>
-      </div>
-      <div class="column is-half is-hidden-touch">
-        <h1 class="title is-3">
-          Dados históricos e gerais
-        </h1>
-        <h3 class="subtitle">
-          Personalize os dados estatísticos e períodos
-        </h3>
       </div>
     </div>
   </div>
@@ -199,7 +122,7 @@
 
 <script>
 import FooterComp from '@/comps/FooterComp'
-import NavbarComp from '@/comps/NavbarComp'
+import NavbarPlataformasComp from '@/comps/NavbarPlataformasComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
@@ -207,7 +130,7 @@ export default {
 
   components: {
     FooterComp,
-    NavbarComp,
+    NavbarPlataformasComp,
     ContactForm
   }
 }

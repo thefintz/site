@@ -2,7 +2,7 @@
 <nav class="navbar navbar-height" role="navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" @click="$router.push('/')">
+      <a class="navbar-item" @click="$router.push('/plataformas')">
         <img src="@/assets/logo-positivo.png" class="max-h">
       </a>
       <a class="navbar-burger" ref="burger" @click="burger">
@@ -14,25 +14,16 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <a class="navbar-item" @click="$router.push('produtos')">
+        <a class="navbar-item" @click="$router.push('produtos-plataformas')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
             </span> -->
-            <strong>APIs</strong>
+            <strong>Plataformas</strong>
           </span>
         </a>
 
-        <a class="navbar-item" href="https://docs.fintz.com.br">
-          <span class="icon-text">
-            <!-- <span class="icon"> -->
-              <!-- <font-awesome-icon :icon="['fas', 'book']" /> -->
-              <!-- </span> -->
-            <strong>Docs da API</strong>
-          </span>
-        </a>
-
-        <a class="navbar-item" @click="$router.push('preco-api')">
+        <a class="navbar-item" @click="$router.push('preco-ferramentas')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
@@ -50,12 +41,12 @@
           </span>
         </a>
 
-        <a class="navbar-item" @click="$router.push('plataforma-fundos')">
+        <a class="navbar-item" @click="$router.push('/')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'phone-alt']" />
             </span> -->
-            <strong>Plataformas</strong>
+            <strong>APIs</strong>
           </span>
         </a>
 

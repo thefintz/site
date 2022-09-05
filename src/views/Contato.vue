@@ -4,11 +4,14 @@
 
 <ContactForm class="mt-5"/>
 
+<FooterComp/>
+
 </div>
 </template>
 
 <script>
 import NavbarComp from '@/comps/NavbarComp'
+import FooterComp from '@/comps/FooterComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
@@ -16,6 +19,7 @@ export default {
 
   components: {
     NavbarComp,
+    FooterComp,
     ContactForm
   }
 }

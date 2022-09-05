@@ -1,13 +1,13 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden;" class="has-background-white">
-<NavbarComp />
+<NavbarPlataformasComp />
 
 <section class="section pb-0" id="section1">
   <div class="container">
     <div class="columns is-centered is-vcentered">
       <div class="column is-two-thirds">
         <h1 class="title is-1">
-          Ferramentas Fintz
+          Plataformas Fintz
         </h1>
         <h3 class="subtitle is-4">
           Plataformas prontas para uso e com opção whitelabel.
@@ -142,7 +142,7 @@
 
 <script>
 import FooterComp from '@/comps/FooterComp'
-import NavbarComp from '@/comps/NavbarComp'
+import NavbarPlataformasComp from '@/comps/NavbarPlataformasComp'
 import ContactForm from '@/comps/ContactForm'
 
 export default {
@@ -150,7 +150,7 @@ export default {
 
   components: {
     FooterComp,
-    NavbarComp,
+    NavbarPlataformasComp,
     ContactForm
   }
 }

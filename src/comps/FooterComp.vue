@@ -1,18 +1,18 @@
 <template>
-<footer class="footer">
+<footer class="footer has-background-primary">
   <div class="container">
     <div class="level">
       <div class="level-left">
         <div class="level-item">
           <figure class="image">
-            <img src="@/assets/logo-positivo.png" class="max-h">
+            <img src="@/assets/logo-negativo-fundoazul.png" class="max-h">
           </figure>
         </div>
       </div>
       <div>
         <div class="level-right">
           <a class="level-item" @click="$router.push('PrivacyPolicy')">
-            <span class="icon-text has-text-dark">
+            <span class="icon-text has-text-light">
               <span class="icon">
                 <font-awesome-icon :icon="['fas', 'copy']" />
               </span>
@@ -20,7 +20,7 @@
             </span>
           </a>
           <a class="level-item" @click="$router.push('SLA')">
-          <span class="icon-text has-text-dark">
+          <span class="icon-text has-text-light">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'scroll']" />
             </span>
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .max-h {
-  max-height: 3rem;
+  max-height: 6rem;
   max-width: 10rem;
 }
 </style>

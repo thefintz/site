@@ -52,7 +52,7 @@
       </div>
 
       <div class="column pointer">
-        <div class="card shadow" @click="$router.push('/solucoes-ferramentas')">
+        <div class="card shadow" @click="$router.push('/plataformas')">
           <div class="card-content" style="background-color: #c1ddff">
             <div class="is-flex is-justify-content-center">
               <figure class="image is-128x128">

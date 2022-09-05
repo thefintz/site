@@ -1,5 +1,5 @@
 <template>
-<div style="max-width: 100%; overflow-x: hidden;" class="has-background-white">
+<div style="max-width: 100%; overflow-x: hidden">
 <NavbarComp />
 
 <section class="section pb-0" id="section1">
@@ -28,6 +28,7 @@
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
+            <p class="title is-4 has-text-centered">API Bolsa B3</p>
             <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
                 <img src="@/assets/products/aa/5-acoes.png" alt="Placeholder image">
@@ -35,21 +36,17 @@
             </div>
           </div>
           <div>
-            <p class="title is-4">API Bolsa</p>
+            <br>
             <p class="subtitle is-6">
               <span>
                 Busque por indicadores e informações gerais de papéis da B3
-                <br>
-                Dados de ações, FIIs, ETFs e BDRs
               </span>
               <ul>
-                <li class="list"> Ticker, nome, tipo de papel </li>
-                <li class="list"> Setor, subsetor, segmento </li>
-                <li class="list"> +30 Indicadores </li>
-                <li class="list"> Descrição </li>
-                <li class="list"> (ações e BDRs) CEO, data de fundação, no funcionários </li>
-                <li class="list"> (ETFs e FIIs) composição, gestor, índice </li>
-                <li class="list"> Tags e papéis similares</li>
+                <li class="list"> Ações, BDRs, ETFs, FIIs e +30 indicadores </li>
+                <li class="list"> Ticker, nome, tipo de papel, setor, segmento </li>
+                <li class="list"> Dividendos, JCP, subscrições e outros eventos corporativos </li>
+                <li class="list"> Acionistas, descrição da atuação, sede, nº funcionários </li>
+                <li class="list"> Notícias e fatos relevantes com opção de alertas webhook </li>
               </ul>
             </p>
           </div>
@@ -61,6 +58,7 @@
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
+            <p class="title is-4 has-text-centered">API Fundos</p>
             <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
                 <img src="@/assets/products/aa/3-fundos.png" alt="Placeholder image">
@@ -68,7 +66,6 @@
             </div>
           </div>
           <div>
-            <p class="title is-4">API Fundos</p>
             <p class="subtitle is-6">
               <span>
                 Receba informações detalhadas de fundos de investimento
@@ -96,6 +93,7 @@
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
+            <p class="title is-4 has-text-centered">API CRIs</p>
             <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
                 <img src="@/assets/products/aa/1-cri.png" alt="Placeholder image">
@@ -103,7 +101,6 @@
             </div>
           </div>
           <div>
-            <p class="title is-4">API CRIs</p>
             <p class="subtitle is-6">
               <span>
                 Crie alertas para emissões de CRIs por região, emissor ou volume de operação
@@ -131,6 +128,7 @@
       <div class="card-content">
         <div class="columns is-vcentered align-item-center">
           <div class="pr-3 column is-one-fifth">
+            <p class="title is-4 has-text-centered">API Fatos Relevantes</p>
             <div class="is-flex is-justify-content-center">
               <figure class="image is-96x96">
                 <img src="@/assets/products/aa/6-fatos-relevantes.png" alt="Placeholder image">
@@ -138,7 +136,6 @@
             </div>
           </div>
           <div>
-            <p class="title is-4">API Fatos Relevantes</p>
             <p class="subtitle is-6">
               <span>
                 Fique sabendo de tudo que se passa nos RIs das empresas e fundos

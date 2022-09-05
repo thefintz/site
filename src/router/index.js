@@ -1,11 +1,17 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
-  // homepage
+  // homepage (API)
   {
     path: '/',
     name: 'Landing',
     component: () => import('@/views/Landing')
+  },
+  // homepage plataformas
+  {
+    path: '/plataformas',
+    name: 'Landing Plataformas',
+    component: () => import('@/views/LandingPlataformas')
   },
   // contact
   {
@@ -36,18 +42,18 @@ const routes = [
   },
   // list of products/solutions
   {
-    path: '/solucoes',
+    path: '/solucoes-escolha',
     name: 'Produtos Escolha',
     component: () => import('@/views/products/ProdutosEscolha')
   },
   {
-    path: '/solucoes-api',
+    path: '/produtos',
     name: 'Soluções API',
     component: () => import('@/views/products/ProdutosAPIsLista')
   },
   {
-    path: '/solucoes-ferramentas',
-    name: 'Soluções Ferramentas',
+    path: '/produtos-plataformas',
+    name: 'Soluções Plataformas',
     component: () => import('@/views/products/ProdutosFerramentasLista')
   },
   // APIs
@@ -66,21 +72,21 @@ const routes = [
     name: 'API CRIs',
     component: () => import('@/views/products/APIs/APICRIs')
   },
-  // Tools
+  // Platforms
   {
     path: '/ferramenta-leadz',
     name: 'Ferramenta Leadz',
-    component: () => import('@/views/products/tools/FerramentaLeadz')
+    component: () => import('@/views/products/platforms/FerramentaLeadz')
   },
   {
     path: '/ferramenta-dcm',
     name: 'Ferramenta DCM',
-    component: () => import('@/views/products/tools/FerramentaDCM')
+    component: () => import('@/views/products/platforms/FerramentaDCM')
   },
   {
-    path: '/ferramenta-fundos',
-    name: 'Ferramenta Fundos',
-    component: () => import('@/views/products/tools/FerramentaFundos')
+    path: '/plataforma-fundos',
+    name: 'Plataforma Fundos',
+    component: () => import('@/views/products/platforms/PlataformaFundos')
   },
   // legal/law
   {
