@@ -16,7 +16,8 @@ import {
   faScroll,
   faCopy,
   faEnvelope,
-  faComment
+  faComment,
+  faCheck
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -24,7 +25,7 @@ import {
 } from '@fortawesome/free-regular-svg-icons'
 
 library.add(faLinkedin, faGithub, faInstagram, faBook, faPhoneAlt, faMobile, faMobileAlt, faWhatsapp, faScroll, faCopy, faEnvelope, faComment,
-  faSmileWink)
+  faSmileWink, faCheck)
 
 export default {
   install (app) {
