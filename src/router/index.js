@@ -7,12 +7,6 @@ const routes = [
     name: 'Landing',
     component: () => import('@/views/Landing')
   },
-  // homepage plataformas
-  {
-    path: '/plataformas',
-    name: 'Landing Plataformas',
-    component: () => import('@/views/LandingPlataformas')
-  },
   // contact
   {
     path: '/contato',
@@ -27,62 +21,32 @@ const routes = [
   // pricing
   {
     path: '/precos',
-    name: 'Preços Escolha',
-    component: () => import('@/views/pricing/PrecosEscolha')
+    name: 'Preços',
+    component: () => import('@/views/pricing/Precos')
   },
-  {
-    path: '/preco-api',
-    name: 'Preço API',
-    component: () => import('@/views/pricing/PrecoAPI')
-  },
-  {
-    path: '/preco-ferramentas',
-    name: 'Preço Ferramentas',
-    component: () => import('@/views/pricing/PrecoFerramentas')
-  },
-  // list of products/solutions
-  {
-    path: '/solucoes-escolha',
-    name: 'Produtos Escolha',
-    component: () => import('@/views/products/ProdutosEscolha')
-  },
+  // products
   {
     path: '/produtos',
-    name: 'Soluções API',
-    component: () => import('@/views/products/ProdutosAPIsLista')
-  },
-  {
-    path: '/produtos-plataformas',
-    name: 'Soluções Plataformas',
-    component: () => import('@/views/products/ProdutosFerramentasLista')
+    name: 'Produtos',
+    component: () => import('@/views/Produtos')
   },
   // APIs
   {
-    path: '/api-bolsaB3',
-    name: 'API bolsaB3',
-    component: () => import('@/views/products/APIs/APIBolsaB3')
+    path: '/bolsa',
+    name: 'bolsa',
+    component: () => import('@/views/products/APIs/Bolsa')
   },
   {
-    path: '/api-fundos',
-    name: 'API Fundos',
-    component: () => import('@/views/products/APIs/APIFundos')
+    path: '/fundos',
+    name: 'fundos',
+    component: () => import('@/views/products/APIs/Fundos')
   },
   {
-    path: '/api-cris',
-    name: 'API CRIs',
-    component: () => import('@/views/products/APIs/APICRIs')
+    path: '/titulos-publicos',
+    name: 'titulos-publicos',
+    component: () => import('@/views/products/APIs/TitulosPublicos')
   },
   // Platforms
-  {
-    path: '/ferramenta-leadz',
-    name: 'Ferramenta Leadz',
-    component: () => import('@/views/products/platforms/FerramentaLeadz')
-  },
-  {
-    path: '/ferramenta-dcm',
-    name: 'Ferramenta DCM',
-    component: () => import('@/views/products/platforms/FerramentaDCM')
-  },
   {
     path: '/plataforma-fundos',
     name: 'Plataforma Fundos',

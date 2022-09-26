@@ -14,50 +14,47 @@
 
     <div class="navbar-menu" ref="menu">
       <div class="navbar-end">
-        <a class="navbar-item" @click="$router.push('produtos')">
+        <a class="navbar-item mx-3" @click="$router.push('produtos')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
             </span> -->
-            <strong>APIs</strong>
+            <strong class="has-text-black">Produtos</strong>
           </span>
         </a>
 
-        <a class="navbar-item" href="https://docs.fintz.com.br">
+        <a class="navbar-item mx-3" href="https://docs.fintz.com.br">
           <span class="icon-text">
             <!-- <span class="icon"> -->
               <!-- <font-awesome-icon :icon="['fas', 'book']" /> -->
               <!-- </span> -->
-            <strong>Docs da API</strong>
+            <strong class="has-text-black">Docs</strong>
           </span>
         </a>
 
-        <a class="navbar-item" @click="$router.push('preco-api')">
+        <a class="navbar-item mx-3" @click="$router.push('precos')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
             </span> -->
-            <strong>Preços</strong>
+            <strong class="has-text-black">Preços</strong>
           </span>
         </a>
 
-        <a class="navbar-item" @click="$router.push('contato')">
+        <a class="navbar-item mx-3" @click="$router.push('contato')">
           <span class="icon-text">
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'phone-alt']" />
             </span> -->
-            <strong>Contato</strong>
+            <strong class="has-text-black">Contato</strong>
           </span>
         </a>
 
-        <a class="navbar-item" @click="$router.push('plataforma-fundos')">
+        <!-- <a class="navbar-item" @click="$router.push('plataforma-fundos')">
           <span class="icon-text">
-            <!-- <span class="icon">
-              <font-awesome-icon :icon="['fas', 'phone-alt']" />
-            </span> -->
-            <strong>Plataformas</strong>
+            <strong class="has-text-black">Dashboard Fundos</strong>
           </span>
-        </a>
+        </a> -->
 
         </div>
     </div>

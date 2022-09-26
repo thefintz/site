@@ -133,21 +133,21 @@
 <section class="section" id="section2">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-third has-text-centered">
+      <div class="column is-one-third has-text-centered">
         <p class="title is-2"> Confiança </p>
         <p class="subtitle is-5">
           Dados direto de fontes oficiais, consolidados e verificados
         </p>
         <br>
       </div>
-      <div class="column is-third has-text-centered">
+      <div class="column is-one-third has-text-centered">
         <p class="title is-2"> Facilidade </p>
         <p class="subtitle is-5">
           Todos os dados do mercado em uma só conexão
         </p>
         <br>
       </div>
-      <div class="column is-third has-text-centered">
+      <div class="column is-one-third has-text-centered">
         <p class="title is-2"> Agilidade </p>
         <p class="subtitle is-5">
           Desenvolva sua solução em dias ao invés de meses

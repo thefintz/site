@@ -1,191 +1,106 @@
 <template>
 <div style="max-width: 100%; overflow-x: hidden;">
-<NavbarComp />
+  <NavbarComp />
 
-<section class="section py-0 my-0" id="section1">
-  <div class="container">
-    <div class="columns is-centered is-vcentered">
-      <div class="column">
-        <h1 class="title is-2">
-          API líder em market data
-        </h1>
-        <h3 class="subtitle is-5">
-          Acesse todos os dados de fundos de investimento, ações, BDRs, índices, indicadores, cripto, tesouro, NASDAQ, NYSE, e muito mais!
-        </h3>
-        <div class="has-text-centered">
-         <ContactDemo/>
-        </div>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/storyset/home.png">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section pt-0 mt-0" id="sectionSources">
-  <div class="container">
-    <div class="columns is-flex">
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/b3.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/bacen.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/cvm.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/recfed.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/ibge.png" class="my-img">
-        </figure>
-      </div>
-      <!-- <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/nasdaq.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/nyse.png" class="my-img">
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="image">
-          <img src="@/assets/sources_logos/binance.png" class="my-img">
-        </figure>
-      </div> -->
-    </div>
-  </div>
-</section>
-
-<section class="section" id="sectionPlans">
-  <div class="container has-text-centered">
-
-    <p class="title is-3"> Soluções </p>
-
-    <div class="columns is-vcentered">
-
-      <div class="column pointer">
-        <div class="card shadow" @click="$router.push('/produtos')">
-          <div class="card-content" style="background-color: #c1ddff">
-            <div class="is-flex is-justify-content-center">
-              <figure class="image is-128x128">
-                <img width="20" src="@/assets/icons/pricing/puzzle.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <hr class="mt-0 black-line">
-            <p class="title is-3">
-              <span>
-                APIs
-              </span>
-            </p>
-            <p class="is-5">
-              <span>
-                Serviço de dados do mercado financeiro para alimentar seu app, site ou plataforma.
-              </span>
-            </p>
+  <section class="section py-0 my-0 has-background-light" id="section1">
+    <div class="container">
+      <div class="columns is-centered is-vcentered pt-5">
+        <div class="column">
+          <div class="pb-3">
+            <EndpointItemComp label="Novo!" text="Lançamento: " color="GREEN"></EndpointItemComp>
+            <span @click="$router.push('/titulos-publicos')" class="has-text-primary pointer"> API Tesouro Direto </span>
+          </div>
+          <h1 class="title is-3 has-text-black">
+            Dados do Mercado Financeiro
+          </h1>
+          <h3 class="subtitle is-4 has-text-primary has-text-weight-semibold">
+            APIs de Ações, FIIs, Tesouro, Fundos, e mais!
+          </h3>
+          <div class="has-text-centered">
+          <ContactDemo/>
           </div>
         </div>
+        <div class="column">
+          <figure class="image">
+            <img src="@/assets/weg_screen_sources_crop.png">
+          </figure>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="column pointer">
-        <div class="card shadow" @click="$router.push('/plataforma-fundos')">
-          <div class="card-content" style="background-color: #c1ddff">
-            <div class="is-flex is-justify-content-center">
-              <figure class="image is-128x128">
-                <img width="20" src="@/assets/icons/pricing/tools.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <hr class="mt-0 black-line">
-            <p class="title is-3">
-              <span>
-                Plataforma de Fundos
-              </span>
-            </p>
-            <p class="is-5">
-              <span>
-                Crie e personalize seus materiais de distribuição e lâminas.
-                Aplicações web prontas para uso com opção whitelabel.
-              </span>
-            </p>
-          </div>
+  <!-- Partners -->
+  <section class="section pt-6 has-background-light has-text-centered" id="partners">
+    <div class="container">
+      <PartnersComp :hasText="true"/>
+    </div>
+  </section>
+
+  <!-- 3 Cards citing APIs -->
+  <section class="section" id="apis">
+    <div class="container">
+      <span class="title is-3 has-text-primary"> APIs do Mercado Financeiro </span>
+      <p class="title is-4 has-text-black"> Dados históricos & com atraso (15min) </p>
+      <APIsComp/>
+    </div>
+  </section>
+
+  <!-- List of endpoints -->
+  <section class="section" id="endpoints">
+    <div class="container" style="line-height: 180%">
+      <EndpointsComp/>
+    </div>
+  </section>
+
+  <!-- Use case on multiple platforms -->
+  <section class="section" id="platforms">
+    <div class="container">
+      <AnyPlatformComp></AnyPlatformComp>
+    </div>
+  </section>
+
+  <!-- 3 Cards showing (macro) benefits -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <BenefitsComp/>
+    </div>
+  </section>
+
+  <!-- Clients testimonies/stories -->
+  <section class="section my-5" id="success_cases" >
+    <div class="container">
+      <span class="title is-3 has-text-black"> Casos de Sucesso </span>
+      <p class="title is-3 has-text-primary"> Você está em ótima companhia </p>
+
+      <div class="columns">
+        <div class="column is-half has-text-centered">
+          <figure class="image py-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
+            <img src="@/assets/logos/stark.png" alt="Stark Investment Banking logo">
+          </figure>
+          <span class="is-size-5"> "Escalamos em 3x nossa operação ao integrarmos com o market data da Fintz". </span>
+          <p> - Guilherme Dantas, PM. </p>
+        </div>
+
+        <div class="column is-half has-text-centered">
+          <figure class="image pt-5 pb-2" style="max-width: 30%; margin-left: auto; margin-right: auto;">
+            <img src="@/assets/holder-plus_logo.png" alt="Holder+ logo">
+          </figure>
+          <span class="is-size-5"> "A Fintz fornece todos os dados de eventos corporativos e cotação de forma clara e correta. A integração com nossa plataforma foi fácil e prática". </span>
+          <p> - Bernardo, CEO. </p>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section" id="section2">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-third has-text-centered">
-        <p class="title is-2"> Confiança </p>
-        <p class="subtitle is-5">
-          Dados direto de fontes oficiais, consolidados e verificados
-        </p>
-        <br>
-      </div>
-      <div class="column is-third has-text-centered">
-        <p class="title is-2"> Facilidade </p>
-        <p class="subtitle is-5">
-          Todos os dados do mercado em uma só conexão
-        </p>
-        <br>
-      </div>
-      <div class="column is-third has-text-centered">
-        <p class="title is-2"> Agilidade </p>
-        <p class="subtitle is-5">
-          Desenvolva sua solução em dias ao invés de meses
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- Pricing -->
+  <PricingAll bg="light"/>
 
-<section class="section pt-0" id="section2" >
-  <div class="container has-text-centered">
-    <span class="is-size-5 has-text-weight-bold is-underlined"> Confiados por empresas renomadas do mercado. </span>
-    <div class="columns mt-5 is-centered">
+  <!-- Contact -->
+  <ContactForm/>
 
-      <div class="column is-half has-text-centered is-size-4">
-        <figure class="image py-5" style="max-width: 50%; margin-left: auto; margin-right: auto;">
-          <img src="@/assets/stark_logo.png" alt="Stark Investment Banking logo">
-        </figure>
-        <span> "Escalamos em 3x nossa operação ao integrarmos com o market data da Fintz". </span>
-        <br>
-        <span class="is-size-5"> - Guilherme Dantas, PM. </span>
-      </div>
-
-      <div class="column is-half has-text-centered is-size-4">
-        <figure class="image pt-5 pb-2" style="max-width: 29%; margin-left: auto; margin-right: auto;">
-          <img src="@/assets/holder-plus_logo.png" alt="Holder+ logo">
-        </figure>
-        <span> "A Fintz fornece todos os dados de eventos corporativos e cotação de forma clara e correta. A integração com nossa plataforma foi fácil e prática". </span>
-        <br>
-        <span class="is-size-5"> - Bernardo, CEO. </span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<ContactForm/>
-
-<FooterComp />
+  <!-- Footer -->
+  <FooterComp />
 </div>
 </template>
 
@@ -194,6 +109,13 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import ContactDemo from '@/comps/ContactDemo'
+import PartnersComp from '@/comps/PartnersComp'
+import APIsComp from '@/comps/APIsComp'
+import BenefitsComp from '@/comps/BenefitsComp'
+import AnyPlatformComp from '@/comps/AnyPlatformComp'
+import EndpointsComp from '@/comps/EndpointsComp'
+import PricingAll from '@/comps/PricingAll'
+import EndpointItemComp from '../comps/EndpointItemComp.vue'
 
 export default {
   name: 'App',
@@ -202,7 +124,14 @@ export default {
     FooterComp,
     NavbarComp,
     ContactForm,
-    ContactDemo
+    ContactDemo,
+    PartnersComp,
+    APIsComp,
+    BenefitsComp,
+    AnyPlatformComp,
+    EndpointsComp,
+    PricingAll,
+    EndpointItemComp
   }
 }
 </script>
@@ -220,10 +149,6 @@ export default {
   display: list-item;
   list-style-type: disc;
   list-style-position: inside;
-}
-.my-img {
-  max-height: 10rem;
-  max-width: 10rem
 }
 .pointer {
   cursor: pointer

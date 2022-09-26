@@ -1,18 +1,19 @@
 <template>
-<footer class="footer has-background-primary">
+<footer class="footer" :class="[bg === 'light' ? 'has-background-light' : 'has-background-primary']">
   <div class="container">
     <div class="level">
       <div class="level-left">
         <div class="level-item">
           <figure class="image">
-            <img src="@/assets/logo-negativo-fundoazul.png" class="max-h">
+            <img v-if="!bg" src="@/assets/logo-negativo-fundoazul.png" class="max-h">
+            <img v-if="bg === 'light'" src="@/assets/logo-positivo.png" class="max-h">
           </figure>
         </div>
       </div>
       <div>
         <div class="level-right">
           <a class="level-item" @click="$router.push('PrivacyPolicy')">
-            <span class="icon-text has-text-light">
+            <span class="icon-text" :class="[bg === 'light' ? 'has-text-dark' : 'has-text-light']">
               <span class="icon">
                 <font-awesome-icon :icon="['fas', 'copy']" />
               </span>
@@ -20,7 +21,7 @@
             </span>
           </a>
           <a class="level-item" @click="$router.push('SLA')">
-          <span class="icon-text has-text-light">
+          <span class="icon-text" :class="[bg === 'light' ? 'has-text-dark' : 'has-text-light']">
             <span class="icon">
               <font-awesome-icon :icon="['fas', 'scroll']" />
             </span>
@@ -37,7 +38,11 @@
 
 <script>
 export default {
-  name: 'FooterComp'
+  name: 'FooterComp',
+
+  props: {
+    bg: String
+  }
 }
 </script>
 

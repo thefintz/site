@@ -18,7 +18,7 @@
             </h4>
             <span class="icon-text">
               <span class="has-text-grey-dark subtitle">
-                Em breve entraremos em contato
+                Entraremos em contato em até 24h
               </span>
               <span class="icon">
                 <font-awesome-icon :icon="['far', 'smile-wink']" />

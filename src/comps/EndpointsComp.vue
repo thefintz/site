@@ -1,0 +1,45 @@
+<template>
+  <div class="columns">
+    <div class="column">
+      <p class="is-size-4"> Bolsa B3 </p>
+      <EndpointItemComp label="GET" text="Cotação atual"/> <br/>
+      <EndpointItemComp label="GET" text="Cotação histórica"/> <br/>
+      <EndpointItemComp label="GET" text="Cotação mercado futuro"/> <br/>
+      <EndpointItemComp label="GET" text="Indicadores fundamentalistas"/> <br/>
+      <EndpointItemComp label="GET" text="Proventos"/> <br/>
+      <EndpointItemComp label="GET" text="Eventos corporativos"/> <br/>
+    </div>
+
+    <div class="column">
+      <p class="is-size-4"> Fundos </p>
+      <EndpointItemComp label="GET" text="Dados cadastrais"/> <br/>
+      <EndpointItemComp label="GET" text="Dados diários"/> <br/>
+      <EndpointItemComp label="GET" text="Variação mensal da cota"/> <br/>
+      <EndpointItemComp label="GET" text="Variação anual da cota"/> <br/>
+      <EndpointItemComp label="GET" text="Variação, por data, da cota"/> <br/>
+    </div>
+
+    <div class="column">
+      <p class="is-size-4"> Tesouro </p>
+      <EndpointItemComp label="GET" text="Lista de títulos"/> <br/>
+      <EndpointItemComp label="GET" text="Dados e preços atuais"/> <br/>
+      <EndpointItemComp label="GET" text="Dados e preços históricos"/> <br/>
+      <br>
+      <p class="is-size-4"> Utils </p>
+      <EndpointItemComp label="GET" text="Logos e ícones"/> <br/>
+    </div>
+
+  </div>
+</template>
+
+<script>
+import EndpointItemComp from '@/comps/EndpointItemComp'
+
+export default {
+  name: 'EndpointsComp',
+
+  components: {
+    EndpointItemComp
+  }
+}
+</script>

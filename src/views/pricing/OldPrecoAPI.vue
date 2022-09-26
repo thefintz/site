@@ -10,7 +10,7 @@
           APIs Fintz: Preços práticos e flexíveis
         </h1>
         <h3 class="subtitle is-5">
-          Começe a usar gratuitamente.
+          Comece a usar gratuitamente.
         </h3>
         <div class="has-text-centered">
         </div>

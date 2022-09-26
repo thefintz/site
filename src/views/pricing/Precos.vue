@@ -2,91 +2,19 @@
 <div style="max-width: 100%; overflow-x: hidden" class="has-background-white">
 <NavbarComp />
 
-<section class="section" id="section1">
-  <div class="container">
-    <div class="columns is-centered is-vcentered">
-      <div class="column is-two-thirds">
-        <h1 class="title is-2">
-          Ferramentas Fintz
-        </h1>
-        <h3 class="subtitle is-5">
-          Preço justo e de acordo com o que seu negócio precisa.
-        </h3>
-        <div class="has-text-centered">
-        </div>
-      </div>
-      <div class="column">
-      </div>
-    </div>
+<section>
+  <div class="container px-6">
+    <figure>
+      <img src="@/assets/candle.png"/>
+    </figure>
   </div>
 </section>
 
-<section class="section pb-3" id="sectionPlans">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="pr-3 column">
-        <div class="is-flex is-justify-content-center">
-          <figure class="image is-128x128">
-            <img width="20" src="@/assets/pricing/laminas.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <p class="title is-5 mt-3 mb-0">R$300/fundo/mês</p>
-        <hr class="mt-0 black-line">
-        <p class="title is-3">
-          <span>
-            Lâminas
-          </span>
-        </p>
-        <p class="is-5">
-          Seu material de distribuição customizado, bonito e automático. Defina o layout, informações presentes e nunca mais se preocupe.
-        </p>
-      </div>
-      <div class="pr-3 column">
-        <div class="is-flex is-justify-content-center">
-          <figure class="image is-128x128">
-            <img width="20" src="@/assets/pricing/Leadz.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <p class="title is-5 mt-3 mb-0">R$3.000/mês</p>
-        <hr class="mt-0 black-line">
-        <p class="title is-3">
-          <span>
-            Fintz Leadz
-          </span>
-        </p>
-        <p class="is-5">
-          <span>
-            Busque e segmente leads PJ e PF. Sem limitação de quantidade, estado, cargo do PF, faturamento e segmento da PJ.
-          </span>
-        </p>
-      </div>
-      <div class="pr-3 column">
-        <div class="is-flex is-justify-content-center">
-          <figure class="image is-128x128">
-            <img width="20" src="@/assets/pricing/CRIs.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <p class="title is-5 mt-3 mb-0">R$5.000/mês</p>
-        <hr class="mt-0 black-line">
-        <p class="title is-3">
-          <span>
-            Mapeamento de CRIs
-          </span>
-        </p>
-        <p class="is-5">
-          <span>
-            Use filtros avançados como cidade, volume, prazo, juros, emissor... Exporte para o Excel. Seja notificado sobre nova emissão.
-          </span>
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
+<PricingAll/>
 
 <section class="section" id="opcoes-planos">
   <div class="container has-text-centered">
-    <span class="subtitle is-3"> Opções de preços simples e flexíveis </span>
+    <span class="title is-4"> Opções de preços simples e flexíveis </span>
       <div class="columns mt-3">
 
         <div class="column is-one-third">
@@ -129,24 +57,53 @@
   </div>
 </section>
 
-<section class="section has-background-primary" id="modelo-customizavel">
-  <div class="container has-text-centered has-text-light my-5">
-    <p class="is-size-2 has-text-light my-5">Entre em contato agora mesmo</p>
-    <container class="p-3 has-background-light has-text-primary">
-      <a class="is-size-5" href="mailto:contato@fintz.com.br">contato@fintz.com.br</a>
-    </container>
+<section class="section" id="modelo-customizavel">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-3">Modelo de negócios diferente?</p>
+      <p class="subtitle is-6 mb-0">
+        Caso você cobre por usuário, por acesso, ou qualquer outra maneira, nós vamos montar o plano ideal para você.
+      </p>
+      <a href="mailto:contato@fintz.com.br">
+        Entre em contato com nosso time de vendas para ver como podemos ajudar.
+      </a>
+    </div>
   </div>
 </section>
 
-<section class="section my-5" id="modelo-customizavel">
+<section class="section has-background-light" id="modelo-customizavel">
   <div class="container">
-    <p class="title is-3">Modelo de negócios diferente?</p>
+    <div class="columns">
+    <div class="column is-two-thirds">
+    <p class="title is-3">Programa para startups e aceleradoras</p>
     <p class="subtitle is-6 mb-0">
-      Caso você cobre por usuário, por acesso, ou qualquer outra maneira, nós vamos montar o plano ideal para você.
+      Lançamento do plano gratuito extendido através de créditos para startups e aceleradoras parceiras.
     </p>
-    <a href="mailto:contato@fintz.com.br">
-      Entre em contato com nosso time de vendas para ver como podemos ajudar.
-    </a>
+    <br>
+    <p class="is-6 mb-0">
+      As startups têm acesso livre a nossas APIs de Bolsa, Fundos, Tesouro e Cripto, podendo aproveitar os dados consolidados, tratados e acessíveis disponibilizados pela Fintz.
+    </p>
+    <p class="is-6 mb-0">
+      Os dados podem ser usados livremente para alimentar suas plataformas, aplicativos e produtos.
+    </p>
+    <br>
+    <p class="is-size-3 mb-0">
+      Benefícios.
+    </p>
+    <div class="content">
+    <ul>
+      <li>R$3.000 em créditos. </li>
+      <li>Acesso a todas as APIs Fintz gratuitamente por 6 meses. </li>
+      <li>Suporte 24h em português e inglês. </li>
+      <li>Precisa de dados extras? Buscamos para você. </li>
+      <li>Acelere o desenvolvimento e reduza custos. </li>
+      <li>Integração com as diversas fontes de dados. </li>
+      <li>Confiabilidade dos dados disponibilizados. </li>
+      <li>Mais dúvidas? <a href="/#/contato"> Marcamos uma call com seus devs. </a> </li>
+    </ul>
+    </div>
+    </div>
+    </div>
   </div>
 </section>
 
@@ -206,6 +163,7 @@
 import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
+import PricingAll from '@/comps/PricingAll'
 
 export default {
   name: 'App',
@@ -213,7 +171,8 @@ export default {
   components: {
     FooterComp,
     NavbarComp,
-    ContactForm
+    ContactForm,
+    PricingAll
   }
 }
 </script>
