@@ -154,9 +154,24 @@
     </div>
   </section>
 
-<ContactForm />
+  <!-- Pricing -->
+  <section class="section has-background-light" id="pricing-header">
+    <div class="has-text-centered mb-6">
+      <p class="title has-text-black is-2"> Precificação Simples. </p>
+      <p class="subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
+    </div>
+    <div class="columns">
+      <div class="column is-2"></div>
+      <div class="column is-8">
+        <PricingB3/>
+      </div>
+      <div class="column is-2"></div>
+    </div>
+  </section>
 
-<FooterComp />
+  <ContactForm />
+
+  <FooterComp />
 
 </div>
 </template>
@@ -166,6 +181,7 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
+import PricingB3 from '@/comps/PricingB3'
 
 export default {
   name: 'App',
@@ -174,7 +190,8 @@ export default {
     FooterComp,
     NavbarComp,
     ContactForm,
-    PartnersComp
+    PartnersComp,
+    PricingB3
   }
 }
 </script>
