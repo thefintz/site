@@ -26,7 +26,7 @@
           -->
           <input type="hidden" name="_captcha" value="false">
           <div class="is-flex is-flex-direction-column is-align-items-start">
-            <button class="button is-primary has-text-white" type="submit">Agende uma demo hoje!</button>
+            <button class="button is-primary has-text-white" type="submit">Entre em contato!</button>
           </div>
         </div>
 

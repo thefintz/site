@@ -16,8 +16,9 @@
           <h3 class="subtitle is-4 has-text-primary has-text-weight-semibold">
             APIs de Ações, FIIs, Tesouro, Fundos, e mais!
           </h3>
-          <div class="has-text-centered">
-          <ContactDemo/>
+          <div>
+            <button @click="$router.push('/contato')" class="button px-6 is-medium is-primary has-text-white mr-2">Começar a usar</button>
+            <button @click="$router.push('/precos')" class="button px-6 is-medium is-outlined is-primary">Ver preços</button>
           </div>
         </div>
         <div class="column">
@@ -108,7 +109,6 @@
 import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
-import ContactDemo from '@/comps/ContactDemo'
 import PartnersComp from '@/comps/PartnersComp'
 import APIsComp from '@/comps/APIsComp'
 import BenefitsComp from '@/comps/BenefitsComp'
@@ -124,7 +124,6 @@ export default {
     FooterComp,
     NavbarComp,
     ContactForm,
-    ContactDemo,
     PartnersComp,
     APIsComp,
     BenefitsComp,

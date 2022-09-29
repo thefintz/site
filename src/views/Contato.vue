@@ -17,7 +17,9 @@
         Entre em contato
       </h1>
       <h2 class="subtitle is-5">
-        Nos mande um email em <a href="mailto:contato@fintz.com.br"> contato@fintz.com.br </a> ou preencha os campos abaixo
+        Nos mande um email em <a href="mailto:contato@fintz.com.br"> contato@fintz.com.br </a> ou preencha os campos abaixo.
+        <br>
+        Retornamos no mesmo dia!
       </h2>
     </div>
   </div>
