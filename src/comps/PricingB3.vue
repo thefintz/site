@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-centered">
     <div class="column is-one-third">
-      <div class="box" style="height: 30rem">
+      <div class="box" style="height: 31rem">
         <p class="is-size-7 has-text-weight-bold"> Bolsa B3 </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Básico </p>
         <p class="is-size-7"> Ótimo para testar </p>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box" style="height: 30rem">
+      <div class="box" style="height: 31rem">
         <p class="is-size-7 has-text-weight-bold"> Bolsa B3 </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Simples </p>
         <p class="is-size-7"> Ótimo para construir </p>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box" style="height: 30rem">
+      <div class="box" style="height: 31rem">
         <p class="is-size-7 has-text-weight-bold"> Bolsa B3 </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Avançado </p>
         <p class="is-size-7"> Ótimo para escalar </p>
