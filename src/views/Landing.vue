@@ -40,7 +40,7 @@
   <section class="section" id="apis">
     <div class="container">
       <span class="title is-3 has-text-primary"> APIs do Mercado Financeiro </span>
-      <p class="title is-4 has-text-black"> Dados históricos & com atraso (15min) </p>
+      <p class="title is-4 has-text-black"> Dados históricos & intraday </p>
       <APIsComp/>
     </div>
   </section>

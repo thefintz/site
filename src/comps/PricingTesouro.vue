@@ -9,9 +9,11 @@
         <div class="mb-3">
           <p class="is-size-5 has-text-weight-bold has-text-black"> Gratuito </p>
         </div>
-        <CheckmarkItemComp text="100 chamadas / hora"/> <br>
+        <CheckmarkItemComp text="5 chamadas / minuto"/> <br>
+        <CheckmarkItemComp text="Limite de 5 títulos"/> <br>
         <CheckmarkItemComp text="Dados de fechamento"/> <br>
         <CheckmarkItemComp text="Sem histórico"/> <br>
+        <CheckmarkItemComp text="Suporte em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -25,8 +27,10 @@
           <span>/mês</span>
         </div>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
+        <CheckmarkItemComp text="Sem limite de títulos"/> <br>
         <CheckmarkItemComp text="Intraday (atraso 3h)"/> <br>
         <CheckmarkItemComp text="Histórico de 1 ano"/> <br>
+        <CheckmarkItemComp text="Suporte 24h em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -36,12 +40,14 @@
         <p class="is-size-7"> Ótimo para escalar </p>
         <hr/>
         <div class="mb-3">
-          <span class="is-size-5 has-text-black has-text-weight-bold"> R$499 </span>
+          <span class="is-size-5 has-text-black has-text-weight-bold"> R$599 </span>
           <span>/mês</span>
         </div>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
+        <CheckmarkItemComp text="Sem limite de títulos"/> <br>
         <CheckmarkItemComp text="Intraday (atraso 30min)"/> <br>
-        <CheckmarkItemComp text="Histórico de 10 anos"/> <br>
+        <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
+        <CheckmarkItemComp text="Suporte 24h em português e inglês"/> <br>
       </div>
     </div>
   </div>
