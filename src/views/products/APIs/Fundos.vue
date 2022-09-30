@@ -104,49 +104,55 @@
     </div>
   </section>
 
-  <section class="section" id="section2">
+  <section class="section" id="sectionDadosDiários">
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-half">
           <h1 class="title is-1">
-            Composição detalhada
+            Dados diários
           </h1>
           <h3 class="subtitle">
-            Ações, BDRs, Opções e muito mais!
+            Patrimônio líquido, captação, resgate, quantidade de cotistas e mais!
           </h3>
         </div>
         <div class="column is-half">
-          <figure class="image">
-            <img src="@/assets/code_pngs/fundos_carteira.png">
-          </figure>
+          <FundosInfosDiarias/>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section" id="section2">
+  <section class="section" id="sectionDadosDiários">
     <div class="container">
       <div class="columns is-vcentered">
-        <div class="column is-half is-hidden-desktop">
+        <div class="column is-half">
           <h1 class="title is-1">
-            Informações essenciais
+            Dados históricos
           </h1>
           <h3 class="subtitle">
-            Condições de investimento, política, risco, rentabilidade e mais!
+            Rentabilidade mensal histórica
           </h3>
         </div>
         <div class="column is-half">
-          <figure class="image">
-            <img src="@/assets/code_pngs/fundos_info.png">
-          </figure>
+          <FundosRetornoHistorico/>
         </div>
-        <div class="column is-half is-hidden-touch">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionDadosCadastrais">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-half">
           <h1 class="title is-1">
-            Informações essenciais
+            Dados cadastrais
           </h1>
           <h3 class="subtitle">
-            Condições de investimento, política, risco, rentabilidade e mais!
+            Condições de investimento, taxas, política, risco e mais!
           </h3>
+        </div>
+        <div class="column is-half">
+          <FundosInfosEssenciais/>
         </div>
       </div>
     </div>
@@ -180,6 +186,9 @@ import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
 import PricingFundos from '@/comps/PricingFundos'
+import FundosInfosEssenciais from '@/comps/code/FundosInfosEssenciais'
+import FundosInfosDiarias from '@/comps/code/FundosInfosDiarias'
+import FundosRetornoHistorico from '@/comps/code/FundosRetornoHistorico'
 
 export default {
   name: 'App',
@@ -189,7 +198,10 @@ export default {
     NavbarComp,
     ContactForm,
     PartnersComp,
-    PricingFundos
+    PricingFundos,
+    FundosInfosEssenciais,
+    FundosInfosDiarias,
+    FundosRetornoHistorico
   }
 }
 </script>

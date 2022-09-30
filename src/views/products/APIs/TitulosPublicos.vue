@@ -113,9 +113,25 @@
           </h3>
         </div>
         <div class="column is-half">
-          <figure class="image">
-            <img src="@/assets/products/API_TitulosPublicos/json.png">
-          </figure>
+          <TesouroInfosDiarias/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section2">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-half">
+          <h1 class="title is-1">
+            Lista de títulos
+          </h1>
+          <h3 class="subtitle">
+            Mercado primário e secundário
+          </h3>
+        </div>
+        <div class="column is-half">
+          <TesouroLista/>
         </div>
       </div>
     </div>
@@ -147,6 +163,8 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
+import TesouroLista from '@/comps/code/TesouroLista'
+import TesouroInfosDiarias from '@/comps/code/TesouroInfosDiarias'
 import PricingTesouro from '@/comps/PricingTesouro'
 
 export default {
@@ -157,6 +175,8 @@ export default {
     NavbarComp,
     ContactForm,
     PartnersComp,
+    TesouroLista,
+    TesouroInfosDiarias,
     PricingTesouro
   }
 }

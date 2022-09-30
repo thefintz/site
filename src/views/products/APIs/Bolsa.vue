@@ -119,7 +119,8 @@
         </div>
         <div class="column is-half">
           <figure class="image">
-            <img src="@/assets/code_pngs/indicadores.png">
+            <!-- <img src="@/assets/code_pngs/indicadores.png"> -->
+            <BolsaIndicadores/>
           </figure>
         </div>
       </div>
@@ -139,7 +140,8 @@
         </div>
         <div class="column is-half">
           <figure class="image">
-            <img src="@/assets/code_pngs/infosgerais.png">
+            <!-- <img src="@/assets/code_pngs/infosgerais.png"> -->
+            <BolsaInfosGerais/>
           </figure>
         </div>
         <div class="column is-half is-hidden-touch">
@@ -182,6 +184,8 @@ import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
 import PricingB3 from '@/comps/PricingB3'
+import BolsaIndicadores from '@/comps/code/BolsaIndicadores'
+import BolsaInfosGerais from '@/comps/code/BolsaInfosGerais'
 
 export default {
   name: 'App',
@@ -191,7 +195,9 @@ export default {
     NavbarComp,
     ContactForm,
     PartnersComp,
-    PricingB3
+    PricingB3,
+    BolsaIndicadores,
+    BolsaInfosGerais
   }
 }
 </script>
