@@ -24,8 +24,22 @@ import {
   faSmileWink
 } from '@fortawesome/free-regular-svg-icons'
 
-library.add(faLinkedin, faGithub, faInstagram, faBook, faPhoneAlt, faMobile, faMobileAlt, faWhatsapp, faScroll, faCopy, faEnvelope, faComment,
-  faSmileWink, faCheck)
+library.add(
+  faLinkedin,
+  faGithub,
+  faInstagram,
+  faBook,
+  faPhoneAlt,
+  faMobile,
+  faMobileAlt,
+  faWhatsapp,
+  faScroll,
+  faCopy,
+  faEnvelope,
+  faComment,
+  faSmileWink,
+  faCheck
+)
 
 export default {
   install (app) {

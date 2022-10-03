@@ -7,16 +7,6 @@
 
 <script>
 import Prism from 'prismjs'
-import 'prismjs/themes/prism-onelight.css'
-
-import 'prismjs/components/prism-bash'
-import 'prismjs/components/prism-javascript'
-import 'prismjs/components/prism-json'
-import 'prismjs/plugins/line-numbers/prism-line-numbers'
-import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
-import 'prismjs/plugins/custom-class/prism-custom-class.js'
-
-Prism.plugins.customClass.prefix('prism--')
 
 export default {
   name: 'CodeHighlight',
