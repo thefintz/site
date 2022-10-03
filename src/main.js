@@ -8,6 +8,7 @@ import icons from '@/icons'
 
 import gtag from '@/plugins/gtag'
 
+// eslint-disable-next-line no-unused-vars
 import Prism from 'prismjs'
 import 'prism-themes/themes/prism-one-light.css'
 import 'prismjs/components/prism-bash'
@@ -16,7 +17,6 @@ import 'prismjs/components/prism-json'
 import 'prismjs/plugins/line-numbers/prism-line-numbers'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
 import 'prismjs/plugins/custom-class/prism-custom-class'
-Prism.plugins.customClass.prefix('prism--')
 
 createApp(App)
   .use(icons)
