@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-centered">
     <div class="column is-one-third">
-      <div class="box">
+      <div class="box" style="height: 23rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Básico </p>
         <p class="is-size-7"> Ótimo para testar </p>
@@ -12,51 +12,50 @@
         <div class="has-text-centered mb-2">
           <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
+        <CheckmarkItemComp text="Dados de fechamento"/> <br>
         <CheckmarkItemComp text="5 chamadas / minuto"/> <br>
         <CheckmarkItemComp text="Limite de 5 títulos"/> <br>
-        <CheckmarkItemComp text="Dados de fechamento"/> <br>
-        <CheckmarkItemComp text="Sem histórico"/> <br>
         <CheckmarkItemComp text="Suporte em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box">
+      <div class="box" style="height: 23rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Simples </p>
         <p class="is-size-7"> Ótimo para construir </p>
         <hr/>
         <div class="mb-1">
-          <span class="is-size-5 has-text-black has-text-weight-bold"> R$99 </span>
+          <span class="is-size-5 has-text-black has-text-weight-bold"> R$199 </span>
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
           <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
+        <CheckmarkItemComp text="Dados de fechamento"/> <br>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de títulos"/> <br>
-        <CheckmarkItemComp text="Intraday (atraso 3h)"/> <br>
+        <CheckmarkItemComp text="Suporte em portugês e inglês"/> <br>
         <CheckmarkItemComp text="Histórico de 1 ano"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box">
+      <div class="box" style="height: 23rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Avançado </p>
         <p class="is-size-7"> Ótimo para escalar </p>
         <hr/>
         <div class="mb-1">
-          <span class="is-size-5 has-text-black has-text-weight-bold"> R$599 </span>
+          <span class="is-size-5 has-text-black has-text-weight-bold"> R$349 </span>
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
           <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
+        <CheckmarkItemComp text="Intraday (atraso 30min)"/> <br>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de títulos"/> <br>
-        <CheckmarkItemComp text="Intraday (atraso 30min)"/> <br>
-        <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
         <CheckmarkItemComp text="Suporte 24h"/> <br>
+        <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
       </div>
     </div>
   </div>

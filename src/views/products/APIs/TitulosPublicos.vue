@@ -105,11 +105,11 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-half">
-          <h1 class="title is-1">
-            Dados do título
+          <h1 class="title has-text-black is-1">
+            Dados intraday
           </h1>
           <h3 class="subtitle">
-            Preços de compra e venda a mercado.
+            Títulos atualizados a cada 30 minutos direto das fontes oficiais.
           </h3>
         </div>
         <div class="column is-half">
@@ -123,11 +123,29 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-half">
-          <h1 class="title is-1">
+          <h1 class="title has-text-black is-1">
+            Dados históricos
+          </h1>
+          <h3 class="subtitle">
+            Ótimo para plotar gráficos, calcular rentabilidade e analisar ativos.
+          </h3>
+        </div>
+        <div class="column is-half">
+          <TesouroInfosHistoricas/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section2">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-half">
+          <h1 class="title has-text-black is-1">
             Lista de títulos
           </h1>
           <h3 class="subtitle">
-            Mercado primário e secundário
+            Acesso a todos os títulos do tesouro direto
           </h3>
         </div>
         <div class="column is-half">
@@ -165,6 +183,7 @@ import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
 import TesouroLista from '@/comps/code/TesouroLista'
 import TesouroInfosDiarias from '@/comps/code/TesouroInfosDiarias'
+import TesouroInfosHistoricas from '@/comps/code/TesouroInfosHistoricas'
 import PricingTesouro from '@/comps/PricingTesouro'
 
 export default {
@@ -177,6 +196,7 @@ export default {
     PartnersComp,
     TesouroLista,
     TesouroInfosDiarias,
+    TesouroInfosHistoricas,
     PricingTesouro
   }
 }
