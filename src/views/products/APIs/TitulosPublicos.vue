@@ -70,7 +70,7 @@
               <p class="title is-4">Histórico</p>
               <p class="subtitle is-6">
                 <span>
-                  Acesso total a todos os títulos e seus dados dos últimos 20 anos.
+                  Acesso total a todos os títulos e seus dados (+10 anos).
                 </span>
               </p>
             </div>
