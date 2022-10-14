@@ -71,6 +71,8 @@
   </div>
 </section>
 
+<ClientsStories/>
+
 <section class="section has-background-light" id="modelo-customizavel">
   <div class="container">
     <div class="columns">
@@ -154,6 +156,8 @@
 
 <ContactForm/>
 
+<ClientsTestimonies/>
+
 <FooterComp />
 
 </div>
@@ -164,6 +168,8 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PricingAll from '@/comps/PricingAll'
+import ClientsStories from '@/comps/ClientsStories'
+import ClientsTestimonies from '@/comps/ClientsTestimonies'
 
 export default {
   name: 'App',
@@ -172,6 +178,8 @@ export default {
     FooterComp,
     NavbarComp,
     ContactForm,
+    ClientsStories,
+    ClientsTestimonies,
     PricingAll
   }
 }
