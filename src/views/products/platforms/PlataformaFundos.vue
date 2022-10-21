@@ -228,7 +228,7 @@
             Seu material de distribuição customizado, bonito e automático. Defina o layout, informações presentes e nunca mais se preocupe.
           </p>
           <hr class="mt-0 black-line">
-          <p class="title is-5 mt-3 mb-0">R$100/fundo/mês</p>
+          <p class="title is-5 mt-3 mb-0">R$200/fundo/mês</p>
       </div>
     </div>
   </div>
