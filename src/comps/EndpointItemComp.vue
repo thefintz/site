@@ -1,18 +1,20 @@
 <template>
-  <span
+  <a
+    :href="link"
     class="has-text-white py-1 px-2 rounded is-size-7 is-family-code"
     :class="[
+      link ? 'cursor-pointer' : 'cursor-default',
       color === 'GREEN' ? 'has-background-success' :
       color === 'YELLOW' ? 'has-background-warning' :
       color === 'RED' ? 'has-background-danger' :
-      color === 'BLACK' ? 'hasbackground-dark' :
+      color === 'BLACK' ? 'has-background-dark' :
       'has-background-primary'
     ]">
     {{ label }}
-  </span>
-  <span class="pl-2">
+  </a>
+  <a :href="link" target="_" class="pl-2 has-text-dark" :class="link ? 'cursor-pointer' : 'cursor-default'">
     {{ text }}
-  </span>
+  </a>
 </template>
 
 <style scoped>
@@ -28,7 +30,18 @@ export default {
   props: {
     label: String,
     text: String,
-    color: String
+    color: String,
+    link: String
   }
 }
 </script>
+
+<style scoped>
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+</style>

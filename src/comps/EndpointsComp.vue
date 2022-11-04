@@ -21,9 +21,10 @@
 
     <div class="column">
       <p class="is-size-4"> Tesouro </p>
-      <EndpointItemComp label="GET" text="Lista de títulos"/> <br/>
-      <EndpointItemComp label="GET" text="Dados e preços atuais"/> <br/>
-      <EndpointItemComp label="GET" text="Dados e preços históricos"/> <br/>
+      <EndpointItemComp label="GET" text="Lista de títulos" link="https://docs.fintz.com.br/endpoints/titulos-publicos/#lista-de-titulos"/> <br/>
+      <EndpointItemComp label="GET" text="Preços e taxas atuais" link="https://docs.fintz.com.br/endpoints/titulos-publicos/#precos-e-taxas-atuais"/> <br/>
+      <EndpointItemComp label="GET" text="Preços e taxas históricos" link="https://docs.fintz.com.br/endpoints/titulos-publicos/#historico-de-precos-e-taxas"/> <br/>
+      <EndpointItemComp label="GET" text="Informações gerais" link="https://docs.fintz.com.br/endpoints/titulos-publicos/#informacoes-dos-titulos"/> <br/>
       <br>
       <p class="is-size-4"> Utils </p>
       <EndpointItemComp label="GET" text="Logos e ícones"/> <br/>
