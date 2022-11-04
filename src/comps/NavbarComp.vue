@@ -50,6 +50,12 @@
           </span>
         </a>
 
+        <a class="navbar-item mx-3" href="https://blog.fintz.com.br">
+          <span class="icon-text">
+            <strong class="has-text-black">Blog</strong>
+          </span>
+        </a>
+
         <!-- <a class="navbar-item" @click="$router.push('plataforma-fundos')">
           <span class="icon-text">
             <strong class="has-text-black">Dashboard Fundos</strong>
