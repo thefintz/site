@@ -39,7 +39,7 @@
         <CheckmarkItemComp text="Ações, FIIs, BDRs e ETFs"/> <br>
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
         <CheckmarkItemComp text="Dados gerais de empresas"/> <br>
-        <CheckmarkItemComp text="Indicadores"/> <br>
+        <CheckmarkItemComp text="Proventos"/> <br>
         <CheckmarkItemComp text="Suporte 24h"/> <br>
       </div>
     </div>
@@ -62,8 +62,8 @@
         <CheckmarkItemComp text="Ações, FIIs, BDRs e ETFs"/> <br>
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
         <CheckmarkItemComp text="Dados gerais de empresas"/> <br>
+        <CheckmarkItemComp text="Proventos"/> <br>
         <CheckmarkItemComp text="Indicadores"/> <br>
-        <CheckmarkItemComp text="Eventos Corporativos"/> <br>
         <CheckmarkItemComp text="Fatos relevantes"/> <br>
         <CheckmarkItemComp text="Suporte 24h"/> <br>
       </div>
