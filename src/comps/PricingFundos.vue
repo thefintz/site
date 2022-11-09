@@ -22,7 +22,7 @@
     <div class="column is-one-third">
       <div class="box" style="height: 28rem">
         <p class="is-size-7 has-text-weight-bold"> Fundos </p>
-        <p class="is-size-5 has-text-weight-bold has-text-black"> Simples </p>
+        <p class="is-size-5 has-text-weight-bold has-text-black"> Padrão </p>
         <p class="is-size-7"> Ótimo para construir </p>
         <hr/>
         <div class="mb-1">
