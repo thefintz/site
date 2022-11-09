@@ -37,7 +37,7 @@
         <CheckmarkItemComp text="Histórico de 1 ano"/> <br>
         <CheckmarkItemComp text="Dados cadastrais"/> <br>
         <CheckmarkItemComp text="Dados estatísticos"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -60,7 +60,7 @@
         <CheckmarkItemComp text="Dados estatísticos"/> <br>
         <CheckmarkItemComp text="Indicadores"/> <br>
         <CheckmarkItemComp text="Benchmarks"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
   </div>

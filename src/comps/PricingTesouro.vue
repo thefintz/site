@@ -34,8 +34,8 @@
         <CheckmarkItemComp text="Dados de fechamento"/> <br>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de títulos"/> <br>
-        <CheckmarkItemComp text="Suporte em portugês e inglês"/> <br>
         <CheckmarkItemComp text="Histórico de 1 ano"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -54,8 +54,8 @@
         <CheckmarkItemComp text="Intraday (atraso 30min)"/> <br>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de títulos"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
         <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
   </div>

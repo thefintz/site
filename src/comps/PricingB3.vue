@@ -40,7 +40,7 @@
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
         <CheckmarkItemComp text="Dados gerais de empresas"/> <br>
         <CheckmarkItemComp text="Proventos"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -65,7 +65,7 @@
         <CheckmarkItemComp text="Proventos"/> <br>
         <CheckmarkItemComp text="Indicadores"/> <br>
         <CheckmarkItemComp text="Fatos relevantes"/> <br>
-        <CheckmarkItemComp text="Suporte 24h"/> <br>
+        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
       </div>
     </div>
   </div>
