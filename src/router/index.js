@@ -7,6 +7,30 @@ const routes = [
     name: 'Landing',
     component: () => import('@/views/Landing')
   },
+  // landing ads
+  {
+    path: '/g',
+    name: 'AdsGoogle',
+    component: () => import('@/views/LandingAdsGoogle')
+  },
+  // landing ads
+  {
+    path: '/l',
+    name: 'AdsLinkedIn',
+    component: () => import('@/views/LandingAdsLinkedIn')
+  },
+  // landing ads
+  {
+    path: '/r',
+    name: 'AdsReddit',
+    component: () => import('@/views/LandingAdsReddit')
+  },
+  // landing ads
+  {
+    path: '/t',
+    name: 'AdsTwitter',
+    component: () => import('@/views/LandingAdsTwitter')
+  },
   // contact
   {
     path: '/contato',
