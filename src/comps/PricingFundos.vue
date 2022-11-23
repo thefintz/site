@@ -10,7 +10,7 @@
           <p class="is-size-5 has-text-weight-bold has-text-black"> Gratuito </p>
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
+          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
         <CheckmarkItemComp text="5 chamadas / minuto"/> <br>
         <CheckmarkItemComp text="Limite de 10 fundos"/> <br>
@@ -30,7 +30,7 @@
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
+          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de fundos"/> <br>
@@ -51,7 +51,7 @@
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="$router.push('/contato')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
+          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-small is-primary has-text-white is-full"> Começar a usar </button>
         </div>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de fundos"/> <br>

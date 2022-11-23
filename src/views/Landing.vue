@@ -17,7 +17,7 @@
             APIs de Ações, FIIs, Tesouro, Fundos, e mais!
           </h3>
           <div>
-            <button @click="$router.push('/contato')" class="button px-6 is-medium is-primary has-text-white mr-2">Começar a usar</button>
+            <button @click="$router.push('/comecar-a-usar')" class="button px-6 is-medium is-primary has-text-white mr-2">Começar a usar</button>
             <button @click="$router.push('/precos')" class="button px-6 is-medium is-outlined is-primary">Ver preços</button>
           </div>
         </div>

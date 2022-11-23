@@ -13,6 +13,12 @@ const routes = [
     name: 'Contato',
     component: () => import('@/views/Contato')
   },
+  // contact start to use
+  {
+    path: '/comecar-a-usar',
+    name: 'ContatoComecarUsar',
+    component: () => import('@/views/ContatoComecarUsar')
+  },
   {
     path: '/email-enviado',
     name: 'EmailSent',
