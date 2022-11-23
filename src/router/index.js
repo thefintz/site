@@ -11,25 +11,25 @@ const routes = [
   {
     path: '/g',
     name: 'AdsGoogle',
-    component: () => import('@/views/LandingAdsGoogle')
+    component: () => import('@/views/Landing')
   },
   // landing ads
   {
     path: '/l',
     name: 'AdsLinkedIn',
-    component: () => import('@/views/LandingAdsLinkedIn')
+    component: () => import('@/views/Landing')
   },
   // landing ads
   {
     path: '/r',
     name: 'AdsReddit',
-    component: () => import('@/views/LandingAdsReddit')
+    component: () => import('@/views/Landing')
   },
   // landing ads
   {
     path: '/t',
     name: 'AdsTwitter',
-    component: () => import('@/views/LandingAdsTwitter')
+    component: () => import('@/views/Landing')
   },
   // contact
   {
