@@ -27,7 +27,7 @@
     </div>
     <div class="column">
       <figure class="image">
-        <img src="@/assets/logos/anbima.png" class="img-crop">
+        <img src="@/assets/logos/aawz.png" class="img-crop">
       </figure>
     </div>
   </div>
