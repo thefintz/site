@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-centered">
     <div class="column is-one-third">
-      <div class="box" style="height: 24rem">
+      <div class="box" style="height: 26rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Básico </p>
         <p class="is-size-7"> Ótimo para testar </p>
@@ -13,13 +13,12 @@
           <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Começar a usar </button>
         </div>
         <CheckmarkItemComp text="Dados de fechamento"/> <br>
-        <CheckmarkItemComp text="5 chamadas / minuto"/> <br>
+        <CheckmarkItemComp text="300 chamadas / mês"/> <br>
         <CheckmarkItemComp text="Limite de 5 títulos"/> <br>
-        <CheckmarkItemComp text="Suporte em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box" style="height: 24rem">
+      <div class="box" style="height: 26rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Avançado </p>
         <p class="is-size-7"> Ótimo para construir </p>
@@ -35,11 +34,11 @@
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
         <CheckmarkItemComp text="Sem limite de títulos"/> <br>
         <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
-        <CheckmarkItemComp text="Suporte técnico 24h"/> <br>
+        <CheckmarkItemComp text="Suporte técnico"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box" style="height: 24rem">
+      <div class="box" style="height: 26rem">
         <p class="is-size-7 has-text-weight-bold"> Tesouro </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Enterprise </p>
         <p class="is-size-7"> Excelente para escalar </p>
@@ -52,10 +51,11 @@
           <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Entrar em contato </button>
         </div>
         <CheckmarkItemComp text="Tudo do plano avançado"/> <br>
-        <CheckmarkItemComp text="Customização da solução"/> <br>
-        <CheckmarkItemComp text="Desenvolvimento de plataforma"/> <br>
-        <CheckmarkItemComp text="Dashboard e relatórios"/> <br>
-        <CheckmarkItemComp text="Ferramentas de automação"/> <br>
+        <CheckmarkItemComp text="Soluções customizadas"/> <br>
+        <CheckmarkItemComp text="Novas integrações"/> <br>
+        <CheckmarkItemComp text="Dashboard personalizado"/> <br>
+        <CheckmarkItemComp text="Relatórios avançados"/> <br>
+        <CheckmarkItemComp text="Equipe de desenvolvimento"/> <br>
         <CheckmarkItemComp text="Suporte premium 24h"/> <br>
       </div>
     </div>

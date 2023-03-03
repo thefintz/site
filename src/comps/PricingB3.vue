@@ -13,7 +13,7 @@
           <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Começar a usar </button>
         </div>
         <CheckmarkItemComp text="Preço de fechamento"/> <br>
-        <CheckmarkItemComp text="5 chamadas / minuto"/> <br>
+        <CheckmarkItemComp text="300 chamadas / mês"/> <br>
         <CheckmarkItemComp text="Sem histórico"/> <br>
         <CheckmarkItemComp text="Ações, FIIs, BDRs e ETFs"/> <br>
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
@@ -59,10 +59,11 @@
           <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Entrar em contato </button>
         </div>
         <CheckmarkItemComp text="Tudo do plano avançado"/> <br>
-        <CheckmarkItemComp text="Customização da solução"/> <br>
-        <CheckmarkItemComp text="Desenvolvimento de plataforma"/> <br>
-        <CheckmarkItemComp text="Dashboard e relatórios"/> <br>
-        <CheckmarkItemComp text="Ferramentas de automação"/> <br>
+        <CheckmarkItemComp text="Soluções customizadas"/> <br>
+        <CheckmarkItemComp text="Novas integrações"/> <br>
+        <CheckmarkItemComp text="Dashboard personalizado"/> <br>
+        <CheckmarkItemComp text="Relatórios avançados"/> <br>
+        <CheckmarkItemComp text="Equipe de desenvolvimento"/> <br>
         <CheckmarkItemComp text="Suporte premium 24h"/> <br>
       </div>
     </div>
