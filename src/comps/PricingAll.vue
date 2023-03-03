@@ -6,6 +6,24 @@
 </section>
 
 <section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
+  <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Uso individual </p>
+  <p class="has-text-centered title has-text-black"> Bolsa + Fundos + Tesouro </p>
+  <p class="has-text-centered subtitle"> Acesso a todas as APIs. Uso individual. </p>
+  <div class="columns">
+    <div class="column is-2"></div>
+    <div class="column is-8">
+      <PricingIndividual/>
+    </div>
+    <div class="column is-2"></div>
+  </div>
+</section>
+
+<section class="section p-1" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
+  <hr>
+</section>
+
+<section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
+  <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Uso comercial </p>
   <p class="has-text-centered title has-text-black"> Bolsa B3 </p>
   <p class="has-text-centered subtitle"> Ações, FIIs, ETFs, BDRs, indicadores, dados de empresa e mais. </p>
   <div class="columns">
@@ -30,7 +48,7 @@
 </section>
 
 <section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-tesouro">
-  <p class="has-text-centered title has-text-black"> Tesouro </p>
+  <p class="has-text-centered title has-text-black"> Tesouro Direto </p>
   <p class="has-text-centered subtitle"> Marcação a mercado e na curva, preços, juros, histórico e mais. </p>
   <div class="columns">
     <div class="column is-2"></div>
@@ -44,6 +62,7 @@
 </template>
 
 <script>
+import PricingIndividual from '@/comps/PricingIndividual'
 import PricingB3 from '@/comps/PricingB3'
 import PricingFundos from '@/comps/PricingFundos'
 import PricingTesouro from '@/comps/PricingTesouro'
@@ -52,6 +71,7 @@ export default {
   name: 'PricingAll',
 
   components: {
+    PricingIndividual,
     PricingB3,
     PricingFundos,
     PricingTesouro
