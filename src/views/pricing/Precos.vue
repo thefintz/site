@@ -57,7 +57,7 @@
   </div>
 </section>
 
-<section class="section" id="modelo-customizavel">
+<section class="section py-0" id="modelo-customizavel">
   <div class="hero-body">
     <div class="container">
       <p class="title is-3">Modelo de negócios diferente?</p>
@@ -73,38 +73,25 @@
 
 <ClientsStories/>
 
-<section class="section has-background-light" id="modelo-customizavel">
-  <div class="container">
-    <div class="columns">
-    <div class="column is-two-thirds">
-    <p class="title is-3">Programa para startups e aceleradoras</p>
-    <p class="subtitle is-6 mb-0">
-      Lançamento do plano gratuito extendido através de créditos para startups e aceleradoras parceiras.
-    </p>
-    <br>
-    <p class="is-6 mb-0">
-      As startups têm acesso livre a nossas APIs de Bolsa, Fundos, Tesouro e Cripto, podendo aproveitar os dados consolidados, tratados e acessíveis disponibilizados pela Fintz.
-    </p>
-    <p class="is-6 mb-0">
-      Os dados podem ser usados livremente para alimentar suas plataformas, aplicativos e produtos.
-    </p>
-    <br>
-    <p class="is-size-3 mb-0">
-      Benefícios.
-    </p>
-    <div class="content">
-    <ul>
-      <li>R$3.000 em créditos. </li>
-      <li>Acesso a todas as APIs Fintz gratuitamente por 6 meses. </li>
-      <li>Suporte 24h em português e inglês. </li>
-      <li>Precisa de dados extras? Buscamos para você. </li>
-      <li>Acelere o desenvolvimento e reduza custos. </li>
-      <li>Integração com as diversas fontes de dados. </li>
-      <li>Confiabilidade dos dados disponibilizados. </li>
-      <li>Mais dúvidas? <a href="/#/contato"> Marcamos uma call com seus devs. </a> </li>
-    </ul>
-    </div>
-    </div>
+<section>
+  <div class="container is-fluid">
+    <div class="box m-5 p-5" style="border: 1px solid lightgray; box-shadow: none;">
+      <div class="columns mx-5">
+        <div class="column">
+          <h1 class="title is-2 has-text-primary">Fintz para startups</h1>
+          <span class="pt-1 has-text-black">
+            No programa Fintz para Startups, as empresas recebem créditos de API e recursos da Fintz para escalar suas soluções.
+          </span>
+        </div>
+        <div class="column is-narrow is-flex is-align-items-center">
+          <a
+            class="button has-text-black"
+            style="background-color: #98C6FF; border-color: lightgray;"
+            @click="$router.push('/startups')">
+            Conhecer Fintz para startups
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -154,9 +141,9 @@
   </div>
 </section>
 
-<ContactForm/>
-
 <ClientsTestimonies/>
+
+<ContactForm/>
 
 <FooterComp />
 

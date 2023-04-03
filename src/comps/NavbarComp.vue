@@ -1,9 +1,12 @@
 <template>
-<nav class="navbar navbar-height" role="navigation">
+<nav :style="[theme !== 'dark' ? '' : 'background-color: #1f2b3d']" class="navbar navbar-height" role="navigation">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" @click="$router.push('/')">
-        <img src="@/assets/logo-positivo.png" class="max-h">
+        <img
+          :src="require(theme !== 'dark' ? '@/assets/logo-positivo.png' : '@/assets/logo-negativo.png')"
+          class="max-h"
+        >
       </a>
       <a class="navbar-burger" ref="burger" @click="burger">
         <span></span>
@@ -19,7 +22,10 @@
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
             </span> -->
-            <strong class="has-text-black">Produtos</strong>
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']">
+              Produtos
+            </strong>
           </span>
         </a>
 
@@ -28,7 +34,11 @@
             <!-- <span class="icon"> -->
               <!-- <font-awesome-icon :icon="['fas', 'book']" /> -->
               <!-- </span> -->
-            <strong class="has-text-black">Docs</strong>
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
+            >
+              Docs
+            </strong>
           </span>
         </a>
 
@@ -37,7 +47,11 @@
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'book']" />
             </span> -->
-            <strong class="has-text-black">Preços</strong>
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
+            >
+              Preços
+            </strong>
           </span>
         </a>
 
@@ -46,13 +60,21 @@
             <!-- <span class="icon">
               <font-awesome-icon :icon="['fas', 'phone-alt']" />
             </span> -->
-            <strong class="has-text-black">Contato</strong>
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
+            >
+              Contato
+            </strong>
           </span>
         </a>
 
         <a class="navbar-item mx-3" href="https://blog.fintz.com.br">
           <span class="icon-text">
-            <strong class="has-text-black">Blog</strong>
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
+            >
+              Blog
+            </strong>
           </span>
         </a>
 
@@ -78,6 +100,10 @@ export default {
       this.$refs.burger.classList.toggle('is-active')
       this.$refs.menu.classList.toggle('is-active')
     }
+  },
+
+  props: {
+    theme: String
   }
 }
 </script>

@@ -54,6 +54,11 @@ const routes = [
     name: 'Preços',
     component: () => import('@/views/pricing/Precos')
   },
+  {
+    path: '/startups',
+    name: 'Startups',
+    component: () => import('@/views/pricing/ProgramaStartups')
+  },
   // products
   {
     path: '/produtos',
