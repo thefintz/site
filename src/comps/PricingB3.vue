@@ -17,7 +17,6 @@
         <CheckmarkItemComp text="Sem histórico"/> <br>
         <CheckmarkItemComp text="Ações, FIIs, BDRs e ETFs"/> <br>
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
-        <CheckmarkItemComp text="Suporte em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
@@ -35,13 +34,13 @@
         </div>
         <CheckmarkItemComp text="Intraday (atraso 30min)"/> <br>
         <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
-        <CheckmarkItemComp text="Histórico de ilimitado (+10 anos)"/> <br>
+        <CheckmarkItemComp text="Histórico ilimitado (+10 anos)"/> <br>
         <CheckmarkItemComp text="Ações, FIIs, BDRs e ETFs"/> <br>
         <CheckmarkItemComp text="Logos, setor, segmento"/> <br>
         <CheckmarkItemComp text="Dados gerais de empresas"/> <br>
-        <CheckmarkItemComp text="Proventos"/> <br>
+        <CheckmarkItemComp text="Proventos, splits e bonificações"/> <br>
         <CheckmarkItemComp text="Indicadores"/> <br>
-        <CheckmarkItemComp text="Fatos relevantes"/> <br>
+        <CheckmarkItemComp text="Futuros e opções (em breve!)"/> <br>
         <CheckmarkItemComp text="Suporte técnico"/> <br>
       </div>
     </div>
@@ -56,7 +55,11 @@
           <!-- <span> Entre em contato. </span> -->
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Entrar em contato </button>
+          <button
+            @click="$router.push('/comecar-a-usar')"
+            class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold">
+            Entrar em contato
+          </button>
         </div>
         <CheckmarkItemComp text="Tudo do plano avançado"/> <br>
         <CheckmarkItemComp text="Soluções customizadas"/> <br>

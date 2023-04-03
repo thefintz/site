@@ -16,7 +16,6 @@
         <CheckmarkItemComp text="Limite de 10 fundos"/> <br>
         <CheckmarkItemComp text="Sem histórico"/> <br>
         <CheckmarkItemComp text="Dados cadastrais"/> <br>
-        <CheckmarkItemComp text="Suporte em português e inglês"/> <br>
       </div>
     </div>
     <div class="column is-one-third">
