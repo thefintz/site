@@ -68,7 +68,7 @@
           </span>
         </a>
 
-        <a class="navbar-item mx-3" href="https://blog.fintz.com.br">
+        <!-- <a class="navbar-item mx-3" href="https://blog.fintz.com.br">
           <span class="icon-text">
             <strong
               :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
@@ -76,7 +76,7 @@
               Blog
             </strong>
           </span>
-        </a>
+        </a> -->
 
         <!-- <a class="navbar-item" @click="$router.push('plataforma-fundos')">
           <span class="icon-text">

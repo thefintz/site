@@ -6,7 +6,7 @@
       <div class="columns is-centered">
         <div class="column is-three-quarters">
           <h3 class="title"> Fintz API Acordo de nível de serviço </h3>
-          <h4 class="subtitle"> Última atualização: 22 de novembro de 2021 </h4>
+          <h4 class="subtitle"> Última atualização: 10 de Abril de 2023 </h4>
           <span>
             Estes Termos de Nível de Serviço Fintz ("<strong>SLA</strong>") regem o uso da API Fintz de acordo com os
             termos dos Termos e Condições Fintz (o "<strong>Contrato</strong>") entre Cartera Software <strong>("Fintz",
@@ -43,8 +43,8 @@
           </ol>
           <h5 class="title is-size-5"> Compromisso de Serviços </h5>
           <span>
-            A Fintz disponibilizará a API Fintz 99,95% do tempo a cada mês. Se a porcentagem de tempo de atividade
-            mensal da Fintz estiver abaixo de 99,95% em um determinado mês, então o cliente Fintz será elegível para
+            A Fintz disponibilizará a API Fintz 99% do tempo a cada mês. Se a porcentagem de tempo de atividade
+            mensal da Fintz estiver abaixo de 99% em um determinado mês, então o cliente Fintz será elegível para
             receber um crédito de serviço conforme descrito na Seção 3 abaixo. A disponibilidade da API Fintz é medida
             pelo desempenho de terceiros e pelos serviços de monitoramento contratados pela Fintz (o “Serviço de
             Monitoramento”). Fintz pode ajustar a medida de disponibilidade pelo Serviço de Monitoramento para
