@@ -25,7 +25,7 @@
         <p class="is-size-7"> Ótimo para projetos </p>
         <hr/>
         <div class="mb-1">
-          <span class="is-size-5 has-text-black has-text-weight-bold"> R$14,90 </span>
+          <span class="is-size-5 has-text-black has-text-weight-bold"> R$29,90 </span>
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
