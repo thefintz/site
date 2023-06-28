@@ -87,6 +87,22 @@ const routes = [
     name: 'Plataforma Fundos',
     component: () => import('@/views/products/platforms/PlataformaFundos')
   },
+  // Platforms
+  {
+    path: '/vagas',
+    name: 'Vagas',
+    component: () => import('@/views/Vagas')
+  },
+  {
+    path: '/estagio',
+    name: 'VagaEstagiario',
+    component: () => import('@/views/vagas/Estagiario')
+  },
+  {
+    path: '/senior',
+    name: 'VagaSenior',
+    component: () => import('@/views/vagas/Senior')
+  },
   // legal/law
   {
     path: '/PrivacyPolicy',

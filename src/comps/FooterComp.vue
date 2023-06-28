@@ -12,6 +12,14 @@
       </div>
       <div>
         <div class="level-right">
+          <a class="level-item" @click="$router.push('/vagas')">
+            <span class="icon-text" :class="[bg === 'light' ? 'has-text-dark' : 'has-text-light']">
+              <span class="icon">
+                <font-awesome-icon :icon="['fas', 'check']" />
+              </span>
+              <span>Vagas/Carreiras</span>
+            </span>
+          </a>
           <a class="level-item" @click="$router.push('PrivacyPolicy')">
             <span class="icon-text" :class="[bg === 'light' ? 'has-text-dark' : 'has-text-light']">
               <span class="icon">
