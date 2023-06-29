@@ -15,7 +15,7 @@
       <div class="columns mt-5">
         <div class="column is-2"></div>
         <div class="column is-8 has-text-black">
-          <span class="title is-4 has-text-black"> Desenvolvedor Estagiário </span>
+          <span class="title is-4 has-text-black"> Desenvolvedor Estagiário (remoto)</span>
           <h2 class="title is-5 has-text-black mt-5">TL;DR</h2>
           <ul>
             <li class="list">Vaga Dev Estagiário em startup early-stage (fintech SaaS B2B e B2C).</li>

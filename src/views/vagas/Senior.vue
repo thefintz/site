@@ -15,14 +15,13 @@
       <div class="columns mt-5">
         <div class="column is-2"></div>
         <div class="column is-8 has-text-black">
-          <span class="title is-4 has-text-black"> Desenvolvedor Sênior </span>
+          <span class="title is-4 has-text-black"> Desenvolvedor Sênior (remoto) </span>
           <h2 class="title is-5 has-text-black mt-5">TL;DR</h2>
           <ul>
             <li class="list">Vaga Dev Pleno/Senior em startup early-stage (fintech SaaS B2B e B2C).</li>
             <li class="list">Somos API do mercado financeiro, investida por 2 fundos, e clientes como o Sicredi.</li>
             <li class="list">Tech stack: Python, Scrapy, Dagster, Postgres, AWS (Lambda + RDS), Github Actions.</li>
             <li class="list">Essa vaga é p/ quem quer ter participação (equity) no negócio e nos lucros.</li>
-            <li class="list">Essa vaga é p/ quem quer ser dono, mentalidade de founder, visão médio/longo prazo.</li>
             <li class="list">Muita autonomia, desafios, responsabilidades.</li>
             <li class="list">Compensação: salário (negociável) + equity + variável </li>
             <li class="list">Bônus: interesse/experiência em mercado financeiro, produto, UI/UX, marketing ou startups.</li>
