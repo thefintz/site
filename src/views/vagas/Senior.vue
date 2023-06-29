@@ -23,9 +23,9 @@
             <li class="list">Tech stack: Python, Scrapy, Dagster, Postgres, AWS (Lambda + RDS), Github Actions.</li>
             <li class="list">Essa vaga é p/ quem quer ter participação (equity) no negócio e nos lucros.</li>
             <li class="list">Essa vaga é p/ quem quer ser dono, mentalidade de founder, visão médio/longo prazo.</li>
-            <li class="list">Muita autonomia, desafios, responsabilidade.</li>
-            <li class="list">Compensação: salário de R$2k - R$4k (igual os sócios atuais) + equity + variável </li>
-            <li class="list">Bônus: interesse/experiência em mercado financeiro, UI/UX, marketing ou startups.</li>
+            <li class="list">Muita autonomia, desafios, responsabilidades.</li>
+            <li class="list">Compensação: salário (negociável) + equity + variável </li>
+            <li class="list">Bônus: interesse/experiência em mercado financeiro, produto, UI/UX, marketing ou startups.</li>
           </ul>
           <hr>
           <h2 class="title is-5 has-text-black mt-5">Mais detalhes</h2>
@@ -49,24 +49,24 @@
           <ul>
             <li class="list">Equity (% da empresa)</li>
             <li class="list">Variável (% de faturamento da empresa)</li>
-            <li class="list">Salário base (R$4k)</li>
+            <li class="list">Salário base (negociável)</li>
           </ul>
 
           <h2 class="title is-5 has-text-black mt-5">Tecnologias que trabalhamos</h2>
           <ul>
             <li class="list">Python (+ Pandas)</li>
-            <li class="list">Scrapy (extração de dados, scrappers)</li>
-            <li class="list">Dagster (pipeline de processamento e integrações)</li>
             <li class="list">Banco Postgres (SQL)</li>
             <li class="list">AWS (Lambda + RDS)</li>
             <li class="list">Github e Github Actions (CI/CD)</li>
+            <li class="list">Scrapy (extração de dados, scrappers)</li>
+            <li class="list">Dagster (pipeline de processamento e integrações)</li>
             <li class="list">Front com Vue ou React, e tailwind</li>
-            <li class="list">Nos comunicamos por Discord e seguimos a metodologia Kanban usando Trello</li>
+            <li class="list">Nos comunicamos por Discord</li>
+            <li class="list">Seguimos a metodologia Kanban usando Trello</li>
           </ul>
 
           <h2 class="title is-5 has-text-black mt-5">No que vai trabalhar</h2>
           <ul>
-            <li class="list">Na parte de engenharia, praticamente tudo.</li>
             <li class="list">Desenvolver e manter a API, testes, reviews, bugs, versionamento…</li>
             <li class="list">Realizar integrações com novas fontes de dados</li>
             <li class="list">Padronização e estruturação de dados inconsistentes e complexos</li>
@@ -75,21 +75,22 @@
 
           <h2 class="title is-5 has-text-black mt-5">Requisitos</h2>
           <ul>
-            <li class="list">Inglês não precisa ser fluente, somos focados no mercado do Brasil. Um pouco de inglês ajuda no desenvolvimento pois muitas tecnologias que usamos são em inglês.</li>
+            <li class="list">Conhecimento Python + Pandas: extremamente importante.</li>
+            <li class="list">Bancos de dados SQL (usamos PostgreSQL).</li>
+            <li class="list">Experiência prévia em microserviços, AWS, ajuda bastante.</li>
+            <li class="list">Básico de inglês, pois muitas tecnologias que usamos são em inglês.</li>
             <li class="list">Formação em cursos de tecnologia não é obrigatório, mas ajuda.</li>
-            <li class="list">Saber programar: extremamente importante.</li>
-            <li class="list">Experiência prévia em microserviços, AWS, ajuda também.</li>
           </ul>
 
           <h2 class="title is-5 has-text-black mt-5">Bônus</h2>
           <ul>
-            <li class="list">Experiência com produto, UI ou UX.</li>
-            <li class="list">Em produto, tem muito valor saber analisar em alto-nível (visão macro) das demandas dos clientes e essa relação com prioridades e urgências da empresa.</li>
-            <li class="list">Já criou algum projeto pessoal ou produto ou empresa.</li>
-            <li class="list">Possui curiosidade, vontade de aprender e de superar desafios.</li>
+            <li class="list">Docker</li>
+            <li class="list">AWS Lambdas</li>
+            <li class="list">Experiência na criação de APIs usando HTTP</li>
+            <li class="list">Experiência com Produto, UI ou UX.</li>
+            <li class="list">Já criou algum projeto pessoal, produto ou empresa.</li>
             <li class="list">Experiência com mercado financeiro, investimentos ou finanças.</li>
-            <li class="list">Experiência com marketing ou publicidade</li>
-            <li class="list">Em marketing, vendas, etc não precisa fazer nada, só se tiver interesse, e talvez isso seja bacana.</li>
+            <li class="list">Interesse/conhecimento amplos (ex: marketing, videos, cs, vendas).</li>
           </ul>
         </div>
         <div class="column is-2"></div>
