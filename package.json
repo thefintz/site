@@ -13,7 +13,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
-    "@gtm-support/vue-gtm": "^2.1.0",
+    "@gtm-support/vue-gtm": "^2.2.0",
     "bulma": "^0.9.4",
     "core-js": "^3.32.1",
     "nord": "^0.2.1",
