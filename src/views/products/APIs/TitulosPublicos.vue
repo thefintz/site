@@ -160,11 +160,13 @@
     <div class="has-text-centered mb-6">
       <p class="title has-text-black is-2"> Precificação Simples. </p>
       <p class="subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
+      <p class="has-text-centered is-size-4 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+      <p class="has-text-centered is-size-5 has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
     </div>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
-        <PricingTesouro/>
+        <PricingIndividual/>
       </div>
       <div class="column is-2"></div>
     </div>
@@ -184,7 +186,7 @@ import PartnersComp from '@/comps/PartnersComp'
 import TesouroLista from '@/comps/code/TesouroLista'
 import TesouroInfosDiarias from '@/comps/code/TesouroInfosDiarias'
 import TesouroInfosHistoricas from '@/comps/code/TesouroInfosHistoricas'
-import PricingTesouro from '@/comps/PricingTesouro'
+import PricingIndividual from '@/comps/PricingIndividual'
 
 export default {
   name: 'App',
@@ -197,7 +199,7 @@ export default {
     TesouroLista,
     TesouroInfosDiarias,
     TesouroInfosHistoricas,
-    PricingTesouro
+    PricingIndividual
   }
 }
 </script>

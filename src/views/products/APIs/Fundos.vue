@@ -163,11 +163,13 @@
     <div class="has-text-centered mb-6">
       <p class="title has-text-black is-2"> Precificação Simples. </p>
       <p class="subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
+      <p class="has-text-centered is-size-4 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+      <p class="has-text-centered is-size-5 has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
     </div>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
-        <PricingFundos/>
+        <PricingIndividual/>
       </div>
       <div class="column is-2"></div>
     </div>
@@ -185,7 +187,7 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
-import PricingFundos from '@/comps/PricingFundos'
+import PricingIndividual from '@/comps/PricingIndividual'
 import FundosInfosEssenciais from '@/comps/code/FundosInfosEssenciais'
 import FundosInfosDiarias from '@/comps/code/FundosInfosDiarias'
 import FundosRetornoHistorico from '@/comps/code/FundosRetornoHistorico'
@@ -198,7 +200,7 @@ export default {
     NavbarComp,
     ContactForm,
     PartnersComp,
-    PricingFundos,
+    PricingIndividual,
     FundosInfosEssenciais,
     FundosInfosDiarias,
     FundosRetornoHistorico
