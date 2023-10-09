@@ -1,72 +1,9 @@
 <template>
 <div>
 
-  <section
-    class="section has-text-centered"
-    :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']"
-    id="pricing-header">
-    <p class="title has-text-black is-2"> Precificação Simples. </p>
-    <span class="subtitle"> Acesso instantâneo. Cancele quando quiser. </span>
-  </section>
-
-  <div
-    class="tabs is-toggle is-toggle-rounded is-centered is-medium mb-0"
-    :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']">
-    <ul>
-      <li :class="{ 'is-active': showCommercial }">
-        <a @click="showCommercial = true">
-          <span>Uso comercial</span>
-        </a>
-      </li>
-      <li :class="{ 'is-active': !showCommercial }">
-        <a @click="showCommercial = false">
-          <span>Uso individual</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <section v-if="showCommercial" class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
-    <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Uso comercial </p>
-    <p class="has-text-centered title has-text-black"> Bolsa B3 </p>
-    <p class="has-text-centered subtitle"> Ações, FIIs, ETFs, BDRs, indicadores, dados de empresa e mais. </p>
-    <div class="columns">
-      <div class="column is-2"></div>
-      <div class="column is-8">
-        <PricingB3/>
-      </div>
-      <div class="column is-2"></div>
-    </div>
-  </section>
-
-  <section v-if="showCommercial" class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-fundos">
-    <p class="has-text-centered title has-text-black"> Fundos de Investimento </p>
-    <p class="has-text-centered subtitle"> Cotação atual e histórica, indicadores, dados cadastrais e mais. </p>
-    <div class="columns">
-      <div class="column is-2"></div>
-      <div class="column is-8">
-        <PricingFundos/>
-      </div>
-      <div class="column is-2"></div>
-    </div>
-  </section>
-
-  <section v-if="showCommercial" class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-tesouro">
-    <p class="has-text-centered title has-text-black"> Tesouro Direto </p>
-    <p class="has-text-centered subtitle"> Marcação a mercado e na curva, preços, juros, histórico e mais. </p>
-    <div class="columns">
-      <div class="column is-2"></div>
-      <div class="column is-8">
-        <PricingTesouro/>
-      </div>
-      <div class="column is-2"></div>
-    </div>
-  </section>
-
-  <section v-if="!showCommercial" class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
-    <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Uso individual </p>
-    <p class="has-text-centered title has-text-black"> Bolsa + Fundos + Tesouro </p>
-    <p class="has-text-centered subtitle"> Acesso a todas as APIs. Uso individual. </p>
+  <section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
+    <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+    <p class="has-text-centered title has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
@@ -81,18 +18,12 @@
 
 <script>
 import PricingIndividual from '@/comps/PricingIndividual'
-import PricingB3 from '@/comps/PricingB3'
-import PricingFundos from '@/comps/PricingFundos'
-import PricingTesouro from '@/comps/PricingTesouro'
 
 export default {
   name: 'PricingAll',
 
   components: {
-    PricingIndividual,
-    PricingB3,
-    PricingFundos,
-    PricingTesouro
+    PricingIndividual
   },
 
   props: {

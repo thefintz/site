@@ -1,28 +1,10 @@
 <template>
   <div class="columns is-centered">
     <div class="column is-one-third">
-      <div class="box" style="height: 21rem">
-        <p class="is-size-7 has-text-weight-bold"> Plano individual </p>
-        <p class="is-size-5 has-text-weight-bold has-text-black"> Básico </p>
-        <p class="is-size-7"> Ótimo para testar </p>
-        <hr/>
-        <div class="mb-1">
-          <p class="is-size-5 has-text-weight-bold has-text-black"> Gratuito </p>
-        </div>
-        <div class="has-text-centered mb-2">
-          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Começar a usar </button>
-        </div>
-        <CheckmarkItemComp text="API completa da Bolsa B3"/> <br>
-        <CheckmarkItemComp text="API completa de Fundos"/> <br>
-        <CheckmarkItemComp text="API completa Tesouro Direto"/> <br>
-        <CheckmarkItemComp text="300 chamadas / mês"/> <br>
-      </div>
-    </div>
-    <div class="column is-one-third">
-      <div class="box" style="height: 21rem">
+      <div class="box" style="height: 35rem">
         <p class="is-size-7 has-text-weight-bold"> Plano individual </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Padrão </p>
-        <p class="is-size-7"> Ótimo para projetos </p>
+        <p class="is-size-7"> Ótimo projetos pessoais </p>
         <hr/>
         <div class="mb-1">
           <span class="is-size-5 has-text-black has-text-weight-bold"> R$29,90 </span>
@@ -31,9 +13,42 @@
         <div class="has-text-centered mb-2">
           <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Começar a usar </button>
         </div>
-        <CheckmarkItemComp text="Tudo do plano gratuito"/> <br>
         <CheckmarkItemComp text="3.000 chamadas / mês"/> <br>
-        <CheckmarkItemComp text="Suporte técnico"/> <br>
+        <CheckmarkItemComp text="API Bolsa B3"/> <br>
+        <CheckmarkItemComp text="API Fundos"/> <br>
+        <CheckmarkItemComp text="API Tesouro Direto"/> <br>
+        <CheckmarkItemComp text="API Índices, Taxas e Câmbio"/> <br>
+        <CheckmarkItemComp text="Histórico cotações (+10 anos)"/> <br>
+        <CheckmarkItemComp text="Base ajustada e padronizada"/> <br>
+        <CheckmarkItemComp text="Proventos, splits e bonificações"/> <br>
+        <CheckmarkItemComp text="Indicadores anuais e trimestrais"/> <br>
+        <CheckmarkItemComp text="DRE, DFC e BPs padronizados"/> <br>
+        <CheckmarkItemComp text="Balanços trimestrais e anuais"/> <br>
+        <CheckmarkItemComp text="Plugin Excel/Sheets (em breve)"/> <br>
+      </div>
+    </div>
+    <div class="column is-one-third">
+      <div class="box" style="height: 35rem">
+        <p class="is-size-7 has-text-weight-bold"> Plano comercial </p>
+        <p class="is-size-5 has-text-weight-bold has-text-black"> Enterprise </p>
+        <p class="is-size-7"> Para escalar seu negócio</p>
+        <hr/>
+        <div class="mb-1">
+          <span class="is-size-5 has-text-black has-text-weight-bold"> Sob consulta </span>
+          <!-- <span> Entre em contato. </span> -->
+        </div>
+        <div class="has-text-centered mb-2">
+          <button
+            @click="$router.push('/comecar-a-usar')"
+            class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold">
+            Entrar em contato
+          </button>
+        </div>
+        <CheckmarkItemComp text="Tudo do plano Padrão"/> <br>
+        <CheckmarkItemComp text="Chamadas ilimitadas"/> <br>
+        <CheckmarkItemComp text="Suporte premium e técnico"/> <br>
+        <CheckmarkItemComp text="Soluções customizadas"/> <br>
+        <CheckmarkItemComp text="Desenvolvimento de features"/> <br>
       </div>
     </div>
   </div>
