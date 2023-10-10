@@ -6,12 +6,15 @@
         <p class="is-size-5 has-text-weight-bold has-text-black"> Padrão </p>
         <p class="is-size-7"> Ótimo projetos pessoais </p>
         <hr/>
-        <div class="mb-1">
-          <span class="is-size-5 has-text-black has-text-weight-bold"> R$29,90 </span>
+        <!-- <div class="mb-1">
+          <span class="is-size-5 has-text-gray has-text-weight-bold strikethrough"> De R$84,90 / mês </span>
+        </div> -->
+          <div class="mb-1">
+          <span class="is-size-4 has-text-black has-text-weight-bold"> R$29,90 </span>
           <span>/mês</span>
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="$router.push('/comecar-a-usar')" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Começar a usar </button>
+          <button @click="redirectAssinarMensal" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Assinar agora </button>
         </div>
         <CheckmarkItemComp text="3.000 chamadas / mês"/> <br>
         <CheckmarkItemComp text="API Bolsa B3"/> <br>
@@ -37,7 +40,7 @@
           <span class="is-size-5 has-text-black has-text-weight-bold"> Sob consulta </span>
           <!-- <span> Entre em contato. </span> -->
         </div>
-        <div class="has-text-centered mb-2">
+        <div class="has-text-centered mb-2 pr-5">
           <button
             @click="$router.push('/comecar-a-usar')"
             class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold">
@@ -62,6 +65,15 @@ export default {
 
   components: {
     CheckmarkItemComp
+  },
+
+  methods: {
+    redirectAssinarMensal () {
+      window.location.href = 'https://www.asaas.com/c/220760563882'
+    },
+    redirectAssinarAnual () {
+      window.location.href = 'https://www.asaas.com/c/567105707020'
+    }
   }
 }
 </script>
@@ -74,4 +86,11 @@ export default {
     padding-left: 28%;
     padding-right: 28%;
   }
+
+  .strikethrough {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;  /* Adjust thickness as desired */
+  /* text-decoration-color: black; Adjust color for more visibility, if desired */
+}
+
 </style>

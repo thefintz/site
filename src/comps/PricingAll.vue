@@ -2,8 +2,10 @@
 <div>
 
   <section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
-    <p class="has-text-centered is-size-2 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
-    <p class="has-text-centered title has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
+    <p class="has-text-centered title has-text-black is-2"> Precificação Simples. </p>
+    <p class="has-text-centered subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
+    <p class="has-text-centered is-size-4 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+    <p class="has-text-centered is-size-5 has-text-black mb-4"> Bolsa + Fundos + Tesouro + Índices </p>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
