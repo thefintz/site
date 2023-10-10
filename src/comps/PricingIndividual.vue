@@ -1,6 +1,6 @@
 <template>
   <div
-    class="my-5 tabs is-toggle is-toggle-rounded is-centered is-medium mb-0 has-background-light">
+    class="my-5 tabs is-toggle is-toggle-rounded is-centered is-medium mb-0">
     <ul>
       <li :class="{ 'is-active': !showAnual }">
         <a @click="showAnual = false">
