@@ -1,20 +1,40 @@
 <template>
+  <div
+    class="my-5 tabs is-toggle is-toggle-rounded is-centered is-medium mb-0 has-background-light">
+    <ul>
+      <li :class="{ 'is-active': !showAnual }">
+        <a @click="showAnual = false">
+          <span>Plano mensal</span>
+        </a>
+      </li>
+      <li :class="{ 'is-active': showAnual }">
+        <a @click="showAnual = true">
+          <span>Plano anual</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
   <div class="columns is-centered">
     <div class="column is-one-third">
-      <div class="box" style="height: 35rem">
+      <div class="box" style="height: 37rem">
         <p class="is-size-7 has-text-weight-bold"> Plano individual </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Padrão </p>
         <p class="is-size-7"> Ótimo projetos pessoais </p>
         <hr/>
-        <!-- <div class="mb-1">
-          <span class="is-size-5 has-text-gray has-text-weight-bold strikethrough"> De R$84,90 / mês </span>
-        </div> -->
+        <div class="mb-1">
+          <span v-if="!showAnual" class="is-size-5 has-text-gray has-text-weight-bold strikethrough"> De R$85,00 / mês </span>
+          <span v-if="showAnual" class="is-size-5 has-text-gray has-text-weight-bold strikethrough"> De R$1.020,00 / ano </span>
+        </div>
           <div class="mb-1">
-          <span class="is-size-4 has-text-black has-text-weight-bold"> R$29,90 </span>
-          <span>/mês</span>
+          <span v-if="!showAnual" class="is-size-4 has-text-black has-text-weight-bold"> R$29,90 </span>
+          <span v-if="showAnual" class="is-size-4 has-text-black has-text-weight-bold"> R$299,00 </span>
+          <span v-if="!showAnual">/mês</span>
+          <span v-if="showAnual">/ano</span>
         </div>
         <div class="has-text-centered mb-2">
-          <button @click="redirectAssinarMensal" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Assinar agora </button>
+          <button v-if="!showAnual" @click="redirectAssinarMensal" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Assinar agora </button>
+          <button v-if="showAnual" @click="redirectAssinarAnual" class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold"> Assinar agora </button>
         </div>
         <CheckmarkItemComp text="3.000 chamadas / mês"/> <br>
         <CheckmarkItemComp text="API Bolsa B3"/> <br>
@@ -31,13 +51,17 @@
       </div>
     </div>
     <div class="column is-one-third">
-      <div class="box" style="height: 35rem">
+      <div class="box" style="height: 37rem">
         <p class="is-size-7 has-text-weight-bold"> Plano comercial </p>
         <p class="is-size-5 has-text-weight-bold has-text-black"> Enterprise </p>
         <p class="is-size-7"> Para escalar seu negócio</p>
         <hr/>
         <div class="mb-1">
           <span class="is-size-5 has-text-black has-text-weight-bold"> Sob consulta </span>
+          <!-- <span> Entre em contato. </span> -->
+        </div>
+        <div class="mb-4">
+          <span class="is-size-6 has-text-gray has-text-weight-bold"> Precificação customizada </span>
           <!-- <span> Entre em contato. </span> -->
         </div>
         <div class="has-text-centered mb-2 pr-5">
@@ -65,6 +89,12 @@ export default {
 
   components: {
     CheckmarkItemComp
+  },
+
+  data () {
+    return {
+      showAnual: true
+    }
   },
 
   methods: {
