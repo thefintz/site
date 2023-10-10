@@ -4,7 +4,7 @@
   <NavbarComp/>
   <section class="section">
     <div class="container">
-      <h1 class="title">FAQ da Fintz - Dados do Mercado Financeiro</h1>
+      <h1 class="title">Fintz FAQ - Base de Dados do Mercado Financeiro</h1>
 
       <div class="box" v-for="(faq, index) in faqs" :key="index">
         <p class="subtitle">{{ faq.question }}</p>
