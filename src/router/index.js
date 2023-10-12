@@ -37,6 +37,12 @@ const routes = [
     name: 'Contato',
     component: () => import('@/views/Contato')
   },
+  // FAQ
+  {
+    path: '/faq',
+    name: 'FAQ',
+    component: () => import('@/views/FAQ')
+  },
   // contact start to use
   {
     path: '/comecar-a-usar',

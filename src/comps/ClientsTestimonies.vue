@@ -1,8 +1,6 @@
 <template>
   <section class="section my-5" id="success_cases" >
     <div class="container">
-      <span class="title is-3 has-text-black"> Depoimentos de Sucesso </span>
-      <p class="title is-3 has-text-primary"> Você está em ótima companhia </p>
 
       <div class="columns">
         <div class="column is-half has-text-centered">

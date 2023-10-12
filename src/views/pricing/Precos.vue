@@ -12,6 +12,7 @@
 
 <PricingAll/>
 
+<!--
 <section class="section" id="opcoes-planos">
   <div class="container has-text-centered">
     <span class="title is-4"> Opções de preços simples e flexíveis </span>
@@ -55,25 +56,25 @@
 
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="section py-0" id="modelo-customizavel">
+<section class="section py-0 px-0" id="modelo-customizavel">
   <div class="hero-body">
     <div class="container">
-      <p class="title is-3">Modelo de negócios diferente?</p>
+      <p class="title is-3 has-text-black">Modelo de negócios diferente?</p>
       <p class="subtitle is-6 mb-0">
         Caso você cobre por usuário, por acesso, ou qualquer outra maneira, nós vamos montar o plano ideal para você.
       </p>
-      <a href="mailto:contato@fintz.com.br">
-        Entre em contato com nosso time de vendas para ver como podemos ajudar.
-      </a>
+      <p>
+        Entre em contato e vamos ajudar: contato@fintz.com.br
+      </p>
     </div>
   </div>
 </section>
 
 <ClientsStories/>
 
-<section>
+<!-- <section>
   <div class="container is-fluid">
     <div class="box m-5 p-5" style="border: 1px solid lightgray; box-shadow: none;">
       <div class="columns mx-5">
@@ -94,49 +95,14 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="section my-5" id="vantagens-fintz">
+<section class="section my-6" id="vantagens-fintz">
   <div class="container has-text-centered">
-    <span class="subtitle is-3"> Vantagens de usar a Fintz </span>
-      <div class="columns mt-3">
+    <span class="subtitle is-2 has-text-black"> Vantagens de usar a Fintz </span>
+      <div class="columns mt-5">
 
-        <div class="column is-one-third">
-          <div class="is-flex is-justify-content-center pb-3">
-            <figure class="image is-64x64">
-              <img src="@/assets/icons/pricing/trusteddata.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <p class="title is-5">Dados confiáveis</p>
-          <p class="subtitle is-6">
-            Dados direto de fontes oficiais, consolidados e verificados pelo nosso time de especialistas.
-          </p>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="is-flex is-justify-content-center pb-3">
-            <figure class="image is-64x64">
-              <img src="@/assets/icons/pricing/brasilglobo.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <p class="title is-5">Opere em escala</p>
-          <p class="subtitle is-6">
-            Estenda a sua aplicação para novos mercados com recursos configuráveis para localização e conformidade.
-          </p>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="is-flex is-justify-content-center pb-3">
-            <figure class="image is-64x64">
-              <img src="@/assets/icons/pricing/notricks.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <p class="title is-5">Sem truques</p>
-          <p class="subtitle is-6">
-            Coloque em produção com mais agilidade, com suporte qualificado em português e liberdade para escalar ou reduzir sem contratos.
-          </p>
-        </div>
-
+        <BenefitsComp/>
     </div>
   </div>
 </section>
@@ -157,6 +123,7 @@ import ContactForm from '@/comps/ContactForm'
 import PricingAll from '@/comps/PricingAll'
 import ClientsStories from '@/comps/ClientsStories'
 import ClientsTestimonies from '@/comps/ClientsTestimonies'
+import BenefitsComp from '@/comps/BenefitsComp'
 
 export default {
   name: 'App',
@@ -167,6 +134,7 @@ export default {
     ContactForm,
     ClientsStories,
     ClientsTestimonies,
+    BenefitsComp,
     PricingAll
   }
 }

@@ -55,6 +55,19 @@
           </span>
         </a>
 
+        <a class="navbar-item mx-3" @click="$router.push('FAQ')">
+          <span class="icon-text">
+            <!-- <span class="icon">
+              <font-awesome-icon :icon="['fas', 'phone-alt']" />
+            </span> -->
+            <strong
+              :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
+            >
+              FAQ
+            </strong>
+          </span>
+        </a>
+
         <a class="navbar-item mx-3" @click="$router.push('contato')">
           <span class="icon-text">
             <!-- <span class="icon">
