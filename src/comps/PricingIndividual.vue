@@ -99,9 +99,11 @@ export default {
 
   methods: {
     redirectAssinarMensal () {
+      this.$gtag.event('click-assinar-mensal', { event_category: this.$route.name })
       window.location.href = 'https://www.asaas.com/c/220760563882'
     },
     redirectAssinarAnual () {
+      this.$gtag.event('click-assinar-anual', { event_category: this.$route.name })
       window.location.href = 'https://www.asaas.com/c/567105707020'
     }
   }
