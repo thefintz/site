@@ -66,7 +66,7 @@
         </div>
         <div class="has-text-centered mb-2 pr-5">
           <button
-            @click="$router.push('/comecar-a-usar')"
+            @click="$router.push('/contato')"
             class="button button-full-width is-size-7 is-primary has-text-white is-full has-text-weight-bold">
             Entrar em contato
           </button>
