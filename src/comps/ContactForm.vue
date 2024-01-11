@@ -29,6 +29,30 @@
               </span>
             </p>
           </div>
+          <p class="has-text-justified p-1">
+            Qual o principal assunto da sua mensagem?
+          </p>
+          <div class="columns is-multiline is-mobile">
+            <div class="column is-full-mobile control">
+              <input type="radio" id="opcao1" name="sobre" value="Plano enterprise">
+              <label for="opcao1"> Plano enterprise </label>
+            </div>
+
+            <div class="column is-full-mobile control">
+              <input type="radio" id="opcao2" name="sobre" value="Plano individual">
+              <label for="opcao2"> Plano individual </label>
+            </div>
+
+            <div class="column is-full-mobile control">
+              <input type="radio" id="opcao3" name="sobre" value="Demonstração">
+              <label for="opcao3"> Demonstração </label>
+            </div>
+
+            <div class="column is-full-mobile control">
+              <input type="radio" id="opcao4" name="sobre" value="Dúvidas">
+              <label for="opcao4"> Dúvidas gerais </label>
+            </div>
+          </div>
           <input type="hidden" name="_subject" value="Retornando seu contato"> <!-- quickly reply with subject-->
           <!-- <input type="hidden" name="_autoresponse" value="Obrigado! Em breve entraremos em contato"> -->
           <input type="hidden" name="_template" value="table">
