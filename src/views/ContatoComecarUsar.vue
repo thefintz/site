@@ -28,7 +28,7 @@
     <div class="columns">
 
       <div class="column is-half has-text-centered">
-        <form action="https://formsubmit.co/674ee13a67030c085e36aa2893dd35e9" method="POST" >
+        <form action="https://formsubmit.co/19d9f6a9f2082b148676258586d638ff" method="POST" >
           <div class="field">
             <p class="control has-icons-left">
               <input class="input is-medium" type="email" placeholder="Seu email" name="email" required>
