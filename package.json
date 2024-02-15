@@ -15,7 +15,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.5",
     "@gtm-support/vue-gtm": "^2.2.0",
     "bulma": "^0.9.4",
-    "core-js": "^3.35.0",
+    "core-js": "^3.36.0",
     "nord": "^0.2.1",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
