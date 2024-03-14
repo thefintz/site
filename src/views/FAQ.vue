@@ -4,11 +4,11 @@
   <NavbarComp/>
   <section class="section">
     <div class="container">
-      <h1 class="title">Fintz FAQ - Base de Dados do Mercado Financeiro</h1>
+      <h1 class="title has-text-black has-text-weight-bold">Fintz FAQ - Base de Dados do Mercado Financeiro</h1>
 
       <div class="box" v-for="(faq, index) in faqs" :key="index">
-        <p class="subtitle">{{ faq.question }}</p>
-        <p :style="multilineStyle" v-html="faq.answer"></p>
+        <p class="subtitle has-text-black has-text-weight-bold" v-html="faq.question"></p>
+        <p class="has-text-black" :style="multilineStyle" v-html="faq.answer"></p>
       </div>
     </div>
   </section>

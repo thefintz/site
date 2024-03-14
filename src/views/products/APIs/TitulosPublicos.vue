@@ -158,9 +158,7 @@
   <!-- Pricing -->
   <section class="section has-background-light" id="pricing-header">
     <div class="has-text-centered mb-6">
-      <p class="title has-text-black is-2"> Precificação Simples. </p>
-      <p class="subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
-      <p class="has-text-centered is-size-4 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+      <p class="title has-text-black is-2"> Precificação Personalizada </p>
       <p class="has-text-centered is-size-5 has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
     </div>
     <div class="columns">
