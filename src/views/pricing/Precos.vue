@@ -11,7 +11,6 @@
 </section>
 
 <PricingAll/>
-
 <!--
 <section class="section" id="opcoes-planos">
   <div class="container has-text-centered">

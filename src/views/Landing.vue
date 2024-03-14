@@ -8,7 +8,7 @@
         <div class="column">
           <div class="pb-3">
             <EndpointItemComp label="Novo!" text="Lançamento: " color="GREEN"></EndpointItemComp>
-            <span @click="$router.push('/titulos-publicos')" class="has-text-primary pointer"> API Tesouro Direto </span>
+            <a href="https://findicadores.com.br/#/WEGE3" class="has-text-primary pointer"> Navegar em ações </a>
           </div>
           <h1 class="title is-3 has-text-black">
             Dados do Mercado Financeiro
@@ -21,6 +21,16 @@
             <!-- <button @click="$router.push('/precos')" class="button px-6 is-medium is-outlined is-primary">Ver preços</button> -->
             <button @click="$router.push('/precos')" class="button px-6 is-medium is-primary has-text-white mr-2">Ver planos e preços</button>
           </div>
+          <br>
+          <h3 class="is-size-5 has-text-black">
+            Precisa de indicadores e resultados de ações, FIIs e fundos?
+          </h3>
+          <h3 class="is-size-5 has-text-black">
+            Alimente sua plataforma, PowerBI ou operacional.
+          </h3>
+          <h3 class="is-size-5 has-text-black">
+            Base de dados com histórico completo para você.
+          </h3>
         </div>
         <div class="column">
           <figure class="image">
@@ -42,7 +52,7 @@
   <section class="section" id="apis">
     <div class="container">
       <span class="title is-3 has-text-primary"> APIs do Mercado Financeiro </span>
-      <p class="title is-4 has-text-black"> Dados históricos & intraday </p>
+      <p class="title is-4 has-text-black"> Dados históricos </p>
       <APIsComp/>
     </div>
   </section>

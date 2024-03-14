@@ -16,7 +16,7 @@
           <p class="title is-3 has-text-black">API Bolsa</p>
           <p class="subtitle is-4">
             <span>
-              Dados históricos e intraday de ativos na B3
+              Dados históricos de ativos na B3
             </span>
           </p>
         </div>
@@ -159,9 +159,7 @@
   <!-- Pricing -->
   <section class="section has-background-light" id="pricing-header">
     <div class="has-text-centered mb-6">
-      <p class="title has-text-black is-2"> Precificação Simples. </p>
-      <p class="subtitle"> Acesso instantâneo. Cancele quando quiser. </p>
-      <p class="has-text-centered is-size-4 has-text-weight-bold is-underlined has-text-black"> Acesso à base completa </p>
+      <p class="title has-text-black is-2"> Precificação Personalizada </p>
       <p class="has-text-centered is-size-5 has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
     </div>
     <div class="columns">
