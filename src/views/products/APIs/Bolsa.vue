@@ -165,7 +165,7 @@
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
-        <PricingIndividual/>
+        <PricingComercial/>
       </div>
       <div class="column is-2"></div>
     </div>
@@ -183,7 +183,7 @@ import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
 import PartnersComp from '@/comps/PartnersComp'
-import PricingIndividual from '@/comps/PricingIndividual'
+import PricingComercial from '@/comps/PricingComercial'
 import BolsaIndicadores from '@/comps/code/BolsaIndicadores'
 import BolsaInfosGerais from '@/comps/code/BolsaInfosGerais'
 
@@ -195,7 +195,7 @@ export default {
     NavbarComp,
     ContactForm,
     PartnersComp,
-    PricingIndividual,
+    PricingComercial,
     BolsaIndicadores,
     BolsaInfosGerais
   }

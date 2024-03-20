@@ -164,7 +164,7 @@
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
-        <PricingIndividual/>
+        <PricingComercial/>
       </div>
       <div class="column is-2"></div>
     </div>
@@ -184,7 +184,7 @@ import PartnersComp from '@/comps/PartnersComp'
 import TesouroLista from '@/comps/code/TesouroLista'
 import TesouroInfosDiarias from '@/comps/code/TesouroInfosDiarias'
 import TesouroInfosHistoricas from '@/comps/code/TesouroInfosHistoricas'
-import PricingIndividual from '@/comps/PricingIndividual'
+import PricingComercial from '@/comps/PricingComercial'
 
 export default {
   name: 'App',
@@ -197,7 +197,7 @@ export default {
     TesouroLista,
     TesouroInfosDiarias,
     TesouroInfosHistoricas,
-    PricingIndividual
+    PricingComercial
   }
 }
 </script>

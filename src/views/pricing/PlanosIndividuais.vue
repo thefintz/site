@@ -10,7 +10,7 @@
   </div>
 </section>
 
-<PricingAll/>
+<PricingIndividual/>
 
 <section class="section py-0 px-0" id="modelo-customizavel">
   <div class="hero-body">
@@ -51,7 +51,7 @@
 import FooterComp from '@/comps/FooterComp'
 import NavbarComp from '@/comps/NavbarComp'
 import ContactForm from '@/comps/ContactForm'
-import PricingAll from '@/comps/PricingAll'
+import PricingIndividual from '@/comps/PricingIndividual'
 import ClientsStories from '@/comps/ClientsStories'
 import ClientsTestimonies from '@/comps/ClientsTestimonies'
 import BenefitsComp from '@/comps/BenefitsComp'
@@ -66,7 +66,7 @@ export default {
     ClientsStories,
     ClientsTestimonies,
     BenefitsComp,
-    PricingAll
+    PricingIndividual
   }
 }
 </script>

@@ -7,7 +7,7 @@
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
-        <PricingIndividual/>
+        <PricingComercial/>
       </div>
       <div class="column is-2"></div>
     </div>
@@ -17,13 +17,13 @@
 </template>
 
 <script>
-import PricingIndividual from '@/comps/PricingIndividual'
+import PricingComercial from '@/comps/PricingComercial'
 
 export default {
   name: 'PricingAll',
 
   components: {
-    PricingIndividual
+    PricingComercial
   },
 
   props: {

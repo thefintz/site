@@ -54,11 +54,17 @@ const routes = [
     name: 'EmailSent',
     component: () => import('@/views/EmailSent')
   },
-  // pricing
+  // pricing comercial
   {
     path: '/precos',
     name: 'Preços',
     component: () => import('@/views/pricing/Precos')
+  },
+  // pricing individual
+  {
+    path: '/planos-individuais',
+    name: 'Planos Individuais',
+    component: () => import('@/views/pricing/PlanosIndividuais')
   },
   {
     path: '/startups',
