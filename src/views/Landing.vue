@@ -8,7 +8,7 @@
         <div class="column">
           <div class="pb-3">
             <EndpointItemComp label="Novo!" text="Lançamento: " color="GREEN"></EndpointItemComp>
-            <a href="https://findicadores.com.br/#/WEGE3" class="has-text-primary pointer"> Navegar em ações </a>
+            <a href="https://findicadores.com.br/WEGE3" class="has-text-primary pointer"> Navegar em ações </a>
           </div>
           <h1 class="title is-3 has-text-black">
             Dados do Mercado Financeiro

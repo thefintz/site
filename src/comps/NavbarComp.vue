@@ -81,7 +81,7 @@
           </span>
         </a>
 
-        <a class="navbar-item mx-3" href="https://findicadores.com.br/#/WEGE3">
+        <a class="navbar-item mx-3" href="https://findicadores.com.br/WEGE3">
           <span class="icon-text">
             <strong
               :class="[theme !== 'dark' ? 'has-text-black' : 'has-text-white']"
