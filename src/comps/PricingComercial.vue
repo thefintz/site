@@ -42,12 +42,6 @@
         <CheckmarkItemComp/><span class="is-size-6" style="line-height: 200%">Acesso antecipado a novas funcionalidades</span><br>
         <span class="is-size-7 pointer is-underlined" @click="$router.push('/FAQ')" style="line-height: 400%">Clique para entender porque a Fintz é a melhor opção</span><br>
       </div>
-      <div clas="has-text-centered">
-        <span class="is-size-7">Plano individual? Para uso não comercial, adquira nosso plano&nbsp;</span>
-        <span class="is-size-7 pointer is-underlined" @click="redirectAssinarMensal">mensal</span>
-        <span class="is-size-7">&nbsp;ou&nbsp;</span>
-        <span class="is-size-7 pointer is-underlined" @click="redirectAssinarAnual">anual</span>
-      </div>
     </div>
   </div>
 </template>
