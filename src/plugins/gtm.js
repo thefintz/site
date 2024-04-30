@@ -4,7 +4,7 @@ export default {
   install (app, { router }) {
     app.use(
       createGtm({
-        id: 'GTM-TCXDSR5',
+        id: 'GTM-W7X28Q7W',
         enabled: true,
         debug: true,
         vueRouter: router,
