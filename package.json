@@ -37,7 +37,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^9.20.1",
-    "sass": "^1.69.7",
+    "sass": "^1.77.2",
     "sass-loader": "^13.3.3"
   }
 }
