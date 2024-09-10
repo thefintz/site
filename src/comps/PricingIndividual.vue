@@ -99,7 +99,7 @@ export default {
 
   methods: {
     redirectAssinarMensal () {
-      window.location.href = 'https://www.asaas.com/c/220760563882'
+      window.location.href = 'https://www.asaas.com/c/567105707020'
     },
     redirectAssinarAnual () {
       window.location.href = 'https://www.asaas.com/c/567105707020'
