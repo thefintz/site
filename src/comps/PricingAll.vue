@@ -3,7 +3,7 @@
 
   <section class="section" :class="[bg === 'light' ? 'has-background-light' : 'has-background-white']" id="pricing-bolsa-b3">
     <p class="has-text-centered title has-text-black is-2"> Precificação Personalizada </p>
-    <p class="has-text-centered is-size-5 has-text-black mb-4"> Bolsa + Fundos + Tesouro + Índices </p>
+    <p class="has-text-centered is-size-5 has-text-black mb-4"> Bolsa (ações, FIIs, ETFs, BDRs) + Tesouro + Índices </p>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">

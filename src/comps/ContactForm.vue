@@ -29,7 +29,7 @@
               </span>
             </p>
           </div>
-          <p class="has-text-justified p-1">
+          <p class="has-text-justified p-1 has-text-weight-bold">
             Qual o principal assunto da sua mensagem?
           </p>
           <div class="columns is-multiline is-mobile">
@@ -67,10 +67,10 @@
           </div>
         </form>
 
-        <h4 class="subtitle is-5 pt-5 mt-5 pb-0 mb-0 has-text-dark">
+        <!-- <h4 class="subtitle is-5 pt-5 mt-5 pb-0 mb-0 has-text-dark">
           Ou entre em contato pelo nosso WhatsApp
         </h4>
-        <ContactComp />
+        <ContactComp /> -->
       </div>
     </div>
   </div>
@@ -78,13 +78,13 @@
 </template>
 
 <script>
-import ContactComp from '@/comps/ContactComp'
+// import ContactComp from '@/comps/ContactComp'
 
 export default {
   name: 'ContactForm',
 
   components: {
-    ContactComp
+    // ContactComp
   }
 }
 </script>

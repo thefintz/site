@@ -162,7 +162,7 @@
   <section class="section has-background-light" id="pricing-header">
     <div class="has-text-centered mb-6">
       <p class="title has-text-black is-2"> Precificação Personalizada </p>
-      <p class="has-text-centered is-size-5 has-text-black"> Bolsa + Fundos + Tesouro + Índices </p>
+      <p class="has-text-centered is-size-5 has-text-black"> Bolsa (ações, FIIs, ETFs, BDRs) + Tesouro + Índices </p>
     </div>
     <div class="columns">
       <div class="column is-2"></div>

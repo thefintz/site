@@ -10,26 +10,23 @@
   </div>
 </section>
 
-<section class="py-6">
+<section class="pt-6">
   <div class="hero-body">
     <div class="container">
       <h1 class="title is-3 has-text-black">
         Entre em contato
       </h1>
-      <h2 class="subtitle is-5">
-        Nos mande um email em <a href="mailto:contato@fintz.com.br"> contato@fintz.com.br </a> ou preencha os campos abaixo.
-        <br>
-        Retornamos no mesmo dia!
-      </h2>
+      <h2>Preencha os campos abaixo.</h2>
+      <h2>Retornamos no mesmo dia!</h2>
     </div>
   </div>
 </section>
 
-<section class="section my-6" id="section4">
+<section class="section mb-6" id="section4">
   <div class="container">
     <div class="columns">
 
-      <div class="column is-half has-text-centered">
+      <div class="column is-two-thirds has-text-centered">
         <form action="https://formsubmit.co/19d9f6a9f2082b148676258586d638ff" method="POST" >
           <div class="field">
             <p class="control has-icons-left">
@@ -47,7 +44,7 @@
               </span>
             </p>
           </div>
-          <p class="has-text-justified p-1">
+          <p class="has-text-justified p-1 has-text-weight-bold mb-3 mt-5">
             Qual o principal assunto da sua mensagem?
           </p>
           <div class="columns is-multiline is-mobile">
@@ -87,11 +84,10 @@
         </form>
 
       </div>
-        <div class="column is-half has-text-centered">
-        <span class="subtitle is-5 has-text-dark">
-          Ou entre em contato pelo WhatsApp
-        </span>
-        <ContactComp />
+        <div class="column is-one-third has-text-centered px-6">
+          <h2 class="is-size-6 mt-6">
+            Ou nos envie um email: contato@fintz.com.br
+      </h2>
       </div>
     </div>
   </div>
@@ -105,15 +101,15 @@
 <script>
 import NavbarComp from '@/comps/NavbarComp'
 import FooterComp from '@/comps/FooterComp'
-import ContactComp from '@/comps/ContactComp'
+// import ContactComp from '@/comps/ContactComp'
 
 export default {
   name: 'App',
 
   components: {
     NavbarComp,
-    FooterComp,
-    ContactComp
+    FooterComp
+    // ContactComp
   }
 }
 </script>
