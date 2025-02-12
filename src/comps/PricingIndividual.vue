@@ -99,10 +99,10 @@ export default {
 
   methods: {
     redirectAssinarMensal () {
-      window.location.href = 'https://www.asaas.com/c/567105707020'
+      window.location.href = 'https://www.asaas.com/c/jx86vlosxttstl07'
     },
     redirectAssinarAnual () {
-      window.location.href = 'https://www.asaas.com/c/567105707020'
+      window.location.href = 'https://www.asaas.com/c/jx86vlosxttstl07'
     }
   }
 }

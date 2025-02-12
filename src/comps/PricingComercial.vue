@@ -20,7 +20,7 @@
       <div class="box" style="height: 38rem">
         <p class="is-size-6 has-text-weight-bold"> Uso Comercial </p>
         <p class="is-size-3 has-text-weight-bold has-text-black"> Enterprise </p>
-        <span class="is-size-3 is-italic">R$ 925 </span>
+        <span class="is-size-3 is-italic">R$ 12.500 </span>
         <span class="is-size-5 is-italic"> / mês </span>
         <hr/>
         <div class="has-text-centered mb-2 pr-5">
@@ -107,11 +107,11 @@ export default {
   methods: {
     redirectAssinarMensal () {
       this.$gtag.event('click-assinar-mensal', { event_category: this.$route.name })
-      window.location.href = 'https://www.asaas.com/c/567105707020'
+      window.location.href = 'https://www.asaas.com/c/jx86vlosxttstl07'
     },
     redirectAssinarAnual () {
       this.$gtag.event('click-assinar-anual', { event_category: this.$route.name })
-      window.location.href = 'https://www.asaas.com/c/567105707020'
+      window.location.href = 'https://www.asaas.com/c/jx86vlosxttstl07'
     }
   }
 }
