@@ -128,12 +128,12 @@ const routes = [
   },
   {
     path: '/FintzBot/PrivacyPolicy',
-    name: 'termos',
+    name: 'FintzBotPrivacyPolicy',
     component: () => import('@/views/fintzbot/PrivacyPolicy')
   },
   {
     path: '/FintzBot/SLA',
-    name: 'sla',
+    name: 'FintzBotTermsService',
     component: () => import('@/views/fintzbot/TermsService')
   },
   // 404 page not found
