@@ -126,6 +126,16 @@ const routes = [
     name: 'sla',
     component: () => import('@/views/legal/SLA')
   },
+  {
+    path: '/FintzBot/PrivacyPolicy',
+    name: 'termos',
+    component: () => import('@/views/fintzbot/PrivacyPolicy')
+  },
+  {
+    path: '/FintzBot/SLA',
+    name: 'sla',
+    component: () => import('@/views/fintzbot/TermsService')
+  },
   // 404 page not found
   {
     // Adapted from:
