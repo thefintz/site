@@ -6,7 +6,7 @@
         <div class="columns is-centered">
           <div class="column is-three-quarters">
             <h1 class="title">Termos de Serviço do Fintz Bot</h1>
-            <h4 class="subtitle">Última atualização: 10 de Abril de 2023</h4>
+            <h4 class="subtitle">Última atualização: 11/03/2025</h4>
 
             <h2 class="title is-4">Aceitação dos Termos</h2>
             <p>
